@@ -1,0 +1,199 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    @apply mx-auto box-border;
+    max-width: 1280px;
+    scroll-behavior: smooth;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: "Helvetica Neue", serif;
+  }
+
+  a,
+  button {
+    @apply transition duration-300;
+  }
+
+  .index-section {
+    @apply w-full  mb-0;
+  }
+  .index-text-container {
+    @apply mx-auto max-w-xl;
+  }
+  .index-header {
+    @apply primary text-2xl md:text-4xl font-bold;
+  }
+  .index-header-sub {
+    @apply text-gray-700 text-2xl;
+  }
+  .index-paragraph {
+    @apply font-serif  md:text-lg;
+  }
+  .index-paragraph-highlight {
+    @apply font-bold font-serif;
+  }
+  .link-text {
+    @apply text-blue-600 font-serif;
+  }
+
+  .index-cta {
+    @apply text-blue-700 text-6xl cursor-pointer;
+  }
+
+  div.scroll {
+    background-color: #69a2ba;
+    height: 250px;
+    overflow-x: auto;
+    overflow-y: auto;
+    text-align: center;
+  }
+  .w-312 {
+    width: 312px;
+    height: 312px;
+  }
+  .w-598 {
+    width: 598px;
+    height: 598px;
+  }
+
+  .each-slide > div {
+    background-size: contain;
+  }
+
+  .each-slide span {
+    padding: 10px;
+    background: white;
+    font-weight: 700;
+    margin-top: 4px;
+    opacity: 0.7;
+  }
+
+  footer {
+    height: 100px;
+  }
+
+  main {
+    min-height: calc(100vh - 180px);
+  }
+
+  img {
+    image-rendering: pixelated;
+  }
+
+  .accent-bg {
+    background-color: #00ff66;
+  }
+  .accent {
+    color: #00ff66;
+  }
+  .absolute-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .banner {
+    max-height: 500px;
+  }
+  .bg-primary {
+    background: #69a2ba;
+  }
+  .primary {
+    color: #69a2ba;
+  }
+  .bottom-left {
+    bottom: 48px;
+    left: 16px;
+  }
+  .border-primary {
+    border-color: #69a2ba;
+  }
+
+  .h-75-screen {
+    height: 60vh;
+  }
+
+  .trait-width {
+    max-width: 140px;
+  }
+
+  .headline {
+    @apply font-nunito text-6xl;
+  }
+  .pixelated {
+    image-rendering: pixelated;
+  }
+  .top-left {
+    top: 28px;
+    left: 26px;
+  }
+  .underline-color {
+    /* border-bottom: 2px solid #69a2ba; */
+    border-bottom: 2px solid pink;
+    padding: 0 0 1px;
+  }
+  .h-400 {
+    max-height: 450px;
+    min-height: 350px;
+  }
+  .minus-margin-sm {
+    margin-top: -3px;
+  }
+}
+
+.btn-secondary-sm {
+  @apply text-sm font-extrabold italic rounded-full accent px-7 py-2
+           bg-indigo-800 accent;
+}
+.btn-primary-sm {
+  @apply text-sm font-extrabold italic rounded-full px-7 py-2
+        text-white  bg-indigo-500 hover:bg-indigo-700;
+}
+.btn-primary-lg {
+  @apply text-xl font-extrabold italic rounded-full
+           accent-bg text-gray-900 px-16 py-4 max-w-xs
+          hover:bg-gray-900 hover:accent;
+}
+.thumbnail-grid-2 {
+  @apply grid gap-3 grid-cols-2 md:grid-cols-3 lg:grid-cols-3;
+}
+
+.thumbnail-2 {
+  @apply col-span-1 flex flex-col bg-white rounded-lg shadow;
+}
+.thumb {
+  image-rendering: pixelated;
+  /* width: 81px;
+  height: 81px; */
+  width: 37px;
+  object-fit: contain;
+}
+
+.nft-banner {
+  background-image: url("/collage.png");
+  image-rendering: pixelated;
+  background-color: #cccccc;
+  height: 50vh;
+  background-position: center;
+  background-size: fill;
+  /* opacity: 50%; */
+}
+.nft-header {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.index-banner {
+  background-image: url("/logo-animation.gif");
+  width: 100%;
+  height: 68px;
+  image-rendering: pixelated;
+}
