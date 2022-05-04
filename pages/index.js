@@ -150,7 +150,7 @@ export default function Home() {
           <p className="text-center mt-6 text-2xl font-bold">
             - Brian Eno
             <Link href="https://www.youtube.com/watch?v=RWhvpIOruqo&ab_channel=TheInstituteofArtandIdeas">
-              <a target="_blank" className="text-sm font-thin text-blue-500">
+              <a target="_blank" className="text-sm font-light text-blue-500">
                 {" "}
                 (source)
               </a>
