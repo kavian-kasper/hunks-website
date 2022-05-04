@@ -28,13 +28,13 @@
     @apply mx-auto max-w-xl;
   }
   .index-header {
-    @apply primary text-2xl md:text-4xl font-bold;
+    @apply primary text-3xl md:text-4xl font-bold;
   }
   .index-header-sub {
-    @apply text-gray-700 text-2xl;
+    @apply primary text-2xl;
   }
   .index-paragraph {
-    @apply font-serif  md:text-lg;
+    @apply font-serif text-lg;
   }
   .index-paragraph-highlight {
     @apply font-bold font-serif;
@@ -149,16 +149,16 @@
 }
 
 .btn-secondary-sm {
-  @apply text-sm font-extrabold italic rounded-full accent px-7 py-2
+  @apply text-sm font-extrabold  rounded-full accent px-7 py-2
            bg-indigo-800 accent;
 }
 .btn-primary-sm {
-  @apply text-sm font-extrabold italic rounded-full px-7 py-2
+  @apply text-sm font-extrabold rounded-full px-7 py-2
         text-white  bg-indigo-500 hover:bg-indigo-700;
 }
 .btn-primary-lg {
-  @apply text-xl font-extrabold italic rounded-full
-           accent-bg text-gray-900 px-16 py-4 max-w-xs
+  @apply font-bold rounded-full
+           accent-bg text-gray-900 py-4 shadow-sm text-sm w-80
           hover:bg-gray-900 hover:accent;
 }
 .thumbnail-grid-2 {

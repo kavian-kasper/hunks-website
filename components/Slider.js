@@ -62,7 +62,7 @@ const Slideshow = () => {
             className="mx-auto w-312 md:w-598"
             style={{ backgroundImage: `url(${slideImages[2]})` }}
           >
-            <span>Gothic poet hunk</span>
+            <span>Goth hunk</span>
           </div>
         </div>
 

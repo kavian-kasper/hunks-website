@@ -42,7 +42,7 @@ const TopNav = () => {
                   Collection at a glance
                 </a>
               </Link>
-              <Link href="/">
+              <Link href="/mint">
                 <a className="text-blue-500 mx-2 py-1">Mint</a>
               </Link>
             </div>
@@ -109,7 +109,7 @@ const TopNav = () => {
                   <div className="flex flex-col mx-auto  justify-center items-center">
                     <Link href="/">
                       <a
-                        className="text-center bg-primary text-white font-bold text-2xl px-2 py-1 mb-2 cursor-pointer"
+                        className="text-center bg-primary text-[#ffd1ab] font-bold text-2xl px-2 py-1 mb-2 cursor-pointer"
                         onClick={() => closeModal()}
                       >
                         Hunks
@@ -140,7 +140,7 @@ const TopNav = () => {
                         Collection at a glance
                       </a>
                     </Link>
-                    <Link href="/collection">
+                    <Link href="/mint">
                       <a
                         className="text-blue-500 mb-3"
                         onClick={() => closeModal()}

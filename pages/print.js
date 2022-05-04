@@ -5,14 +5,14 @@ function print() {
   return (
     <div>
       <header className="index-text-container px-1.5">
-        <div className="mb-10 mt-10 md:mt-20 flex">
+        <div className="mb-10 mt-10 md:mt-20">
           <img
-            className="w-1/2 object-contain pr-1"
+            className="w-1/2 object-contain object-top pr-1 inline"
             src="print-detail.jpg"
             alt="Detail of a hunk print"
           />
           <img
-            className="w-1/2 object-contain pl-1"
+            className="w-1/2 object-contain object-top pl-1 inline"
             src="print-fullsize.jpg"
             alt="Detail of a hunk print"
           />
@@ -108,7 +108,7 @@ function print() {
 
         <section className="index-section mt-10">
           <div className="index-text-container">
-            <h2 className=" index-header mb-4 text-black">FAQ</h2>
+            <h2 className=" index-header mb-4">FAQ</h2>
 
             <h2 className="index-header-sub border-b border-black mb-1">
               Can I order a print?
@@ -131,14 +131,12 @@ function print() {
               own a Hunk NFT and wish to inquire about a print, and we will
               check availability.
             </p>
-            <button
-              type="button"
-              className="inline-block w-40 py-2 border-2 border-blue-600 text-blue-600 font-medium text-xs leading-tight uppercase rounded-full hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
-            >
-              <Link href="/">
-                <a>Terms & Conditions</a>
-              </Link>
-            </button>
+
+            <Link href="/terms">
+              <a className="inline-block w-40 py-2 border-2 border-blue-600 text-blue-600 font-medium text-xs leading-tight uppercase rounded-full hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out text-center">
+                Terms & Conditions
+              </a>
+            </Link>
           </div>
         </section>
       </main>

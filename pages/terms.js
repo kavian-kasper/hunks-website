@@ -6,7 +6,7 @@ function terms() {
   return (
     <div>
       <header className="index-text-container px-1.5">
-        <h1 className="index-header">Terms and Conditions</h1>
+        <h1 className="index-header text-black">Terms and Conditions</h1>
         <p className="index-paragraph">
           Below stipulates Hunks terms & conditions for NFT and Fine Prints
           separately.
@@ -15,11 +15,11 @@ function terms() {
       <main className="max-w-screen-xl w-full  px-1.5">
         <section className="index-section mt-10 md:mt-20">
           <div className="index-text-container">
-            <h2 className=" index-header mb-2">Hunks NFT</h2>
+            <h2 className=" index-header mb-2 text-black">Hunks NFT</h2>
             <p className="index-paragraph mb-4">
-              By purchasing a Hunks.art &quot;Hunks&quot; NFT either directly
-              from Hunks or on the secondary market, you are the owner of that
-              applicable NFT (the &quot;User Owned NFT&quot;).
+              By purchasing a Hunks NFT either directly from Hunks.art or on the
+              secondary market, you are the owner of that applicable NFT (the
+              &quot;User Owned NFT&quot;).
             </p>
             <p className="index-paragraph mb-4">
               {" "}
@@ -81,7 +81,7 @@ function terms() {
         </section>
         <section className="index-section mt-10 md:mt-20">
           <div className="index-text-container">
-            <h2 className=" index-header">Hunks Fine Print </h2>
+            <h2 className=" index-header text-black">Hunks Fine Print </h2>
             <p className="index-paragraph mb-4">
               When sold online, Hunks fine prints are only sold by contacting
               Hunks directly at {contactAddress}.
@@ -127,9 +127,9 @@ function terms() {
               <span className="block font-bold"> PAYMENT</span>Online purchases
               are made in ADA, the native currency of the Cardano blockchain.
               After completing the purchase, you will receive an order
-              confirmation at the email address you contacted Hunks from. You
-              will also receive an email with a tracking number when the package
-              is dispatched.
+              confirmation in the email you contacted Hunks from. You will also
+              receive an email with a tracking number when the package is
+              dispatched.
             </p>
             <p className="mb-4 index-paragraph">
               <span className="font-bold block"> COMPLAINTS AND WARANTY</span>{" "}

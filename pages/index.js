@@ -39,28 +39,33 @@ export default function Home() {
       <main className="max-w-screen-xl mb-20 w-full flex flex-col px-2">
         <section className="index-section lg:mt-5">
           <div className="index-text-container">
-            <h2 className="index-header mt-6">
+            <h2 className="index-header text-2xl md:text-4xl mt-6">
               {" "}
-              From a joke to our most serious creative effort.
+              From a joke to our most serious art project.
             </h2>
             <p className="index-paragraph">
-              We have to admit, Hunks began as an offhand gimmick.
+              <span className="mb-2">
+                We have to admit, Hunks began as an offhand gimmick between two
+                designers.
+              </span>{" "}
+              Until the creative potential of combining drawing with computer
+              aggregation dawned on us.
             </p>
 
             <p className="index-paragraph mt-4">
-              But it escalated into to 4-month creative outburst that merged
-              on-chain pixel art with figurative art into 10.000 unique hunks.
+              Hunks escalated into to four-month creative outburst that merged
+              figurative fine art with automatically generated art into 10.000
+              unique hunks.
             </p>
             <p className="index-paragraph mt-4">
-              We had unlimited time, we didn&apos;t have to make any
-              compromises, we got to discover and experiment with a new creative
-              process. We&apos;re proud to release signed art prints and NFTs of
-              Hunks.
+              We had unlimited time, we made no compromises, and we got to
+              experiment with a new creative process. We&apos;re proud to
+              release signed art prints and NFTs of Hunks.
             </p>
           </div>
         </section>
 
-        <section className="flex flex-col lg:flex-row items-center justify-around w-full relative mb-20 mt-20 lg:mt-40">
+        <section className="flex flex-col lg:flex-row items-center justify-around w-full relative mt-10 mb-10 lg:mt-36">
           <div className=" absolute flex flex-col items-center w-full text-black pr-2">
             <h1 className="index-header bg-white">
               Available during{" "}
@@ -94,28 +99,116 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="index-section mt-20 mb-20 lg:mt-40">
+        <section className="index-section mt-10 mb-10 lg:mt-36">
           <div className="index-text-container">
             <h2 className=" index-header">
               Suggestive creatures came out of the machine.
             </h2>
             <p className="index-paragraph mb-3">
               <span className="block my-3">Who are the 10.000 Hunks?</span>{" "}
-              Hunks emerge through ping-pong between the artists and the
-              computer program. After generating and inspecting hunks for
-              several months, we could gradually identify suggestive
-              personalities that became our guidelines. Here&apos;s a taste:
+              Hunks emerge through ping-pong between the artists and a computer
+              program. Through generating and inspecting sample hunks for
+              several months, we gradually identified suggestive personalities
+              that became our guidelines. Here&apos;s a taste:
             </p>
             <div>
               <Slideshow />
             </div>
           </div>
         </section>
+        <section className="index-section mt-10 mb-10 lg:mt-36">
+          <div className="index-text-container">
+            <h2 className=" index-header">Make PFP great again.</h2>
+            <p className="index-paragraph mb-3">
+              Trained in classical European draftsmanship, we sought to combine
+              the tradition's virtuoso qualities (i.e form, lighting, warm &
+              cool colors) with the typical trait-by-trait assembling logic of a
+              PFP generator, to produce image files small enough to put on a
+              blockchain. We had our doubts, but it worked.
+            </p>
+            <img
+              src="/classical.png"
+              alt="comparison between classically rendered hunks, and automaticcaly generated hunks."
+            />
+            <p className="index-paragraph my-3">
+              Chipping away every uneccessary pixel whilst careful not to break
+              the logic of the classical qualities, we arrived at 26 by 26 pixel
+              base and canvas. On the scripting end, we tweaked a generic PFP
+              art generator into a little machine, The Hunk Generator, that
+              consistently output quality hunks, not random and unopinionated
+              hunks.
+            </p>
+          </div>
+          <p className="text-center px-4 mt-12 text-lg md:text-2xl font-light">
+            <span className="inline lg:block">
+              “..when i started making music, what interested me really, [...]
+              was making musical machines of some kind […]
+            </span>{" "}
+            where for quite a small input, there would be alot of music coming
+            out.”
+          </p>
+          <p className="text-center mt-6 text-2xl font-bold">
+            - Brian Eno
+            <Link href="https://www.youtube.com/watch?v=RWhvpIOruqo&ab_channel=TheInstituteofArtandIdeas">
+              <a target="_blank" className="text-sm font-thin text-blue-500">
+                {" "}
+                (source)
+              </a>
+            </Link>
+          </p>
+        </section>
+        <section className="index-section mt-10 mb-10 lg:mt-36">
+          <div className="index-text-container">
+            <h2 className="index-header">The creators.</h2>
+            <p className="index-paragraph mb-3">
+              The genesis moment of Hunks occurred on the 24th of November 2021,
+              when one friend said to another:
+              <span className="block mt-3 italic">
+                {" "}
+                &quot;Say hello to hunks, the new punks.&quot;
+              </span>
+            </p>
+            <p className="index-paragraph mb-3">
+              A satiric remark that lead to a serious creative partnership;
+              pretty much full-time for four months, during odd hours of the
+              day, executed over a dinner table on two Macs and an iPad.
+            </p>
+          </div>
+        </section>
+        <section className="index-section mt-10 mb-10 lg:mt-36">
+          <div className="index-text-container">
+            <h3 className="index-header">Get yourself a Hunk.</h3>
+            <p className="index-paragraph">
+              <span className="block mb-2">
+                We&apos;re releasing signed art prints of Hunks during live
+                vernissages (currently held in Norway), and we&apos;re dropping
+                NFTs on the Cardano blockchain. The art print and NFT are sold
+                separately.
+              </span>
+            </p>
+            <div className="flex justify-between">
+              <div className="mt-10  text-center">
+                <Link href="/nft">
+                  <a className="inline-block  border-2 border-blue-600 text-blue-600 font-medium text-xs leading-tight uppercase rounded-full hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-40 py-2">
+                    NFT
+                  </a>
+                </Link>
+              </div>
+              <div className="mt-10  text-center">
+                <Link href="/print" className>
+                  <a className="inline-block border-2 border-blue-600 text-blue-600 font-medium text-xs leading-tight uppercase rounded-full hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-40 py-2">
+                    PRINT
+                  </a>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </section>
 
         {/* SECTION SIMPLE SERIOUS */}
-        <section className="flex flex-col justify-center items-center mt-20 lg:mt-40">
+        <section className="flex flex-col justify-center items-center mt-20 lg:mt-36">
           <div className="index-text-container">
-            <h2 className="index-header w-full">The Hunk factory.</h2>
+            <h2 className="index-header w-full">The Hunk pipeline.</h2>
 
             {/* <p className="index-paragraph">
               The 10.000 Hunks are designed from 26x26 of the simplest digital
@@ -128,17 +221,15 @@ export default function Home() {
               </span>
             </p> */}
             <div className="index-text-container">
-              <video
+              <img
                 className="mx-auto h-6 w-full my-4 object-cover"
-                src="/hunkCreation.mp4"
-                autoPlay
-                muted
-                loop
+                src="/hunkCreation.gif"
+                alt="Hunks being generated in the terminal"
               />
 
               <p className="index-paragraph mb-2">
                 Hunks emerge through an iterative partnership between human
-                intention and computer amplification. Hand-drawn traits are
+                intention and computer aggregation. Hand-drawn traits are
                 combined into hunks and visualised by a program. After repeating
                 this process for over hundred traits, personality types, variety
                 range, optimal color combinations and shapes are understood and
@@ -469,8 +560,8 @@ export default function Home() {
                 Traits are hand-drawn and then aggregated by the computer
                 program. Does the trait add variety while remaining coherent
                 with the whole? Does it suggest personality without pandering?
-                We ask ourselves questions like these before including a trait.
-                Quality over rarity.
+                Traits are like brainstorming with post-it notes. Most of them
+                get eliminated, but they all contributed along the way.
               </p>
             </div>
             {/* sub container */}
@@ -515,60 +606,6 @@ export default function Home() {
                 is thoroughly tested, and the artworks display properly on
                 Cardano web3 services.
               </p>
-            </div>
-          </div>
-        </section>
-
-        <section className="index-section mt-20 mb-20 lg:mt-40">
-          <div className="index-text-container">
-            <h2 className="index-header">The creators.</h2>
-            <p className="index-paragraph mb-3">
-              The genesis moment of Hunks occurred on the 24th of November 2021,
-              when one friend said to another:
-              <span className="block mt-3 italic">
-                {" "}
-                &quot;Say hello to hunks, the new punks.&quot;
-              </span>
-            </p>
-            <p className="index-paragraph mb-3">
-              A satiric remark that lead to a serious creative partnership;
-              pretty much full-time for four months, during odd hours of the
-              day, executed over a dinner table on two Macs and an iPad.
-            </p>
-          </div>
-        </section>
-        <section className="index-section mt-20 mb-20 lg:mt-40">
-          <div className="index-text-container">
-            <h3 className="index-header">Get yourself a Hunk.</h3>
-            <p className="index-paragraph">
-              <span className="block mb-2">
-                We&apos;re releasing signed art prints of Hunks during live
-                vernissages (currently held in Norway), and we&apos;re dropping
-                NFTs on the Cardano blockchain. The art print and NFT are sold
-                separately.
-              </span>
-            </p>
-            <div className="flex justify-between">
-              <div className="mt-10  text-center">
-                <button
-                  type="button"
-                  className="inline-block w-40 py-2 border-2 border-blue-600 text-blue-600 font-medium text-xs leading-tight uppercase rounded-full hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
-                >
-                  <Link href="/nft">
-                    <a>NFT</a>
-                  </Link>
-                </button>
-              </div>
-              <div className="mt-10  text-center">
-                <button
-                  type="button"
-                  className="inline-block w-40 py-2 border-2 border-blue-600 text-blue-600 font-medium text-xs leading-tight uppercase rounded-full hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
-                >
-                  <Link href="/print">
-                    <a>PRINT</a>
-                  </Link>
-                </button>
-              </div>
             </div>
           </div>
         </section>

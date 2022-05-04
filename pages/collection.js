@@ -300,9 +300,9 @@ const Statistics = () => {
   return (
     <>
       <main className="flex flex-col items-center ">
-        <section className="bg-primary flex w-full">
+        <section className="bg-primary w-full">
           <img
-            className="pixelated mx-auto object-contain"
+            className="pixelated mx-auto object-contain object-bottom"
             src="/hunk-with-traits-dotted.png"
             alt="Hunk trait description"
           />

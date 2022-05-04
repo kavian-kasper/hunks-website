@@ -5,6 +5,7 @@ import axios from "axios";
 import MintCount from "../components/minting/MintCount";
 import Link from "next/link";
 import Image from "next/image";
+import Pgateway from "../components/minting/Pgateway";
 
 const MintHunk = ({ results }) => {
   const price = 35;
@@ -20,6 +21,76 @@ const MintHunk = ({ results }) => {
     }
   }, []);
 
+  function openPaymentWindow() {
+    const paymentUrl =
+      "https://payment.nft-maker.io/?p=c7750f08650f4b02bd0838c93e6984fc&c=1";
+
+    // Specify the popup width and height
+    const popupWidth = 500;
+    const popupHeight = 700;
+
+    // Calculate the center of the screen
+    const left =
+      window.top.outerWidth / 2 + window.top.screenX - popupWidth / 2;
+    const top =
+      window.top.outerHeight / 2 + window.top.screenY - popupHeight / 2;
+
+    const popup = window.open(
+      paymentUrl,
+      "NFT-MAKER PRO Payment Gateway",
+      `popup=1, location=1, width=${popupWidth}, height=${popupHeight}, left=${left}, top=${top}`
+    );
+
+    // Show dim background
+    document.body.style = "background: rgba(0, 0, 0, 0.5)";
+
+    // Continuously check whether the popup has been closed
+    const backgroundCheck = setInterval(function () {
+      if (popup.closed) {
+        clearInterval(backgroundCheck);
+
+        console.log("Popup closed");
+
+        // Remove dim background
+        document.body.style = "";
+      }
+    }, 1000);
+  }
+  function openPaymentWindowThree() {
+    const paymentUrl =
+      "https://payment.nft-maker.io/?p=c7750f08650f4b02bd0838c93e6984fc&c=3";
+
+    // Specify the popup width and height
+    const popupWidth = 500;
+    const popupHeight = 700;
+
+    // Calculate the center of the screen
+    const left =
+      window.top.outerWidth / 2 + window.top.screenX - popupWidth / 2;
+    const top =
+      window.top.outerHeight / 2 + window.top.screenY - popupHeight / 2;
+
+    const popup = window.open(
+      paymentUrl,
+      "NFT-MAKER PRO Payment Gateway",
+      `popup=1, location=1, width=${popupWidth}, height=${popupHeight}, left=${left}, top=${top}`
+    );
+
+    // Show dim background
+    document.body.style = "background: rgba(0, 0, 0, 0.5)";
+
+    // Continuously check whether the popup has been closed
+    const backgroundCheck = setInterval(function () {
+      if (popup.closed) {
+        clearInterval(backgroundCheck);
+
+        console.log("Popup closed");
+
+        // Remove dim background
+        document.body.style = "";
+      }
+    }, 1000);
+  }
   return (
     <div className="mb-4">
       <HeadInfo title="Mint Hunks" />
@@ -40,116 +111,67 @@ const MintHunk = ({ results }) => {
         </div>
       ) : (
         <div>
-          <main className="flex flex-col justify-evenly mt-14 max-w-4xl mx-auto px-2">
+          <main className="flex flex-col justify-center items-center mt-14 max-w-4xl mx-auto px-2">
             <MintCount nftCount={freeNFTs} initialStock={initialStock} />
+            {/* PRICE 1  */}
+            <h3 className="ml-4 text-2xl font-nunito  text-gray-900 ">
+              x1 Hunk / {price} ADA
+            </h3>
+            {/* PRICE 3 */}
+            <h3 className="ml-4 text-2xl font-nunito  text-gray-900 ">
+              x3 Hunk / {price * 3} ADA
+            </h3>
+            {/* PAYMENT GATEWAY */}
+            <div className="flex flex-col md:flex-row justify-evenly  w-full mt-6">
+              <div className="flex flex-col ">
+                <div className="flex flex-col">
+                  <div className="text-center">
+                    x1
+                    <span className="text-sm text-center text-gray-600">
+                      (recommended)
+                    </span>
+                  </div>
+                  <Pgateway paymentFunction={openPaymentWindow} />
+                </div>
+                {/* PAYMENT GATEWAY  3*/}
+                <div className="flex flex-col mt-4">
+                  <div className="text-center">
+                    x3
+                    <span className="text-sm text-center text-gray-600">
+                      (recommended)
+                    </span>
+                    <Pgateway paymentFunction={openPaymentWindowThree} />
+                  </div>
+                </div>
+              </div>
+              {/* SEND ADDRESS */}
+              <div className="text-center">
+                x1
+                <MintBtn price={price} />
+              </div>
+            </div>
             <div>
-              <h3 className="text-2xl font-nunito text-gray-900 tracking-tight sm:text-3xl">
-                How to mint in 4 easy steps.
-              </h3>
-              <p className="mt-2 text-base text-gray-500">
-                {" "}
-                Minting works by{" "}
-                <span className="text-black font-bold">
-                  manually entering a temporary address
-                </span>{" "}
-                into{" "}
-                <span className="text-black font-bold">your own wallet</span>{" "}
-                and
-                <span className="text-black font-bold">
-                  {" "}
-                  sending EXACTLY {price} ADA.
-                </span>{" "}
-                Once the address receives payment, it will{" "}
-                <span className="text-black font-bold">
-                  automatically mint a random
-                </span>{" "}
-                Hunk and send it to your wallet. Good luck!
-              </p>
-
               <dl className="mt-10 space-y-10">
                 <div className="relative">
-                  <dt>
-                    <div className="absolute flex items-center justify-center h-12 w-12 rounded-md  bg-primary text-white font-extrabold text-xl">
-                      1
-                    </div>
-                    <p className="ml-16 text-lg leading-6 font-medium text-gray-900 font-nunito">
-                      Click on the MINT HUNK button below. An ADA address will
-                      appear.
-                    </p>
-                  </dt>
-                  <dd className="mt-1 ml-16 text-base text-gray-500">
-                    This address will be valid for {reservationTime} minutes. If
-                    you want to reset the timer, simply refresh this page, click
-                    the mint button again, and use the new address.
-                  </dd>
+                  <dd className="mt-1 ml-16 text-base text-gray-500"></dd>
                 </div>
 
                 <div className="relative">
-                  <dt>
-                    <div className="absolute flex items-center justify-center h-12 w-12 rounded-md  bg-primary text-white font-extrabold text-xl">
-                      2
-                    </div>
-                    <p className="ml-16 text-lg leading-6 font-medium text-gray-900 font-nunito">
-                      Copy the address. Paste it into your ADA wallet&apos;s
-                      SEND field.
-                    </p>
-                  </dt>
                   <dd className="mt-1 ml-16 text-base text-gray-500">
-                    <span className="text-red-700 font-bold">
-                      Do not send money from an exchange
-                    </span>{" "}
-                    (Coinbase, Binance, KuCoin etc.). Your Ada will be lost.
-                    Instead, use wallets such as Nami, Eternl, Flint.
-                  </dd>
-                </div>
-
-                <div className="relative">
-                  <dt>
-                    <div className="absolute flex items-center justify-center h-12 w-12 rounded-md  bg-primary text-white font-extrabold text-xl">
-                      3
-                    </div>
-                    <p className="ml-16 text-lg leading-6 font-medium text-gray-900 font-nunito">
-                      Enter the amount to be sent to{" "}
-                      <span className="font-extrabold text-black">
-                        EXACTLY {price} ADA
-                      </span>
-                      .
-                    </p>
-                  </dt>
-                  <dd className="mt-1 ml-16 text-base text-gray-500">
-                    No more, no less.{" "}
+                    If you use{" "}
+                    <span className="font-bold text-black">Send Address</span>,
+                    send
                     <span className="text-red-700 font-bold">
                       {" "}
-                      Exactly {price} ADA.
+                      exactly {price} ADA. You can only mint 1 at a time.
                     </span>{" "}
-                    Otherwise the automated minting will fail and your payment
-                    potentially lost.
-                  </dd>
-                </div>
-
-                <div className="relative">
-                  <dt>
-                    <div className="absolute flex items-center justify-center h-12 w-12 rounded-md  bg-primary text-white font-extrabold text-xl">
-                      4
-                    </div>
-                    <p className="ml-16 text-lg leading-6 font-medium text-gray-900 font-nunito">
-                      Click send and voila! Wait for a few minutes and refresh
-                      your wallet to receive your NFT.
-                    </p>
-                  </dt>
-                  <dd className="mt-1 ml-16 text-base text-gray-500">
-                    If you want to mint another Hunk, simply refresh the page
-                    and repeat the process. NOTE: If the Cardano network is
-                    unusually congested while you&apos;re minting, it may take
-                    longer for you to receive your NFT.
+                    Do not send money from an exchange (Coinbase, Binance,
+                    KuCoin etc.). Your Ada will be lost. Instead, use wallets
+                    such as Nami, Eternl, Flint.
                   </dd>
                 </div>
               </dl>
             </div>
-            <div></div>
-
-            <MintBtn price={price} />
-            <div></div>
           </main>
         </div>
       )}
