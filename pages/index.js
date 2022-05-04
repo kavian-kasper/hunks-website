@@ -124,7 +124,7 @@ export default function Home() {
               the tradition&apos;s virtuoso qualities (i.e form, lighting, warm
               & cool colors) with the typical trait-by-trait assembling logic of
               a PFP generator, to produce image files small enough to put on a
-              blockchain. We had our doubts, but it worked.
+              blockchain. We had our doubts, but succeeded in the end!
             </p>
             <img
               src="/classical.png"

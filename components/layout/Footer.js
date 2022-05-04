@@ -5,13 +5,13 @@ function Footer() {
     <footer className="w-full mb-0">
       <div className="mx-auto pt-12 px-4 sm:px-6 md:flex md:items-end md:justify-between lg:px-8">
         <div className="flex justify-center space-x-6 md:order-3">
-          <Link href="https://twitter.com/KavanMeta">
-            <a className="text-blue-600">Twitter</a>
+          <Link href="https://twitter.com/">
+            <a className="/">Twitter</a>
           </Link>
-          <Link href="https://twitter.com/KavanMeta">
+          <Link href="/">
             <a className="text-blue-600">Instagram</a>
           </Link>
-          <Link href="https://twitter.com/KavanMeta">
+          <Link href="/">
             <a className="text-blue-600">Cardanoscan</a>
           </Link>
         </div>

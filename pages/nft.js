@@ -41,9 +41,7 @@ const NFT = () => {
               </a>
             </Link>
             <h2 className="text-3xl primary font-bold mb-1">Policy ID</h2>
-            <p className="break-words mb-10">
-              68697173b8a7bd630d5a08ee56e44aeb2a1e002c1de2013caa6c71aa
-            </p>
+            <p className="break-words mb-10">[PolicyID]</p>
           </div>
         </section>
         <section className="index-section">
