@@ -82,8 +82,8 @@ const NFT = () => {
               What is &quot;on-chain&quot;?
             </h2>
             <p className="index-paragraph">
-              "On-chain NFTs" are NFTs where the entire NFT, including the
-              artwork, is stored on the blockchain itself. On-chain NFTs, if
+              &quot;On-chain NFTs&quot; are NFTs where the entire NFT, including
+              the artwork, is stored on the blockchain itself. On-chain NFTs, if
               done right, are considered extremely safe. Off-chain NFTs have
               their artwork stored externally and have several points of
               failure.

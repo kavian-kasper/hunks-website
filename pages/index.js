@@ -121,9 +121,9 @@ export default function Home() {
             <h2 className=" index-header">Make PFP great again.</h2>
             <p className="index-paragraph mb-3">
               Trained in classical European draftsmanship, we sought to combine
-              the tradition's virtuoso qualities (i.e form, lighting, warm &
-              cool colors) with the typical trait-by-trait assembling logic of a
-              PFP generator, to produce image files small enough to put on a
+              the tradition&apos;s virtuoso qualities (i.e form, lighting, warm
+              & cool colors) with the typical trait-by-trait assembling logic of
+              a PFP generator, to produce image files small enough to put on a
               blockchain. We had our doubts, but it worked.
             </p>
             <img
