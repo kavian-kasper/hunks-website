@@ -367,45 +367,24 @@ const Statistics = () => {
             </div>
 
             {/* base */}
-            <p className="text-gray-700 py-4 text-xs md:text-sm">
-              <span className="font-bold">Base</span> is mother of all traits.
-              Compatible with every trait. Present in every Hunk. Genderless.
-              Iconic. The source of unity in variety.
-            </p>
-            <div className="flex flex-col lg:flex-row flex-wrap w-full justify-between lg:items-center">
-              <div className="flex justify-start flex-wrap lg:w-2/3">
+
+            <div className="flex py-4 flex-col lg:flex-row flex-wrap w-full justify-between lg:items-center">
+              <div className="flex justify-start flex-wrap lg:w-full">
                 <Trait
                   traitName={"Nude"}
                   traitPath={"skin"}
                   handleClick={handleClick}
-                  tickerColor={peach}
-                  percent={skinPercentage[0]}
-                  amount={skin.datasets[0].data[0]}
                 />
                 <Trait
                   traitName={"Tan"}
                   traitPath={"skin"}
                   handleClick={handleClick}
-                  tickerColor={tanColor}
-                  percent={skinPercentage[1]}
-                  amount={skin.datasets[0].data[1]}
                 />
                 <Trait
                   traitName={"Daft"}
                   traitPath={"skin"}
                   handleClick={handleClick}
-                  tickerColor={black}
-                  percent={skinPercentage[2]}
-                  amount={skin.datasets[0].data[2]}
                 />
-              </div>
-
-              <div className="max-w-xs md:w-1/3 my-auto text-right mx-auto pr-4">
-                <div className="text-gray-500 text-xs underline">
-                  Distribution of 3 <span className="font-black"> Base </span>
-                  traits.
-                </div>
-                <PieChart chartData={skin} />
               </div>
             </div>
           </section>
@@ -466,10 +445,7 @@ const Statistics = () => {
               <div className="w-full order-1 lg:order-2 border-t border-gray-200 mr-4 mb-2 lg:mb-0"></div>
             </div>
             {/* top */}
-            <p className="text-gray-700 py-4 text-sm">
-              <span className="font-bold text-black text-md">Base</span>{" "}
-              description. Lorem ipsum dolor est si amet.
-            </p>
+            <div className="mt-4"></div>
             <div className="flex flex-col  flex-wrap w-full justify-between lg:items-center">
               <div className="flex justify-start flex-wrap lg:w-3/3">
                 <Trait
@@ -569,13 +545,6 @@ const Statistics = () => {
                   amount={top.datasets[0].data[11]}
                 />
               </div>
-              <div className="max-w-xs md:w-1/3 my-auto text-right mx-auto pr-4 mt-8">
-                <div className="text-gray-500 text-xs underline">
-                  Distribution of 12 <span className="font-black"> Top </span>
-                  traits.
-                </div>
-                <PieChart chartData={top} />
-              </div>
             </div>
           </section>
 
@@ -636,12 +605,9 @@ const Statistics = () => {
               <div className="w-full order-1 lg:order-2 border-t border-gray-200 mr-4 mb-2 lg:mb-0"></div>
             </div>
             {/* Top Secondary */}
-            <p className="text-gray-700 py-4 text-sm">
-              <span className="font-bold text-black text-md">Base</span>{" "}
-              description. Lorem ipsum dolor est si amet.
-            </p>
+            <div className="mt-4"></div>
             <div className="flex flex-col lg:flex-row flex-wrap w-full justify-between lg:items-center">
-              <div className="flex justify-start flex-wrap lg:w-2/3">
+              <div className="flex justify-start flex-wrap lg:w-full">
                 <Trait
                   traitName={"Chain"}
                   traitPath={"top_secondary"}
@@ -687,14 +653,6 @@ const Statistics = () => {
                   percent={topSecondaryPercentage[4]}
                   amount={topSecondary.datasets[0].data[4]}
                 />
-              </div>
-              <div className="max-w-xs md:w-1/3 my-auto text-right mx-auto pr-4">
-                <div className="text-gray-500 text-xs underline">
-                  Distribution of 5
-                  <span className="font-black"> Top Secondary </span>
-                  traits.
-                </div>
-                <PieChart chartData={topSecondary} />
               </div>
             </div>
           </section>
@@ -755,12 +713,9 @@ const Statistics = () => {
               <div className="w-full order-1 lg:order-2 border-t border-gray-200 mr-4 mb-2 lg:mb-0"></div>
             </div>
             {/* eyes begin */}
-            <p className="text-gray-700 py-4 text-sm">
-              <span className="font-bold text-black text-md">Base</span>{" "}
-              description. Lorem ipsum dolor est si amet.
-            </p>
+            <div className="mt-4"></div>
             <div className="flex flex-col lg:flex-row flex-wrap w-full justify-between lg:items-center">
-              <div className="flex justify-start flex-wrap lg:w-2/3">
+              <div className="flex justify-start flex-wrap lg:w-full">
                 <Trait
                   traitName={"Shades (dark)"}
                   traitPath={"eyes"}
@@ -813,13 +768,6 @@ const Statistics = () => {
                   percent={eyesPercentage[5]}
                   amount={eyes.datasets[0].data[5]}
                 />
-              </div>
-              <div className="max-w-xs md:w-1/3 my-auto text-right mx-auto pr-4">
-                <div className="text-gray-500 text-xs underline">
-                  Distribution of 6 <span className="font-black"> Eyes </span>
-                  traits.
-                </div>
-                <PieChart chartData={eyes} />
               </div>
             </div>
           </section>
@@ -880,14 +828,8 @@ const Statistics = () => {
               <div className="w-full order-1 lg:order-2 border-t border-gray-200 mr-4 mb-2 lg:mb-0"></div>
             </div>
             {/* Hair */}
-            <p className="text-gray-700 py-4 text-sm">
-              <span className="font-bold text-black text-md">Base</span>{" "}
-              description. Lorem ipsum dolor est si amet.
-            </p>
-            <div className=" text-gray-500 mt-2 text-xs underline">
-              Distribution of 60 <span className="font-black"> Hair</span>{" "}
-              traits.
-            </div>
+            <div className="mt-4"></div>
+
             <div className="flex flex-wrap sm:my-4 md:my-0">
               {updatedHair.map((hair) => (
                 <div key={hair.name} className="mb-4 flex flex-wrap  w-36">
@@ -960,12 +902,9 @@ const Statistics = () => {
               <div className="w-full order-1 lg:order-2 border-t border-gray-200 mr-4 mb-2 lg:mb-0"></div>
             </div>
             {/* Mouth */}
-            <p className="text-gray-700 py-4 text-sm">
-              <span className="font-bold text-black text-md">Base</span>{" "}
-              description. Lorem ipsum dolor est si amet.
-            </p>
+            <div className="mt-4"></div>
             <div className="flex flex-col lg:flex-row flex-wrap w-full justify-between lg:items-center">
-              <div className="flex justify-start flex-wrap lg:w-2/3">
+              <div className="flex justify-start flex-wrap lg:w-full">
                 <Trait
                   traitName={"Lips"}
                   traitPath={"mouth"}
@@ -1027,13 +966,6 @@ const Statistics = () => {
                   amount={mouth.datasets[0].data[6]}
                 />
               </div>
-              <div className="max-w-xs md:w-1/3 my-auto text-right mx-auto pr-4">
-                <div className="text-gray-500 text-xs underline">
-                  Distribution of 5 <span className="font-black"> Mouth </span>
-                  traits.
-                </div>
-                <PieChart chartData={mouth} />
-              </div>
             </div>
           </section>
           {/* Mouth end */}
@@ -1093,12 +1025,9 @@ const Statistics = () => {
               <div className="w-full order-1 lg:order-2 border-t border-gray-200 mr-4 mb-2 lg:mb-0"></div>
             </div>
             {/* Facial hair */}
-            <p className="text-gray-700 py-4 text-sm">
-              <span className="font-bold text-black text-md">Base</span>{" "}
-              description. Lorem ipsum dolor est si amet.
-            </p>
+            <div className="mt-4"></div>
             <div className="flex flex-col lg:flex-row flex-wrap w-full justify-between lg:items-center">
-              <div className="flex justify-start flex-wrap lg:w-2/3">
+              <div className="flex justify-start flex-wrap lg:w-full">
                 <Trait
                   traitName={"Full Beard (black)"}
                   traitPath={"facial_hair"}
@@ -1143,14 +1072,6 @@ const Statistics = () => {
                   percent={facialHairPercentage[4]}
                   amount={facialHair.datasets[0].data[4]}
                 />
-              </div>
-              <div className="max-w-xs md:w-1/3 my-auto text-right mx-auto pr-4">
-                <div className="text-gray-500 text-xs underline">
-                  Distribution of 5{" "}
-                  <span className="font-black"> Facial Hair </span>
-                  traits.
-                </div>
-                <PieChart chartData={facialHair} />
               </div>
             </div>
           </section>
@@ -1211,12 +1132,9 @@ const Statistics = () => {
               <div className="w-full order-1 lg:order-2 border-t border-gray-200 mr-4 mb-2 lg:mb-0"></div>
             </div>
             {/* Headwear */}
-            <p className="text-gray-700 py-4 text-sm">
-              <span className="font-bold text-black text-md">Base</span>{" "}
-              description. Lorem ipsum dolor est si amet.
-            </p>
+            <div className="mt-4"></div>
             <div className="flex flex-col lg:flex-row flex-wrap w-full justify-between lg:items-center">
-              <div className="flex justify-start flex-wrap lg:w-2/3">
+              <div className="flex justify-start flex-wrap lg:w-full">
                 <Trait
                   traitName={"Beanie (army)"}
                   traitPath={"headwear"}
@@ -1280,14 +1198,6 @@ const Statistics = () => {
                   amount={headwear.datasets[0].data[6]}
                 />
               </div>
-              <div className="max-w-xs md:w-1/3 my-auto text-right mx-auto pr-4">
-                <div className="text-gray-500 text-xs underline">
-                  Distribution of 7{" "}
-                  <span className="font-black"> Headwear </span>
-                  traits.
-                </div>
-                <PieChart chartData={headwear} />
-              </div>
             </div>
           </section>
           {/* Headwear end */}
@@ -1347,12 +1257,9 @@ const Statistics = () => {
               <div className="w-full order-1 lg:order-2 border-t border-gray-200 mr-4 mb-2 lg:mb-0"></div>
             </div>
             {/* Cigarette */}
-            <p className="text-gray-700 py-4 text-sm">
-              <span className="font-bold text-black text-md">Base</span>{" "}
-              description. Lorem ipsum dolor est si amet.
-            </p>
+            <div className="mt-4"></div>
             <div className="flex flex-col lg:flex-row flex-wrap w-full justify-between lg:items-center">
-              <div className="flex justify-start flex-wrap lg:w-2/3">
+              <div className="flex justify-start flex-wrap lg:w-full">
                 <Trait
                   traitName={"Regular"}
                   traitPath={"cigarette"}
@@ -1431,12 +1338,9 @@ const Statistics = () => {
               <div className="w-full order-1 lg:order-2 border-t border-gray-200 mr-4 mb-2 lg:mb-0"></div>
             </div>
             {/* Earring */}
-            <p className="text-gray-700 py-4 text-sm">
-              <span className="font-bold text-black text-md">Base</span>{" "}
-              description. Lorem ipsum dolor est si amet.
-            </p>
+            <div className="mt-4"></div>
             <div className="flex flex-col lg:flex-row flex-wrap w-full justify-between lg:items-center">
-              <div className="flex justify-start flex-wrap lg:w-2/3">
+              <div className="flex justify-start flex-wrap lg:w-full">
                 <Trait
                   traitName={"Golden"}
                   traitPath={"earring"}

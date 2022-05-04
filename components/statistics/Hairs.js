@@ -12,15 +12,15 @@ function Hairs(props) {
 
   return (
     <dl
-      className="flex flex-col text-gray-600 font-bold pl-1 mt-2 hover:opacity-100 cursor-pointer hover:bg-yellow-100 transition duration-300"
+      className="flex flex-col text-gray-600 pl-1 mt-2 hover:opacity-100 cursor-pointer hover:bg-yellow-100 transition duration-300"
       onClick={() => handleClick(traitPath)}
     >
       <dd className="text-xs mt-1 break-all">{traitName}</dd>
-      <dt className="text-xs" style={{ color: tickerColor }}>
+      {/* <dt className="text-xs" style={{ color: tickerColor }}>
         {amount} ({percent}%)
-      </dt>
+      </dt> */}
       <div>
-        <div className="bg-primary w-24">
+        <div className=" w-24">
           <img
             height={64}
             width={64}
