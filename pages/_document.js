@@ -8,10 +8,10 @@ class MyDocument extends Document {
           <meta charSet="utf-8" />
 
           <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-          <meta
+          {/* <meta
             name="description"
             content="KavanMeta is creating graphics for the coming metaverse."
-          />
+          /> */}
           <link rel="icon" href="/favicon.png" />
 
           <link

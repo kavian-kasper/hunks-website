@@ -6,7 +6,7 @@ export const HeadInfo = (props) => {
   return (
     <>
       <Head>
-        <title>{title} ｜ KavanMeta</title>
+        {/* <title>{title} ｜ KavanMeta</title>
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -33,7 +33,7 @@ export const HeadInfo = (props) => {
         <meta
           name="twitter:image"
           content="https://kavanmeta.vercel.app/social.jpg/"
-        />
+        /> */}
       </Head>
     </>
   );
