@@ -48,7 +48,11 @@ export default function Home() {
               changed when the creative potential of combining drawing with
               computer aggregation dawned on us.
             </p>
-
+            <p className="index-paragraph mt-4">
+              The project escalated into a four month creative outburst merging
+              figurative fine art with automatically generated art into 10.000
+              unique Hunks.
+            </p>
             <p className="index-paragraph mt-4">
               We had unlimited time, made no compromises and got to experiement
               with a new creative process. We are proud to release signed
@@ -60,11 +64,6 @@ export default function Home() {
                 <a className="text-blue-600"> NFTs </a>
               </Link>{" "}
               of Hunks.
-            </p>
-            <p className="index-paragraph mt-4">
-              We had unlimited time, we made no compromises, and we got to
-              experiment with a new creative process. We&apos;re proud to
-              release signed art prints and NFTs of Hunks.
             </p>
           </div>
         </section>
@@ -124,11 +123,11 @@ export default function Home() {
           <div className="index-text-container">
             <h2 className=" index-header">Making a fine art machine.</h2>
             <p className="index-paragraph mb-3">
-              Trained in classical draftsmanship, we sought to combine the
-              virtuoso qualities of the tradition, such as form, lightning, and
-              warm and cool colors, with the typical trait-by-trait assembling
-              logic of a personal profile picture generator to produce image
-              files small enough to put on a blockchain.
+              Trained in classical art, we sought to combine the virtuoso
+              qualities of the tradition, such as form, lightning, and warm and
+              cool colors, with the typical trait-by-trait assembling logic of a
+              personal profile picture generator to produce image files small
+              enough to put on a blockchain.
             </p>
             <img
               src="/classical.png"
@@ -578,7 +577,7 @@ export default function Home() {
               <h4 className="index-header-sub border-b border-black">
                 Analytics.
               </h4>
-              <p className="index-paragraph">
+              <p className="index-paragraph mt-3">
                 Analytics is essential in order to tweak the output of the
                 entire collection. Some traits are more compatible than others,
                 and knowing when to boost or reduce the probability of a trait

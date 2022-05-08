@@ -1,10 +1,12 @@
 import React from "react";
 import Link from "next/link";
+import HeadInfo from "../components/Head";
 
 function terms() {
   const contactAddress = "prints.hunks@gmail.com";
   return (
     <div>
+      <HeadInfo title="Terms & Conditions" />
       <header className="index-text-container px-1.5">
         <h1 className="index-header text-black">Terms and Conditions</h1>
         <p className="index-paragraph">

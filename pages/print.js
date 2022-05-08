@@ -1,9 +1,11 @@
 import React from "react";
 import Link from "next/link";
+import HeadInfo from "../components/Head";
 
 function print() {
   return (
     <div>
+      <HeadInfo title="Print" />
       <header className="index-text-container px-1.5">
         <div className="mb-10 mt-10 md:mt-20">
           <img

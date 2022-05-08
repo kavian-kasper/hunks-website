@@ -20,7 +20,7 @@ const NFT = () => {
         <div className="nft-banner w-full"></div>
         <h1 className="absolute nft-header p-1 bg-primary shadow-lg text-2xl md:text-4xl text-[#ffd1ab] font-bold ">
           Ethereum got punks
-          <span className="text-[#ffd1ab] block"> Cardano got hunks.</span>
+          <span className="text-[#ffd1ab] block"> Cardano got Hunks.</span>
         </h1>
       </header>
 

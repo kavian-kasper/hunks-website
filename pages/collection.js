@@ -8,6 +8,7 @@ import Hairs from "../components/statistics/Hairs";
 import { hairsData } from "../data/hairsData";
 import TraitNavActive from "../components/UIcomponents/TraitNavActive";
 import TraitNavInactive from "../components/UIcomponents/TraitNavInactive";
+import HeadInfo from "../components/Head";
 
 const Statistics = () => {
   // MODAL STATE
@@ -299,6 +300,7 @@ const Statistics = () => {
 
   return (
     <>
+      <HeadInfo title="Traits" />
       <main className="flex flex-col items-center ">
         <section className="bg-primary w-full">
           <img

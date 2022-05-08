@@ -4,8 +4,8 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import MintCount from "../components/minting/MintCount";
 import Link from "next/link";
-import Image from "next/image";
 import Pgateway from "../components/minting/Pgateway";
+import HeadInfo from "../components/Head";
 
 const MintHunk = ({ results }) => {
   const price = 35;
