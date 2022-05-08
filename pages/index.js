@@ -563,7 +563,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          {/* container */}
+          {/* containr */}
           <div className="flex justify-evenly flex-wrap items-start">
             {/* sub container */}
             <div className="max-w-md mt-4 ">
