@@ -4,7 +4,7 @@
 /pages/mintHunk.js
 
 #comps
-/components/minting/MintBtn.js
+# /components/minting/MintBtn.js
 
 # dependencies
 /node_modules
