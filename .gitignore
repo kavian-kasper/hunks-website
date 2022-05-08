@@ -2,6 +2,7 @@
 
 # pages
 /pages/mintHunk.js
+/pages/mint.js
 
 #comps
 /components/minting/MintBtn.js
