@@ -177,18 +177,19 @@
 }
 
 .nft-banner {
-  background-image: url("/collage.png");
+  background-image: url("/banner.png");
   image-rendering: pixelated;
   background-color: #cccccc;
-  height: 50vh;
+  height: 70vh;
   background-position: center;
-  background-size: fill;
+  background-size: cover;
   /* opacity: 50%; */
 }
 .nft-header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  image-rendering: pixelated;
 }
 
 .index-banner {

@@ -6,9 +6,7 @@ function Mint() {
     <main className="max-w-screen-xl w-full flex flex-col px-1.5">
       <section className="index-section  mt-10 md:mt-16 lg:mt-26">
         <div className="index-text-container">
-          <h1 className="index-header">
-            Limited OTC sale to early collectors.
-          </h1>
+          <h1 className="index-header">Limited sale to early collectors.</h1>
           <div className="my-4">
             <p>
               <span className="block">1. PRICING</span> Disclosed upon request.
@@ -19,8 +17,8 @@ function Mint() {
           </div>
           <div className="mb-4">
             <p className="">
-              <span className="block">2. GET A HUNK </span>We’ll DM you back
-              with a mint address.
+              <span className="block">2. GET A HUNK </span>
+              We will DM you back with a mint address.
             </p>
           </div>
           <div>
@@ -42,10 +40,9 @@ function Mint() {
         <div className="index-text-container">
           <h2 className="index-header">Public drop?</h2>
           <p>
-            Yes, but first we want to soft launch. The PFP scene is ripe with
-            cash-grabs and and projects sustained solely by hype. Right now, we
-            focus on distributing Hunks into passionate hands and ensure the
-            longevity of the project.
+            Yes, but first we want to soft launch. Right now, we focus on
+            distributing Hunks into passionate hands to ensure the longevity of
+            the project.
           </p>
         </div>
       </section>

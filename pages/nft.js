@@ -17,10 +17,10 @@ const NFT = () => {
     <>
       <HeadInfo title="Home" />
       <header className="w-full relative">
-        <div className="nft-banner w-full opacity-40"></div>
-        <h1 className="absolute nft-header text-2xl md:text-4xl bg-primary p-4 text-white font-bold opacity-90">
+        <div className="nft-banner w-full"></div>
+        <h1 className="absolute nft-header bg-primary text-2xl md:text-4xl text-white font-bold ">
           Ethereum got punks
-          <span className="text-[#ffd1ab] block"> Cardano got hunks.</span>
+          <span className="text-white block"> Cardano got hunks.</span>
         </h1>
       </header>
 
@@ -29,10 +29,14 @@ const NFT = () => {
           <div className="index-text-container">
             <p className=" break-words index-paragraph mb-8">
               Hunks are fully on-chain NFTs on the Cardano blockchain. A Hunk
-              NFT contains two base64 encoded PNG images: A 320x320px PNG and a
-              520x520 PNG. Both are stored on-chain, without IPFS or web browser
-              dependencies. More than 10.000 hunks will never exist, but we
-              might burn hunks if we see fit.
+              NFT is a meta data file containing all the trait info and two
+              base64 encoded PNG images of the Hunk. There is a 312x312px and a
+              598x598px version.
+              <span className="mt-3 block">
+                The Hunk NFT is stored on-chain without IPFS or web browser
+                dependencies. More than 10.000 Hunks will never exist, but we
+                might burn Hunks if we see fit.
+              </span>
             </p>
 
             <Link href="/mint">
@@ -53,7 +57,7 @@ const NFT = () => {
             </h2>
             <p className="index-paragraph mb-8">
               Hunks are dropping on Cardano and can only be purchased with its
-              native currency, ADA.
+              native currency ADA.
             </p>
             <h2 className="index-header-sub border-b border-black mb-1">
               How much will a Hunk NFT cost?
@@ -67,14 +71,14 @@ const NFT = () => {
             </h2>
             <p className="index-paragraph mb-8">
               The policy will lock on ... ensuring that the NFT collection can
-              never be changed
+              never be changed.
             </p>
             <h2 className="index-header-sub mt-4 mb-1 border-b border-black">
               Where can I see the entire Hunks collection?
             </h2>
             <p className="index-paragraph mb-8">
-              For security reasons, Hunks will not be revealed until they all
-              have been minted.
+              It will not be possible to see the entire collection before all
+              Hunks have been minted.
             </p>
             <h2 className="index-header-sub mt-4 mb-1 border-b border-black">
               What is &quot;on-chain&quot;?
@@ -94,9 +98,9 @@ const NFT = () => {
                 The prints and NFTs are sold separately. Holding the NFT does
                 not warrant the NFT owner the rights to buy a print.
               </span>
-              However, we do value the commitment of our NFT collectors who also
-              wish to own a print. Contact us at prints.hunks@gmail.com if you
-              own a Hunk NFT and wish to order a print, and we will check
+              However, we do value the commitment of our NFT collectors, who
+              also wish to own a print. Contact us at hunks.contact@gmail.com if
+              you own a Hunk NFT and wish to order a print, and we will check
               availability.
             </p>
             <button type="button" className="">

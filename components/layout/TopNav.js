@@ -38,9 +38,7 @@ const TopNav = () => {
                 <a className="text-blue-500 mx-2 py-1">Art Prints</a>
               </Link>
               <Link href="/collection">
-                <a className="text-blue-500 mx-2 py-1">
-                  Collection at a glance
-                </a>
+                <a className="text-blue-500 mx-2 py-1">Traits In Collection</a>
               </Link>
               <Link href="/mint">
                 <a className="text-blue-500 mx-2 py-1">Mint</a>
@@ -137,7 +135,7 @@ const TopNav = () => {
                         className="text-blue-500 mb-3"
                         onClick={() => closeModal()}
                       >
-                        Collection at a glance
+                        Traits In Collection
                       </a>
                     </Link>
                     <Link href="/mint">

@@ -45,8 +45,7 @@ export default function Home() {
             </h2>
             <p className="index-paragraph">
               <span className="mb-2">
-                We have to admit, Hunks began as an offhand gimmick between two
-                designers.
+                Hunks began as an offhand joke between two friends,
               </span>{" "}
               Until the creative potential of combining drawing with computer
               aggregation dawned on us.
@@ -573,7 +572,7 @@ export default function Home() {
                 Making a few good Hunks is simple, but having a consistent floor
                 of exceptional Hunks would be an overwhelming challenge for two
                 people. But due to the processing power of computers, custom
-                analytic tools, and having visually inspected the 10.000
+                analytics tools, and having visually inspected the 10.000
                 outputs, we can conclude that every single Hunk meets our
                 standards.
               </p>
@@ -592,19 +591,6 @@ export default function Home() {
                 and knowing when to boost and reduce a trait&apos;s probability
                 is necessary for striking a balance between variety and unity.
                 At a collection-level, analytics are our eyes.
-              </p>
-            </div>
-            {/* sub container */}
-            <div className="max-w-md mt-4">
-              <h4 className="index-header-sub border-b border-black">
-                Testing.
-              </h4>
-              <p className="index-paragraph">
-                You only have one shot at getting it right for on-chain NFTs.
-                Right, in terms of not having duplicate data, and acertaining
-                that the NFT displays properly on third-party services. Our code
-                is thoroughly tested, and the artworks display properly on
-                Cardano web3 services.
               </p>
             </div>
           </div>

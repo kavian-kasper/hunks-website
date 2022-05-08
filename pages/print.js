@@ -114,9 +114,9 @@ function print() {
               Can I order a print?
             </h2>
             <p className="index-paragraph mb-8">
-              Prints are currently only sold during live events (currently in
-              Norway), and, in most cases, cannot be ordered online. See below
-              for more information.
+              Prints will initially only be sold during live vernissages in
+              Norway, and in most cases, cannot be ordered online. See below for
+              more information.
             </p>
             <h2 className="index-header-sub mt-4 mb-1 border-b border-black">
               Can owners of a Hunks NFT order a print?
