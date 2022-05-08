@@ -157,7 +157,7 @@ const MintHunk = ({ results }) => {
                 </div>
 
                 <div className="relative">
-                  <dd className="mt-1 ml-16 text-base text-gray-500">
+                  <dd className="mt-1 ml-0 md:ml-16 text-base text-gray-500">
                     If you use{" "}
                     <span className="font-bold text-black">Send Address</span>,
                     send
