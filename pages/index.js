@@ -36,10 +36,10 @@ export default function Home() {
       </header>
       {/* MAIN */}
 
-      <main className="max-w-screen-xl mb-20 w-full flex flex-col px-2">
-        <section className="index-section lg:mt-5">
+      <main className="max-w-screen-xl mb-20 w-full flex flex-col ">
+        <section className="index-section lg:mt-5 px-2">
           <div className="index-text-container">
-            <h2 className="index-header text-2xl md:text-4xl mt-6">
+            <h2 className="index-header mb-3 md:text-4xl mt-6">
               {" "}
               From a joke to our most serious art project.
             </h2>
@@ -53,38 +53,26 @@ export default function Home() {
               figurative fine art with automatically generated art into 10.000
               unique Hunks.
             </p>
-            <p className="index-paragraph mt-4">
-              We had unlimited time, made no compromises and got to experiement
-              with a new creative process. We are proud to release signed
-              <Link href="/print">
-                <a className="text-blue-600"> art prints </a>
-              </Link>{" "}
-              and{" "}
-              <Link href="/nft">
-                <a className="text-blue-600"> NFTs </a>
-              </Link>{" "}
-              of Hunks.
-            </p>
           </div>
         </section>
 
         <section className="flex flex-col lg:flex-row items-center justify-around w-full relative mt-10 mb-10 lg:mt-36">
-          <div className=" absolute flex flex-col items-center w-full text-black pr-2">
-            <h1 className="index-header bg-white">
+          <div className=" absolute flex flex-col items-center w-full text-black px-2">
+            <h1 className="index-header text-2xl md:text-3xl bg-white px-1">
               Available during{" "}
-              <span className="text-black"> live vernissages</span> & as
-              on-chain <span className="text-black"> NFTs.</span>
+              <span className="text-black"> live vernissages</span> & as{" "}
+              <span className="text-black">Cardano NFTs.</span>
             </h1>
-            <p className="index-paragraph bg-white pr-4 py-2">
+            <p className="index-paragraph bg-white pr-4 py-2 px-1">
               {" "}
               Hunks are digital and physical creatures. They exist as 10.000
               unique physical
               <Link href="/print">
                 <a className="text-blue-600 underline"> art prints,</a>
               </Link>{" "}
-              and 10.000 fully on-chain
+              and 10.000 fully on-chain Cardano
               <Link href="/nft">
-                <a className="text-blue-600 underline"> Cardano NFTs.</a>
+                <a className="text-blue-600 underline"> NFTs.</a>
               </Link>{" "}
             </p>
           </div>
@@ -102,7 +90,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="index-section mt-10 mb-10 lg:mt-36">
+        <section className="index-section mt-10 mb-10 lg:mt-36 px-2">
           <div className="index-text-container">
             <h2 className=" index-header">
               Suggestive creatures came out of the machine.
@@ -121,8 +109,8 @@ export default function Home() {
         </section>
         <section className="index-section mt-10 mb-10 lg:mt-36">
           <div className="index-text-container">
-            <h2 className=" index-header">Making a fine art machine.</h2>
-            <p className="index-paragraph mb-3">
+            <h2 className=" index-header px-2">Making a fine art machine.</h2>
+            <p className="index-paragraph mb-3 px-2">
               Trained in classical art, we sought to combine the virtuoso
               qualities of the tradition, such as form, lightning, and warm and
               cool colors, with the typical trait-by-trait assembling logic of a
@@ -133,7 +121,7 @@ export default function Home() {
               src="/classical.png"
               alt="comparison between classically rendered hunks, and automaticcaly generated hunks."
             />
-            <p className="index-paragraph my-3">
+            <p className="index-paragraph my-3 px-2">
               Chipping away every unnecessary pixel, while careful not to break
               the logic of the classical qualities, we arrived at a 26 by 26
               pixel base and canvas. On the programming side we built our own
@@ -141,7 +129,7 @@ export default function Home() {
               opinionated quality Hunks.
             </p>
           </div>
-          <p className="text-center px-4 mt-12 text-lg md:text-2xl font-light">
+          <p className="text-center index-paragraph text-gray-600 px-4 mt-12 text-lg md:text-2xl font-light">
             <span className="inline lg:block">
               “..when i started making music, what interested me really, [...]
               was making musical machines of some kind […]
@@ -149,7 +137,7 @@ export default function Home() {
             where for quite a small input, there would be alot of music coming
             out.”
           </p>
-          <p className="text-center mt-6 text-2xl font-bold">
+          <p className="text-center mt-6 text-gray-600 text-2xl">
             - Brian Eno
             <Link href="https://www.youtube.com/watch?v=RWhvpIOruqo&ab_channel=TheInstituteofArtandIdeas">
               <a target="_blank" className="text-sm font-light text-blue-500">
@@ -159,7 +147,7 @@ export default function Home() {
             </Link>
           </p>
         </section>
-        <section className="index-section mt-10 mb-10 lg:mt-36">
+        <section className="index-section mt-10 mb-10 lg:mt-36 px-2">
           <div className="index-text-container">
             <h2 className="index-header">The creators.</h2>
             <p className="index-paragraph mb-3">
@@ -175,9 +163,14 @@ export default function Home() {
               pretty much full-time for four months, during odd hours of the
               day, executed over a dinner table on two Macs and an iPad.
             </p>
+            <p className="index-paragraph mt-4">
+              We had unlimited time, made no compromises and got to experiement
+              with a new creative process. We are proud to release signed art
+              prints and NFTs of Hunks.
+            </p>
           </div>
         </section>
-        <section className="index-section mt-10 mb-10 lg:mt-36">
+        <section className="index-section mt-10 mb-10 lg:mt-36 px-2">
           <div className="index-text-container">
             <h3 className="index-header">Get yourself a Hunk.</h3>
             <p className="index-paragraph">
@@ -207,7 +200,7 @@ export default function Home() {
         </section>
 
         {/* SECTION SIMPLE SERIOUS */}
-        <section className="flex flex-col justify-center items-center mt-20 lg:mt-36">
+        <section className="flex flex-col justify-center items-center mt-20 lg:mt-36 px-2">
           <div className="index-text-container">
             <h2 className="index-header w-full">The Hunk pipeline.</h2>
 
@@ -539,7 +532,7 @@ export default function Home() {
           </Link>
         </section>
 
-        <section className="index-section mt-20 mb-20">
+        <section className="index-section mt-20 mb-20 px-2">
           {/* container */}
           <div className="flex justify-evenly flex-wrap items-start">
             {/* sub container */}
