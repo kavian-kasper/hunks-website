@@ -18,9 +18,9 @@ const NFT = () => {
       <HeadInfo title="Home" />
       <header className="w-full relative">
         <div className="nft-banner w-full"></div>
-        <h1 className="absolute nft-header bg-primary text-2xl md:text-4xl text-white font-bold ">
+        <h1 className="absolute nft-header p-1 bg-primary shadow-lg text-2xl md:text-4xl text-[#ffd1ab] font-bold ">
           Ethereum got punks
-          <span className="text-white block"> Cardano got hunks.</span>
+          <span className="text-[#ffd1ab] block"> Cardano got hunks.</span>
         </h1>
       </header>
 

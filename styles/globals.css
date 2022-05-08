@@ -29,6 +29,7 @@
   }
   .index-header {
     @apply primary text-3xl md:text-4xl font-bold;
+    font-family: "Helvetica Neue", serif;
   }
   .index-header-sub {
     @apply primary text-2xl;
@@ -179,10 +180,11 @@
 .nft-banner {
   background-image: url("/banner.png");
   image-rendering: pixelated;
-  background-color: #cccccc;
   height: 70vh;
+  background-color: #69a2ba;
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   /* opacity: 50%; */
 }
 .nft-header {

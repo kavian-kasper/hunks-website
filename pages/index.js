@@ -44,17 +44,22 @@ export default function Home() {
               From a joke to our most serious art project.
             </h2>
             <p className="index-paragraph">
-              <span className="mb-2">
-                Hunks began as an offhand joke between two friends,
-              </span>{" "}
-              Until the creative potential of combining drawing with computer
-              aggregation dawned on us.
+              Hunks began as an offhand joke between two friends. But that all
+              changed when the creative potential of combining drawing with
+              computer aggregation dawned on us.
             </p>
 
             <p className="index-paragraph mt-4">
-              Hunks escalated into to four-month creative outburst that merged
-              figurative fine art with automatically generated art into 10.000
-              unique hunks.
+              We had unlimited time, made no compromises and got to experiement
+              with a new creative process. We are proud to release signed
+              <Link href="/print">
+                <a className="text-blue-600"> art prints </a>
+              </Link>{" "}
+              and{" "}
+              <Link href="/nft">
+                <a className="text-blue-600"> NFTs </a>
+              </Link>{" "}
+              of Hunks.
             </p>
             <p className="index-paragraph mt-4">
               We had unlimited time, we made no compromises, and we got to
@@ -104,11 +109,11 @@ export default function Home() {
               Suggestive creatures came out of the machine.
             </h2>
             <p className="index-paragraph mb-3">
-              <span className="block my-3">Who are the 10.000 Hunks?</span>{" "}
-              Hunks emerge through ping-pong between the artists and a computer
-              program. Through generating and inspecting sample hunks for
-              several months, we gradually identified suggestive personalities
-              that became our guidelines. Here&apos;s a taste:
+              <span className="block my-3">Who are the 10.000 Hunks?</span>
+              Hunks emerge through ping-pong between the artist and a computer
+              program. Through generating and inspecting sample Hunks for
+              several months we gradually identified suggestive personalities
+              that helped us define who the Hunks are. Here is a taste:
             </p>
             <div>
               <Slideshow />
@@ -117,25 +122,24 @@ export default function Home() {
         </section>
         <section className="index-section mt-10 mb-10 lg:mt-36">
           <div className="index-text-container">
-            <h2 className=" index-header">Make PFP great again.</h2>
+            <h2 className=" index-header">Making a fine art machine.</h2>
             <p className="index-paragraph mb-3">
-              Trained in classical European draftsmanship, we sought to combine
-              the tradition&apos;s virtuoso qualities (i.e form, lighting, warm
-              & cool colors) with the typical trait-by-trait assembling logic of
-              a PFP generator, to produce image files small enough to put on a
-              blockchain. We had our doubts, but succeeded in the end!
+              Trained in classical draftsmanship, we sought to combine the
+              virtuoso qualities of the tradition, such as form, lightning, and
+              warm and cool colors, with the typical trait-by-trait assembling
+              logic of a personal profile picture generator to produce image
+              files small enough to put on a blockchain.
             </p>
             <img
               src="/classical.png"
               alt="comparison between classically rendered hunks, and automaticcaly generated hunks."
             />
             <p className="index-paragraph my-3">
-              Chipping away every uneccessary pixel whilst careful not to break
-              the logic of the classical qualities, we arrived at 26 by 26 pixel
-              base and canvas. On the scripting end, we tweaked a generic PFP
-              art generator into a little machine, The Hunk Generator, that
-              consistently output quality hunks, not random and unopinionated
-              hunks.
+              Chipping away every unnecessary pixel, while careful not to break
+              the logic of the classical qualities, we arrived at a 26 by 26
+              pixel base and canvas. On the programming side we built our own
+              little machine, The Hunk Generator, which consistently output
+              opinionated quality Hunks.
             </p>
           </div>
           <p className="text-center px-4 mt-12 text-lg md:text-2xl font-light">
@@ -179,17 +183,16 @@ export default function Home() {
             <h3 className="index-header">Get yourself a Hunk.</h3>
             <p className="index-paragraph">
               <span className="block mb-2">
-                We&apos;re releasing signed art prints of Hunks during live
-                vernissages (currently held in Norway), and we&apos;re dropping
-                NFTs on the Cardano blockchain. The art print and NFT are sold
-                separately.
+                We will be releasing signed art prints of Hunks during live
+                vernissages in Norway, and dropping NFTs on the Cardano
+                blockchain. The art print and NFT are sold separately.
               </span>
             </p>
             <div className="flex justify-between">
               <div className="mt-10  text-center">
-                <Link href="/nft">
+                <Link href="/mint">
                   <a className="inline-block  border-2 border-blue-600 text-blue-600 font-medium text-xs leading-tight uppercase rounded-full hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-40 py-2">
-                    NFT
+                    Buy NFT
                   </a>
                 </Link>
               </div>
@@ -209,16 +212,6 @@ export default function Home() {
           <div className="index-text-container">
             <h2 className="index-header w-full">The Hunk pipeline.</h2>
 
-            {/* <p className="index-paragraph">
-              The 10.000 Hunks are designed from 26x26 of the simplest digital
-              visual unit: the pixel. Pixel art is typically the only visual
-              style practically small enough to encode and store directly on the
-              blockchain.{" "}
-              <span className="index-paragraph font-bold">
-                How much personality, variety, form and depth can be expressed
-                in 26x26 pixels?
-              </span>
-            </p> */}
             <div className="index-text-container">
               <img
                 className="mx-auto h-6 w-full my-4 object-cover"
@@ -229,10 +222,10 @@ export default function Home() {
               <p className="index-paragraph mb-2">
                 Hunks emerge through an iterative partnership between human
                 intention and computer aggregation. Hand-drawn traits are
-                combined into hunks and visualised by a program. After repeating
+                combined into Hunks and visualised by a program. After repeating
                 this process for over hundred traits, personality types, variety
                 range, optimal color combinations and shapes are understood and
-                honed in on. Hunks represent a finely combed selection.
+                honed in on. Hunks represent a finely tuned selection.
               </p>
             </div>
             <div className="mt-6 flex w-full justify-center items-center flex-col md:flex-row">
@@ -542,7 +535,7 @@ export default function Home() {
           </div>
           <Link href="/collection">
             <a className="border-b border-blue-600 text-blue-600 mx-auto py-1 text-center w-42 mt-6">
-              Collection at a glance
+              Traits in collection
             </a>
           </Link>
         </section>
@@ -559,8 +552,8 @@ export default function Home() {
                 Traits are hand-drawn and then aggregated by the computer
                 program. Does the trait add variety while remaining coherent
                 with the whole? Does it suggest personality without pandering?
-                Traits are like brainstorming with post-it notes. Most of them
-                get eliminated, but they all contributed along the way.
+                Many traits are tried and tested. Most of them get eliminated,
+                but they all contributed along the way.
               </p>
             </div>
             {/* sub container */}
@@ -571,9 +564,9 @@ export default function Home() {
               <p className="index-paragraph">
                 Making a few good Hunks is simple, but having a consistent floor
                 of exceptional Hunks would be an overwhelming challenge for two
-                people. But due to the processing power of computers, custom
-                analytics tools, and having visually inspected the 10.000
-                outputs, we can conclude that every single Hunk meets our
+                people. However, due to the processing power of computers,
+                custom analytics tools, and having visually inspected the 10.000
+                Hunks, we can conclude that every single Hunk meets our
                 standards.
               </p>
             </div>
@@ -588,9 +581,10 @@ export default function Home() {
               <p className="index-paragraph">
                 Analytics is essential in order to tweak the output of the
                 entire collection. Some traits are more compatible than others,
-                and knowing when to boost and reduce a trait&apos;s probability
-                is necessary for striking a balance between variety and unity.
-                At a collection-level, analytics are our eyes.
+                and knowing when to boost or reduce the probability of a trait
+                occurring in the collection is necessary for striking a balance
+                between variety and unity. At a collection-level, analytics are
+                our eyes.
               </p>
             </div>
           </div>

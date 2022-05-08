@@ -6,15 +6,15 @@ export const HeadInfo = (props) => {
   return (
     <>
       <Head>
-        {/* <title>{title} ｜ KavanMeta</title>
+        <title>{title} ｜ Hunks</title>
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <meta property="og:title" content="Metatoons - NFTs by KavanMeta" />
-        <meta property="og:url" content="https://kavanmeta.io" />
+        <meta property="og:title" content="Hunks, the new punks." />
+        <meta property="og:url" content="https://hunks.art" />
         <meta
           property="og:image"
-          content="https://kavanmeta.vercel.app/social.jpg"
+          content="https://hunks-website.vercel.app/social.jpg"
         />
         <meta property="og:type" content="website" />
         <meta
@@ -33,7 +33,7 @@ export const HeadInfo = (props) => {
         <meta
           name="twitter:image"
           content="https://kavanmeta.vercel.app/social.jpg/"
-        /> */}
+        />
       </Head>
     </>
   );
