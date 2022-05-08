@@ -3,6 +3,9 @@
 # pages
 /pages/mintHunk.js
 
+#comps
+/components/minting/MintBtn.js
+
 # dependencies
 /node_modules
 /.pnp
