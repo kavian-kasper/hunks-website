@@ -113,8 +113,8 @@ export default function Home() {
               Trained in classical art, we sought to adapt the virtuoso
               qualities of the tradition, such as form, lightning, and warm and
               cool colors, to the trait-by-trait assembling logic of a
-              "profile-picture" (PFP) generator to produce image files small
-              enough to store on a blockchain.
+              &quot;profile-picture&quot; (PFP) generator to produce image files
+              small enough to store on a blockchain.
             </p>
             <img
               src="/classical.png"
