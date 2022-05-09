@@ -1,7 +1,6 @@
 import HeadInfo from "../components/Head";
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import Slideshow from "../components/Slider";
 
 export default function Home() {
@@ -21,7 +20,7 @@ export default function Home() {
 
       <header className="max-w-screen-xl w-full flex flex-col px-1.5">
         <div className="flex flex-col lg:flex-row  items-center justify-around w-full">
-          <h2 className="text-center lg:text-left ml-0 lg:ml-10 mt-8 md:mt-20 index-header text-3xl lg:text-4xl order-1 lg:order-1 w-full lg:w-1/3  primary">
+          <h2 className="text-center lg:text-left ml-0 lg:ml-10 mt-8 md:mt-20 index-header text-4xl order-1 lg:order-1 w-full lg:w-1/3  primary">
             <span className="block"> Say hello to Hunks,</span> the new punks.
           </h2>
 
@@ -44,14 +43,14 @@ export default function Home() {
               From a joke to our most serious art project.
             </h2>
             <p className="index-paragraph">
-              Hunks began as an offhand joke between two friends. But that all
-              changed when the creative potential of combining drawing with
-              computer aggregation dawned on us.
+              Hunks began as an offhanded joke between two friends, but when we
+              started to mix hand-drawing with computer aggregation, it became a
+              full-time obsession.
             </p>
             <p className="index-paragraph mt-4">
-              The project escalated into a four month creative outburst merging
-              figurative fine art with automatically generated art into 10.000
-              unique Hunks.
+              The project escalated into a four month creative outburst where we
+              combined classical art with programmatically generated art. The
+              result is 10.000 unique and iconic Hunks.
             </p>
           </div>
         </section>
@@ -111,27 +110,31 @@ export default function Home() {
           <div className="index-text-container">
             <h2 className=" index-header px-2">Making a fine art machine.</h2>
             <p className="index-paragraph mb-3 px-2">
-              Trained in classical art, we sought to combine the virtuoso
+              Trained in classical art, we sought to adapt the virtuoso
               qualities of the tradition, such as form, lightning, and warm and
-              cool colors, with the typical trait-by-trait assembling logic of a
-              personal profile picture generator to produce image files small
-              enough to put on a blockchain.
+              cool colors, to the trait-by-trait assembling logic of a
+              "profile-picture" (PFP) generator to produce image files small
+              enough to store on a blockchain.
             </p>
             <img
               src="/classical.png"
               alt="comparison between classically rendered hunks, and automaticcaly generated hunks."
             />
             <p className="index-paragraph my-3 px-2">
-              Chipping away every unnecessary pixel, while careful not to break
+              Chipping away every unnecessary pixel while careful not to break
               the logic of the classical qualities, we arrived at a 26 by 26
-              pixel base and canvas. On the programming side we built our own
-              little machine, The Hunk Generator, which consistently output
-              opinionated quality Hunks.
+              pixel base and canvas.{" "}
+              <span className="mt-3 block">
+                {" "}
+                On the programming side we built our own little machine, The
+                Hunk Generator, which consistently output opinionated quality
+                Hunks.
+              </span>
             </p>
           </div>
           <p className="text-center index-paragraph text-gray-600 px-4 mt-12 text-lg md:text-2xl font-light">
             <span className="inline lg:block">
-              “..when i started making music, what interested me really, [...]
+              “..when I started making music, what interested me really, [...]
               was making musical machines of some kind […]
             </span>{" "}
             where for quite a small input, there would be alot of music coming
@@ -164,7 +167,7 @@ export default function Home() {
               day, executed over a dinner table on two Macs and an iPad.
             </p>
             <p className="index-paragraph mt-4">
-              We had unlimited time, made no compromises and got to experiement
+              We had unlimited time, made no compromises and got to experiment
               with a new creative process. We are proud to release signed art
               prints and NFTs of Hunks.
             </p>
@@ -184,14 +187,14 @@ export default function Home() {
               <div className="mt-10  text-center">
                 <Link href="/mint">
                   <a className="inline-block  border-2 border-blue-600 text-blue-600 font-medium text-xs leading-tight uppercase rounded-full hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-40 py-2">
-                    Buy NFT
+                    buy Hunk NFT
                   </a>
                 </Link>
               </div>
               <div className="mt-10  text-center">
                 <Link href="/print" className>
                   <a className="inline-block border-2 border-blue-600 text-blue-600 font-medium text-xs leading-tight uppercase rounded-full hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-40 py-2">
-                    PRINT
+                    Hunk PRINT
                   </a>
                 </Link>
               </div>

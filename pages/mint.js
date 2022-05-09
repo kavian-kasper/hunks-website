@@ -14,8 +14,11 @@ function Mint() {
               <p>
                 <span className="block">1. PRICING</span> Disclosed upon
                 request.
-                <Link href="/">
-                  <a className="text-blue-600"> DM us on Twitter.</a>
+                <Link href="https://twitter.com/HunksArt">
+                  <a target="_blank" className="text-blue-600">
+                    {" "}
+                    DM us on Twitter.
+                  </a>
                 </Link>
               </p>
             </div>
