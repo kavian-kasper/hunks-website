@@ -18,15 +18,15 @@ export default function Home() {
     <div>
       <HeadInfo title="Home" />
 
-      <header className="max-w-screen-xl w-full h-auto flex flex-col px-1.5 ">
-        <div className="flex flex-col lg:flex-row items-center justify-around w-full">
+      <header className="max-w-screen-xl w-full h-auto flex flex-col px-1.5">
+        <div className="flex flex-col lg:flex-row  items-center justify-around w-full">
           <h2 className="text-center lg:text-left ml-0 lg:ml-10 mt-4 md:mt-10 index-header text-4xl order-1 lg:order-1 w-full lg:w-1/3  primary">
             <span className="block"> Say hello to Hunks,</span> the new punks.
           </h2>
 
           <img
             src="anim-test.gif"
-            className="w-full order-1 lg:h-lg-screen lg:-ml-10 -mt-5 lg:order-2 max-w-2xl object-contain pixelated"
+            className="w-full order-1 lg:-ml-10 -mt-5 lg:order-2 max-h-screen max-w-2xl object-contain pixelated"
             alt="Animation of hunks"
           />
 
