@@ -5,7 +5,7 @@ function TraitNavActive(props) {
   const dot = props.dot;
   return (
     <li className="flex">
-      <a className="font-nunito min-w-max underline-color text-gray-600 font-bold tracking-wide text-sm md:text-lg">
+      <a className="font-nunito min-w-max underline-color text-gray-600 font-bold tracking-wide text-sm">
         {title}
       </a>
       <span className="mx-2">{dot}</span>
