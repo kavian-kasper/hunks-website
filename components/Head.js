@@ -15,7 +15,7 @@ export const HeadInfo = (props) => {
           content="Say hello to Hunks, the new punks."
         />
         <meta property="og:url" content="https://www.hunks.art" />
-        <meta property="og:image" content="https://www.hunks.art/social.png" />
+        <meta property="og:image" content="https://www.hunks.art/social.png/" />
         <meta property="og:type" content="website" />
         <meta
           property="og:description"
@@ -33,7 +33,10 @@ export const HeadInfo = (props) => {
           name="twitter:description"
           content="It began as a joke, but escalated into our most serious art project."
         />
-        <meta name="twitter:image" content="https://www.hunks.art/social.png" />
+        <meta
+          name="twitter:image"
+          content="https://www.hunks.art/social.png/"
+        />
       </Head>
     </>
   );
