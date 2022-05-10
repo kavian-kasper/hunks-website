@@ -12,8 +12,8 @@ function Mint() {
             <h1 className="index-header">Limited sale to early collectors.</h1>
             <div className="my-4">
               <p>
-                <span className="block">1. PRICING</span> Disclosed upon
-                request.
+                <span className="block primary font-bold">1. Pricing</span>{" "}
+                Disclosed upon request.
                 <Link href="https://twitter.com/HunksArt">
                   <a target="_blank" className="text-blue-600">
                     {" "}
@@ -24,14 +24,14 @@ function Mint() {
             </div>
             <div className="mb-4">
               <p className="">
-                <span className="block">2. GET A HUNK </span>
+                <span className="block primary font-bold">2. Get a Hunk </span>
                 We will DM you back with a mint address.
               </p>
             </div>
             <div>
               <p className="">
-                <span className="block">REQUIRED </span>Cardano wallet (i.e
-                Eternl, Nami, Flint). No exchange wallet.{" "}
+                <span className="block text-red-400 font-bold">Required </span>
+                Cardano wallet (i.e Eternl, Nami, Flint). No exchange wallet.{" "}
               </p>
             </div>
             <button type="button" className="mt-4">
@@ -47,9 +47,9 @@ function Mint() {
           <div className="index-text-container">
             <h2 className="index-header">Public drop?</h2>
             <p>
-              Yes, but first we want to soft launch. Right now, we focus on
-              distributing Hunks into passionate hands to ensure the longevity
-              of the project.
+              Yes, after a soft launch. Right now, we focus on distributing
+              Hunks into the hands of passionate NFT collectors to ensure the
+              longevity of the project.
             </p>
           </div>
         </section>

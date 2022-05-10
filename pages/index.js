@@ -54,7 +54,7 @@ export default function Home() {
             </p>
             <button type="button" className="mx-auto w-full mt-4">
               <Link href="/mint">
-                <a className="mt-10 mb-10 mx-auto inline-block w-60 py-4 bg-primary text-white font-medium text-sm leading-tight uppercase rounded-full hover:bg-black hover:bg-opacity-80 cursor-pointer focus:outline-none focus:ring-0 transition duration-150 ease-in-out text-center">
+                <a className="mt-10 mb-10 mx-auto inline-block w-60 py-4 bg-indigo-500 text-white font-medium text-sm leading-tight uppercase rounded-full hover:bg-black hover:bg-opacity-80 cursor-pointer focus:outline-none focus:ring-0 transition duration-150 ease-in-out text-center">
                   Limited NFT pre-sale
                 </a>
               </Link>
@@ -64,15 +64,14 @@ export default function Home() {
 
         <section className="flex flex-col lg:flex-row items-center justify-around w-full relative mt-10 mb-10">
           <div className=" absolute flex flex-col items-center w-full text-black px-2">
-            <h1 className="text-2xl font-light md:text-4xl bg-white px-1">
+            <h1 className="text-2xl mt-8 font-light md:text-4xl bg-white px-1">
               Available during{" "}
               <span className="text-black font-bold"> live vernissages</span> &
               as <span className="text-black font-bold">Cardano NFTs.</span>
             </h1>
             <p className="index-paragraph bg-white pr-4 py-2 px-1">
               {" "}
-              Hunks are digital and physical creatures. They exist as 10.000
-              unique physical
+              Hunks are phygital creatures. They exist as 10.000 unique physical
               <Link href="/print">
                 <a className="text-blue-600 underline"> art prints,</a>
               </Link>{" "}
@@ -84,8 +83,8 @@ export default function Home() {
           </div>
           <div className="flex flex-col w-full items-center">
             <img
-              src="collage.png"
-              className="w-full lg:w-5/6 max-w-3xl pixelated object-cover max-h-96"
+              src="hunk-twtr-banner.png"
+              className="w-full lg:w-5/6 max-w-3xl pixelated object-cover object-bottom h-96"
               alt="A collage of Hunks"
             />
             <img
@@ -97,7 +96,7 @@ export default function Home() {
         </section>
         <button type="button" className="mx-auto w-full">
           <Link href="/collection">
-            <a className="mt-10 mb-10 mx-auto inline-block w-60  py-4 bg-primary text-white font-medium text-sm leading-tight uppercase rounded-full hover:bg-black hover:bg-opacity-80 cursor-pointer focus:outline-none focus:ring-0 transition duration-150 ease-in-out text-center">
+            <a className="mt-10 mb-10 mx-auto inline-block w-60  py-4 bg-indigo-500 text-white font-medium text-sm leading-tight uppercase rounded-full hover:bg-black hover:bg-opacity-80 cursor-pointer focus:outline-none focus:ring-0 transition duration-150 ease-in-out text-center">
               View traits in collection
             </a>
           </Link>
@@ -200,14 +199,14 @@ export default function Home() {
             <div className="flex justify-between">
               <div className="mt-10  text-center">
                 <Link href="/mint">
-                  <a className="inline-block  border-2 border-blue-600 text-blue-600 font-medium text-xs leading-tight uppercase rounded-full hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-40 py-2">
+                  <a className="inline-block  border-2 border-blue-600 text-white bg-indigo-500 font-medium text-xs leading-tight uppercase rounded-full hover:bg-black hover:bg-opacity-80 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-40 py-2">
                     buy Hunk NFT
                   </a>
                 </Link>
               </div>
               <div className="mt-10  text-center">
                 <Link href="/print" className>
-                  <a className="inline-block border-2 border-blue-600 text-blue-600 font-medium text-xs leading-tight uppercase rounded-full hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-40 py-2">
+                  <a className="inline-block  border-2 border-blue-600 text-white bg-indigo-500 font-medium text-xs leading-tight uppercase rounded-full hover:bg-black hover:bg-opacity-80 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-40 py-2">
                     Hunk PRINT
                   </a>
                 </Link>
