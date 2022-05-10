@@ -18,7 +18,7 @@ export default function Home() {
     <div>
       <HeadInfo title="Home" />
 
-      <header className="max-w-screen-xl w-full flex flex-col px-1.5">
+      <header className="max-w-screen-xl w-full h-auto lg:h-screen flex flex-col px-1.5">
         <div className="flex flex-col lg:flex-row  items-center justify-around w-full">
           <h2 className="text-center lg:text-left ml-0 lg:ml-10 mt-8 md:mt-20 index-header text-4xl order-1 lg:order-1 w-full lg:w-1/3  primary">
             <span className="block"> Say hello to Hunks,</span> the new punks.
@@ -38,7 +38,7 @@ export default function Home() {
       <main className="max-w-screen-xl mb-20 w-full flex flex-col ">
         <section className="index-section lg:mt-5 px-2">
           <div className="index-text-container">
-            <h2 className="index-header mb-3 md:text-4xl mt-6">
+            <h2 className="index-header mb-3 md:text-4xl mt-2">
               {" "}
               From a joke to our most serious art project.
             </h2>
