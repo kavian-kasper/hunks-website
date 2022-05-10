@@ -120,6 +120,9 @@
   .h-75-screen {
     height: 60vh;
   }
+  .h-lg-screen {
+    height: 95vh;
+  }
 
   .trait-width {
     max-width: 140px;
