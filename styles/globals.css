@@ -28,7 +28,7 @@
     @apply mx-auto max-w-xl;
   }
   .index-header {
-    @apply primary text-3xl md:text-4xl font-bold;
+    @apply primary text-3xl my-3 md:text-4xl font-bold;
     font-family: "Helvetica Neue", sans-serif;
   }
   .index-header-sub {

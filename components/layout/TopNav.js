@@ -31,15 +31,16 @@ const TopNav = () => {
             </Link>
             {/* nav items */}
             <div className="p-2 hidden md:inline-block my-auto">
+              <Link href="/collection">
+                <a className="text-blue-500 mx-2 py-1">Traits in Collection</a>
+              </Link>
               <Link href="/nft">
                 <a className="text-blue-500 mx-2 py-1">On-chain NFT</a>
               </Link>
               <Link href="/print">
                 <a className="text-blue-500 mx-2 py-1">Art Prints</a>
               </Link>
-              <Link href="/collection">
-                <a className="text-blue-500 mx-2 py-1">Traits In Collection</a>
-              </Link>
+
               <Link href="/mint">
                 <a className="text-blue-500 mx-2 py-1">Mint</a>
               </Link>
@@ -113,6 +114,14 @@ const TopNav = () => {
                         Hunks
                       </a>
                     </Link>
+                    <Link href="/collection">
+                      <a
+                        className="text-blue-500 mb-3"
+                        onClick={() => closeModal()}
+                      >
+                        Traits in Collection
+                      </a>
+                    </Link>
                     <Link href="/nft">
                       <a
                         className="text-blue-500 mb-3"
@@ -130,14 +139,6 @@ const TopNav = () => {
                       </a>
                     </Link>
 
-                    <Link href="/collection">
-                      <a
-                        className="text-blue-500 mb-3"
-                        onClick={() => closeModal()}
-                      >
-                        Traits In Collection
-                      </a>
-                    </Link>
                     <Link href="/mint">
                       <a
                         className="text-blue-500 mb-3"

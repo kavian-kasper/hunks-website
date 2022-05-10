@@ -103,7 +103,7 @@ const NFT = () => {
               you own a Hunk NFT and wish to order a print, and we will check
               availability.
             </p>
-            <button type="button" className="">
+            <button type="button">
               <Link href="/terms">
                 <a className="mt-2 mb-10 mx-auto inline-block w-40 py-2 border-2 border-blue-600 text-blue-600 font-medium text-xs leading-tight uppercase rounded-full hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out text-center">
                   Terms & Conditions

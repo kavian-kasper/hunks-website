@@ -15,10 +15,7 @@ export const HeadInfo = (props) => {
           content="Say hello to Hunks, the new punks."
         />
         <meta property="og:url" content="https://www.hunks.art" />
-        <meta
-          property="og:image"
-          content="https://hunks-website.vercel.app/social.png"
-        />
+        <meta property="og:image" content="https://hunks.art/social.png" />
         <meta property="og:type" content="website" />
         <meta
           property="og:description"
@@ -27,7 +24,7 @@ export const HeadInfo = (props) => {
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@HunksArt" />
-        <meta name="twitter:url" content="https://hunks-website.vercel.app/" />
+        <meta name="twitter:url" content="https://hunks.art" />
         <meta
           name="twitter:title"
           content="Say hello to Hunks, the new punks."
@@ -36,10 +33,7 @@ export const HeadInfo = (props) => {
           name="twitter:description"
           content="It began as a joke, but escalated into our most serious art project."
         />
-        <meta
-          name="twitter:image"
-          content="https://hunks-wesbite.vercel.app/social.png/"
-        />
+        <meta name="twitter:image" content="https://www.hunks.art/social.png" />
       </Head>
     </>
   );

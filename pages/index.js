@@ -52,15 +52,22 @@ export default function Home() {
               combined classical art with programmatically generated art. The
               result is 10.000 unique and iconic Hunks.
             </p>
+            <button type="button" className="mx-auto w-full mt-4">
+              <Link href="/mint">
+                <a className="mt-10 mb-10 mx-auto inline-block w-60 py-4 bg-primary text-white font-medium text-sm leading-tight uppercase rounded-full hover:bg-black hover:bg-opacity-80 cursor-pointer focus:outline-none focus:ring-0 transition duration-150 ease-in-out text-center">
+                  Limited NFT pre-sale
+                </a>
+              </Link>
+            </button>
           </div>
         </section>
 
         <section className="flex flex-col lg:flex-row items-center justify-around w-full relative mt-10 mb-10">
           <div className=" absolute flex flex-col items-center w-full text-black px-2">
-            <h1 className="index-header text-2xl md:text-3xl bg-white px-1">
+            <h1 className="text-2xl font-light md:text-4xl bg-white px-1">
               Available during{" "}
-              <span className="text-black"> live vernissages</span> & as{" "}
-              <span className="text-black">Cardano NFTs.</span>
+              <span className="text-black font-bold"> live vernissages</span> &
+              as <span className="text-black font-bold">Cardano NFTs.</span>
             </h1>
             <p className="index-paragraph bg-white pr-4 py-2 px-1">
               {" "}
@@ -78,20 +85,26 @@ export default function Home() {
           <div className="flex flex-col w-full items-center">
             <img
               src="collage.png"
-              className="w-full h-96 lg:w-1/2 max-w-2xl pixelated object-cover max-h-80"
+              className="w-full lg:w-5/6 max-w-3xl pixelated object-cover max-h-96"
               alt="A collage of Hunks"
             />
             <img
               src="collage-1-1-ed.jpg"
-              className="w-full h-96 lg:w-1/2 pixelated object-cover max-h-80"
+              className="w-full lg:w-5/6 max-w-3xl pixelated object-cover max-h-96"
               alt="A collage of Hunks"
             />
           </div>
         </section>
-
+        <button type="button" className="mx-auto w-full">
+          <Link href="/collection">
+            <a className="mt-10 mb-10 mx-auto inline-block w-60  py-4 bg-primary text-white font-medium text-sm leading-tight uppercase rounded-full hover:bg-black hover:bg-opacity-80 cursor-pointer focus:outline-none focus:ring-0 transition duration-150 ease-in-out text-center">
+              View traits in collection
+            </a>
+          </Link>
+        </button>
         <section className="index-section mt-10 mb-10 px-2">
           <div className="index-text-container">
-            <h2 className=" index-header">
+            <h2 className="index-header">
               Suggestive creatures came out of the machine.
             </h2>
             <p className="index-paragraph mb-3">
@@ -121,7 +134,7 @@ export default function Home() {
               src="/classical.png"
               alt="comparison between classically rendered hunks, and automaticcaly generated hunks."
             />
-            <p className="index-paragraph my-3 px-2">
+            <p className="index-paragraph px-2">
               Chipping away every unnecessary pixel while careful not to break
               the logic of the classical qualities, we arrived at a 26 by 26
               pixel base and canvas.{" "}
@@ -529,11 +542,6 @@ export default function Home() {
               />
             </div>
           </div>
-          <Link href="/collection">
-            <a className="border-b border-blue-600 text-blue-600 mx-auto py-1 text-center w-42 mt-6">
-              Traits in collection
-            </a>
-          </Link>
         </section>
 
         <section className="index-section mt-20 mb-20 px-2">
