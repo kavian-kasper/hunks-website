@@ -33,7 +33,7 @@ export const HeadInfo = (props) => {
           name="twitter:description"
           content="It began as a joke, but escalated into our most serious art project."
         />
-        <meta name="twitter:image" content="https://www.hunks.art/social.png" />
+        <meta name="twitter:image" content="https://hunks.art/social.png" />
       </Head>
     </>
   );
