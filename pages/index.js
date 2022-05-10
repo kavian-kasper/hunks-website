@@ -20,7 +20,7 @@ export default function Home() {
 
       <header className="max-w-screen-xl w-full h-auto lg:h-screen flex flex-col px-1.5">
         <div className="flex flex-col lg:flex-row  items-center justify-around w-full">
-          <h2 className="text-center lg:text-left ml-0 lg:ml-10 mt-8 md:mt-20 index-header text-4xl order-1 lg:order-1 w-full lg:w-1/3  primary">
+          <h2 className="text-center lg:text-left ml-0 lg:ml-10 mt-4 md:mt-10 index-header text-4xl order-1 lg:order-1 w-full lg:w-1/3  primary">
             <span className="block"> Say hello to Hunks,</span> the new punks.
           </h2>
 
@@ -36,7 +36,7 @@ export default function Home() {
       {/* MAIN */}
 
       <main className="max-w-screen-xl mb-20 w-full flex flex-col ">
-        <section className="index-section lg:mt-5 px-2">
+        <section className="index-section px-2">
           <div className="index-text-container">
             <h2 className="index-header mb-3 md:text-4xl mt-2">
               {" "}
@@ -55,7 +55,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="flex flex-col lg:flex-row items-center justify-around w-full relative mt-10 mb-10 lg:mt-36">
+        <section className="flex flex-col lg:flex-row items-center justify-around w-full relative mt-10 mb-10">
           <div className=" absolute flex flex-col items-center w-full text-black px-2">
             <h1 className="index-header text-2xl md:text-3xl bg-white px-1">
               Available during{" "}
@@ -89,7 +89,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="index-section mt-10 mb-10 lg:mt-36 px-2">
+        <section className="index-section mt-10 mb-10 px-2">
           <div className="index-text-container">
             <h2 className=" index-header">
               Suggestive creatures came out of the machine.
@@ -106,7 +106,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="index-section mt-10 mb-10 lg:mt-36">
+        <section className="index-section mt-10 mb-10">
           <div className="index-text-container">
             <h2 className=" index-header px-2">Making a fine art machine.</h2>
             <p className="index-paragraph mb-3 px-2">
@@ -117,6 +117,7 @@ export default function Home() {
               small enough to store on a blockchain.
             </p>
             <img
+              className="my-4"
               src="/classical.png"
               alt="comparison between classically rendered hunks, and automaticcaly generated hunks."
             />
@@ -150,7 +151,7 @@ export default function Home() {
             </Link>
           </p>
         </section>
-        <section className="index-section mt-10 mb-10 lg:mt-36 px-2">
+        <section className="index-section mt-10 mb-10 lg:mt-20 px-2">
           <div className="index-text-container">
             <h2 className="index-header">The creators.</h2>
             <p className="index-paragraph mb-3">
@@ -173,7 +174,7 @@ export default function Home() {
             </p>
           </div>
         </section>
-        <section className="index-section mt-10 mb-10 lg:mt-36 px-2">
+        <section className="index-section mt-10 mb-10 px-2">
           <div className="index-text-container">
             <h3 className="index-header">Get yourself a Hunk.</h3>
             <p className="index-paragraph">
@@ -203,7 +204,7 @@ export default function Home() {
         </section>
 
         {/* SECTION SIMPLE SERIOUS */}
-        <section className="flex flex-col justify-center items-center mt-20 lg:mt-36 px-2">
+        <section className="flex flex-col justify-center items-center mt-20 px-2">
           <div className="index-text-container">
             <h2 className="index-header w-full">The Hunk pipeline.</h2>
 

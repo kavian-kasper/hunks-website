@@ -20,7 +20,7 @@ function Footer() {
 
         <div className="mt-8 md:mt-0 md:order-1 mb-3.5 md:mb-0">
           <p className="text-center text-base text-gray-900">
-            © 2021 Hunks.art All rights reserved.
+            © 2022 Hunks.art All rights reserved.
           </p>
         </div>
       </div>
