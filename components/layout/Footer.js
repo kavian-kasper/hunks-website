@@ -10,12 +10,12 @@ function Footer() {
               Twitter
             </a>
           </Link>
-          <Link href="/">
+          <Link href="">
             <a className="text-blue-600">Instagram</a>
           </Link>
-          {/* <Link href="/">
+          <Link href="">
             <a className="text-blue-600">Cardanoscan</a>
-          </Link> */}
+          </Link>
         </div>
 
         <div className="mt-8 md:mt-0 md:order-1 mb-3.5 md:mb-0">

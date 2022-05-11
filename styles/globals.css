@@ -181,14 +181,14 @@
 }
 
 .nft-banner {
-  background-image: url("/banner.png");
+  background-image: url("/hunk-twtr-banner.png");
   image-rendering: pixelated;
   height: 70vh;
   background-color: #69a2ba;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  /* opacity: 50%; */
+  opacity: 60%;
 }
 .nft-header {
   top: 50%;

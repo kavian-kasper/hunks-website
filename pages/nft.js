@@ -18,9 +18,9 @@ const NFT = () => {
       <HeadInfo title="NFT" />
       <header className="w-full relative">
         <div className="nft-banner w-full"></div>
-        <h1 className="absolute nft-header p-1 bg-primary shadow-lg text-2xl md:text-4xl text-[#ffd1ab] font-bold ">
+        <h1 className="absolute nft-header p-1 text-6xl text-white font-bold">
           Ethereum got punks
-          <span className="text-[#ffd1ab] block"> Cardano got Hunks.</span>
+          <span className="text-black block"> Cardano got Hunks.</span>
         </h1>
       </header>
 
@@ -101,10 +101,7 @@ const NFT = () => {
               However, we do value the commitment of our NFT collectors who also
               wish to own a print and want to accomodate them.{" "}
               <Link href="/print">
-                <a className="text-blue-600 font-bold">
-                  {" "}
-                  More information here.
-                </a>
+                <a className="text-blue-600 font-bold"> More information.</a>
               </Link>{" "}
             </p>
             <button type="button">
