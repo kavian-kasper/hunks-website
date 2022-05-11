@@ -81,7 +81,7 @@ const Slideshow = () => {
             className="mx-auto w-312 md:w-598"
             style={{ backgroundImage: `url(${slideImages[3]})` }}
           >
-            <span>Batshit hunk</span>
+            <span>Loco Hunk</span>
           </div>
         </div>
 
@@ -90,7 +90,7 @@ const Slideshow = () => {
             className="mx-auto w-312 md:w-598"
             style={{ backgroundImage: `url(${slideImages[2]})` }}
           >
-            <span>Goth hunk</span>
+            <span>Goth Hunk</span>
           </div>
         </div>
 
@@ -99,7 +99,7 @@ const Slideshow = () => {
             className="mx-auto w-312 md:w-598"
             style={{ backgroundImage: `url(${slideImages[9]})` }}
           >
-            <span>Hacker hunk</span>
+            <span>Hacker Hunk</span>
           </div>
         </div>
 
@@ -108,7 +108,7 @@ const Slideshow = () => {
             className="mx-auto w-312 md:w-598"
             style={{ backgroundImage: `url(${slideImages[8]})` }}
           >
-            <span>Pastel hunk</span>
+            <span>Pastel Hunk</span>
           </div>
         </div>
 
@@ -117,15 +117,7 @@ const Slideshow = () => {
             className="mx-auto w-312 md:w-598"
             style={{ backgroundImage: `url(${slideImages[12]})` }}
           >
-            <span>Tastemaker Hunk</span>
-          </div>
-        </div>
-        <div className="each-slide pixelated">
-          <div
-            className="mx-auto w-312 md:w-598"
-            style={{ backgroundImage: `url(${slideImages[19]})` }}
-          >
-            <span>Edgy Hunk</span>
+            <span>Flamboyant Hunk</span>
           </div>
         </div>
         <div className="each-slide pixelated">
@@ -161,14 +153,14 @@ const Slideshow = () => {
           </div>
         </div> */}
 
-        <div className="each-slide pixelated">
+        {/* <div className="each-slide pixelated">
           <div
             className="mx-auto w-312 md:w-598"
             style={{ backgroundImage: `url(${slideImages[15]})` }}
           >
             <span>Jealous boyfriend Hunk</span>
           </div>
-        </div>
+        </div> */}
         <div className="each-slide pixelated">
           <div
             className="mx-auto w-312 md:w-598"
