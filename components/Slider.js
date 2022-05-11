@@ -13,6 +13,16 @@ const slideImages = [
   "/slider-img/broker.png",
   "/slider-img/pastel.png",
   "/slider-img/hacker.png",
+  "/slider-img/silverFox.png",
+  "/slider-img/sleazy.png",
+  "/slider-img/onfleek.png",
+  "/slider-img/poet.png",
+  "/slider-img/cultured.png",
+  "/slider-img/jealous.png",
+  "/slider-img/player.png",
+  "/slider-img/street.png",
+  "/slider-img/classic.png",
+  "/slider-img/edge.png",
 ];
 
 const Slideshow = () => {
@@ -29,7 +39,7 @@ const Slideshow = () => {
             className="mx-auto w-312 md:w-598"
             style={{ backgroundImage: `url(${slideImages[1]})` }}
           >
-            <span>New Wave hunk</span>
+            <span>New wave Hunk</span>
           </div>
         </div>
         <div className="each-slide pixelated">
@@ -37,18 +47,26 @@ const Slideshow = () => {
             className="mx-auto w-312 md:w-598"
             style={{ backgroundImage: `url(${slideImages[6]})` }}
           >
-            <span>Belle de Jour hunk</span>
+            <span>Belle de jour hunk</span>
           </div>
         </div>
-
         <div className="each-slide pixelated">
           <div
             className="mx-auto w-312 md:w-598"
-            style={{ backgroundImage: `url(${slideImages[3]})` }}
+            style={{ backgroundImage: `url(${slideImages[17]})` }}
           >
-            <span>Bandido hunk</span>
+            <span>Street Hunk</span>
           </div>
         </div>
+        <div className="each-slide pixelated">
+          <div
+            className="mx-auto w-312 md:w-598"
+            style={{ backgroundImage: `url(${slideImages[18]})` }}
+          >
+            <span>Classic Hunk</span>
+          </div>
+        </div>
+
         <div className="each-slide pixelated">
           <div
             className="mx-auto w-312 md:w-598"
@@ -57,6 +75,16 @@ const Slideshow = () => {
             <span>Buff hunk</span>
           </div>
         </div>
+
+        <div className="each-slide pixelated">
+          <div
+            className="mx-auto w-312 md:w-598"
+            style={{ backgroundImage: `url(${slideImages[3]})` }}
+          >
+            <span>Batshit hunk</span>
+          </div>
+        </div>
+
         <div className="each-slide pixelated">
           <div
             className="mx-auto w-312 md:w-598"
@@ -74,6 +102,7 @@ const Slideshow = () => {
             <span>Hacker hunk</span>
           </div>
         </div>
+
         <div className="each-slide pixelated">
           <div
             className="mx-auto w-312 md:w-598"
@@ -82,12 +111,70 @@ const Slideshow = () => {
             <span>Pastel hunk</span>
           </div>
         </div>
+
+        <div className="each-slide pixelated">
+          <div
+            className="mx-auto w-312 md:w-598"
+            style={{ backgroundImage: `url(${slideImages[12]})` }}
+          >
+            <span>Tastemaker Hunk</span>
+          </div>
+        </div>
+        <div className="each-slide pixelated">
+          <div
+            className="mx-auto w-312 md:w-598"
+            style={{ backgroundImage: `url(${slideImages[19]})` }}
+          >
+            <span>Edgy Hunk</span>
+          </div>
+        </div>
         <div className="each-slide pixelated">
           <div
             className="mx-auto w-312 md:w-598"
             style={{ backgroundImage: `url(${slideImages[0]})` }}
           >
             <span>Androgyneous hunk</span>
+          </div>
+        </div>
+        <div className="each-slide pixelated">
+          <div
+            className="mx-auto w-312 md:w-598"
+            style={{ backgroundImage: `url(${slideImages[10]})` }}
+          >
+            <span>Silver fox Hunk</span>
+          </div>
+        </div>
+        <div className="each-slide pixelated">
+          <div
+            className="mx-auto w-312 md:w-598"
+            style={{ backgroundImage: `url(${slideImages[11]})` }}
+          >
+            <span>Sleazy Hunk</span>
+          </div>
+        </div>
+        {/* <div className="each-slide pixelated">
+          <div
+            className="mx-auto w-312 md:w-598"
+            style={{ backgroundImage: `url(${slideImages[13]})` }}
+          >
+            <span>Poet Hunk</span>
+          </div>
+        </div> */}
+
+        <div className="each-slide pixelated">
+          <div
+            className="mx-auto w-312 md:w-598"
+            style={{ backgroundImage: `url(${slideImages[15]})` }}
+          >
+            <span>Jealous boyfriend Hunk</span>
+          </div>
+        </div>
+        <div className="each-slide pixelated">
+          <div
+            className="mx-auto w-312 md:w-598"
+            style={{ backgroundImage: `url(${slideImages[16]})` }}
+          >
+            <span>Player Hunk</span>
           </div>
         </div>
 

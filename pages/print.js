@@ -19,9 +19,6 @@ function print() {
             alt="Detail of a hunk print"
           />
         </div>
-        {/* <h1 className=" index-header">
-          Hunks are 10.000 figurative artist-computer generated artworks.
-        </h1> */}
       </header>
       <main className="max-w-screen-xl w-full  px-1.5">
         <section className="index-section mt-10 md:mt-20">
@@ -117,8 +114,12 @@ function print() {
             </h2>
             <p className="index-paragraph mb-8">
               Prints will initially only be sold during live vernissages in
-              Norway, and in most cases, cannot be ordered online. See below for
-              more information.
+              Norway, and in most cases, cannot be ordered online.
+              <span className="mt-3 block">
+                {" "}
+                Are you a Hunk NFT holder who wants to buy a print? Read below
+                for more information.
+              </span>
             </p>
             <h2 className="index-header-sub mt-4 mb-1 border-b border-black">
               Can owners of a Hunks NFT order a print?
@@ -129,9 +130,15 @@ function print() {
                 not warrant the NFT owner the rights to buy a print.
               </span>
               However, we do value the commitment of our NFT collectors who also
-              wish to own a print. Contact us at prints.hunks@gmail.com if you
-              own a Hunk NFT and wish to inquire about a print, and we will
-              check availability.
+              wish to own a print.{" "}
+              <Link href="https://twitter.com/HunksArt">
+                <a target="_blank" className="text-blue-600 font-bold">
+                  {" "}
+                  DM us on Twitter
+                </a>
+              </Link>{" "}
+              if you own a Hunk NFT and wish to inquire about a print, and we
+              will check availability.
             </p>
 
             <Link href="/terms">

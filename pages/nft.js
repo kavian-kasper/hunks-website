@@ -98,10 +98,14 @@ const NFT = () => {
                 The prints and NFTs are sold separately. Holding the NFT does
                 not warrant the NFT owner the rights to buy a print.
               </span>
-              However, we do value the commitment of our NFT collectors, who
-              also wish to own a print. Contact us at hunks.contact@gmail.com if
-              you own a Hunk NFT and wish to order a print, and we will check
-              availability.
+              However, we do value the commitment of our NFT collectors who also
+              wish to own a print and want to accomodate them.{" "}
+              <Link href="/print">
+                <a className="text-blue-600 font-bold">
+                  {" "}
+                  More information here.
+                </a>
+              </Link>{" "}
             </p>
             <button type="button">
               <Link href="/terms">

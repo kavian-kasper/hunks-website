@@ -23,6 +23,7 @@ export const HeadInfo = (props) => {
         />
 
         <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:domain" content="hunks.art" />
         <meta name="twitter:site" content="@HunksArt" />
         <meta name="twitter:url" content="https://hunks.art" />
         <meta
