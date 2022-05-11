@@ -117,7 +117,7 @@ const Slideshow = () => {
             className="mx-auto w-312 md:w-598"
             style={{ backgroundImage: `url(${slideImages[12]})` }}
           >
-            <span>Flamboyant Hunk</span>
+            <span>Tastemaker Hunk</span>
           </div>
         </div>
         <div className="each-slide pixelated">
@@ -161,14 +161,14 @@ const Slideshow = () => {
             <span>Jealous boyfriend Hunk</span>
           </div>
         </div> */}
-        <div className="each-slide pixelated">
+        {/* <div className="each-slide pixelated">
           <div
             className="mx-auto w-312 md:w-598"
             style={{ backgroundImage: `url(${slideImages[16]})` }}
           >
             <span>Player Hunk</span>
           </div>
-        </div>
+        </div> */}
 
         <div className="each-slide pixelated">
           <div
