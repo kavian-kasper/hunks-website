@@ -35,7 +35,7 @@
     @apply primary text-2xl;
   }
   .index-paragraph {
-    @apply font-serif text-lg;
+    @apply font-serif text-lg text-gray-800;
   }
   .index-paragraph-highlight {
     @apply font-bold font-serif;

@@ -39,7 +39,7 @@ const Slideshow = () => {
             className="mx-auto w-312 md:w-598"
             style={{ backgroundImage: `url(${slideImages[1]})` }}
           >
-            <span>New wave Hunk</span>
+            <span>New Wave Hunk</span>
           </div>
         </div>
         <div className="each-slide pixelated">
@@ -47,7 +47,7 @@ const Slideshow = () => {
             className="mx-auto w-312 md:w-598"
             style={{ backgroundImage: `url(${slideImages[6]})` }}
           >
-            <span>Belle de jour hunk</span>
+            <span>Belle de Jour Hunk</span>
           </div>
         </div>
         <div className="each-slide pixelated">
@@ -133,7 +133,7 @@ const Slideshow = () => {
             className="mx-auto w-312 md:w-598"
             style={{ backgroundImage: `url(${slideImages[10]})` }}
           >
-            <span>Silver fox Hunk</span>
+            <span>Silver Fox Hunk</span>
           </div>
         </div>
         <div className="each-slide pixelated">
@@ -175,7 +175,7 @@ const Slideshow = () => {
             className="mx-auto w-312 md:w-598"
             style={{ backgroundImage: `url(${slideImages[5]})` }}
           >
-            <span>Daft hunk</span>
+            <span>Daft Hunk</span>
           </div>
         </div>
       </Slide>

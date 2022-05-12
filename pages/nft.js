@@ -29,9 +29,8 @@ const NFT = () => {
           <div className="index-text-container">
             <p className=" break-words index-paragraph mb-8">
               Hunks are fully on-chain NFTs on the Cardano blockchain. A Hunk
-              NFT is a meta data file containing all the trait info and two
-              base64 encoded PNG images of the Hunk. There is a 312x312px and a
-              598x598px version.
+              NFT contains two base64 encoded PNG images of the Hunk. There is a
+              312x312px and a 598x598px version.
               <span className="mt-3 block">
                 The Hunk NFT is stored on-chain without IPFS or web browser
                 dependencies. More than 10.000 Hunks will never exist, but we
@@ -45,7 +44,9 @@ const NFT = () => {
               </a>
             </Link>
             <h2 className="text-3xl primary font-bold mb-1">Policy ID</h2>
-            <p className="break-words mb-10">[PolicyID]</p>
+            <p className="break-words mb-10">
+              684ffa75d83ccd4dfe179bd37fe679e74d33cce181a6f473337df098
+            </p>
           </div>
         </section>
         <section className="index-section">
@@ -91,6 +92,12 @@ const NFT = () => {
               failure.
             </p>
             <h2 className="index-header-sub mt-4 mb-1 border-b border-black">
+              What is the Hunk distribution?
+            </h2>
+            <p className="index-paragraph">
+              The founders reserves 5% of the collection for personal use.
+            </p>
+            <h2 className="index-header-sub mt-4 mb-1 border-b border-black">
               Can owners of a Hunks NFT purchase a print?
             </h2>
             <p className="index-paragraph mb-8">
@@ -104,6 +111,7 @@ const NFT = () => {
                 <a className="text-blue-600 font-bold"> More information.</a>
               </Link>{" "}
             </p>
+
             <button type="button">
               <Link href="/terms">
                 <a className="mt-2 mb-10 mx-auto inline-block w-40 py-2 border-2 border-blue-600 text-blue-600 font-medium text-xs leading-tight uppercase rounded-full hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out text-center">

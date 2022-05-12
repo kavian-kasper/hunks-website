@@ -10,17 +10,21 @@ function Footer() {
               Twitter
             </a>
           </Link>
-          <Link href="">
-            <a className="text-blue-600">Instagram</a>
+          <Link href="https://www.instagram.com/hunks.art/">
+            <a target="_blank" className="text-blue-600">
+              Instagram
+            </a>
           </Link>
-          <Link href="">
-            <a className="text-blue-600">Cardanoscan</a>
+          <Link href="https://cardanoscan.io/tokenPolicy/684ffa75d83ccd4dfe179bd37fe679e74d33cce181a6f473337df098">
+            <a target="_blank" className="text-blue-600">
+              Cardanoscan
+            </a>
           </Link>
         </div>
 
         <div className="mt-8 md:mt-0 md:order-1 mb-3.5 md:mb-0">
           <p className="text-center text-base text-gray-900">
-            © 2022 Hunks.art All rights reserved.
+            © 2022 Hunks.art. All rights reserved.
           </p>
         </div>
       </div>

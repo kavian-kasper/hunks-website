@@ -3,14 +3,14 @@ import Link from "next/link";
 import HeadInfo from "../components/Head";
 
 function terms() {
-  const contactAddress = "prints.hunks@gmail.com";
+  const contactAddress = "https://twitter.com/HunksArt";
   return (
     <div>
       <HeadInfo title="Terms & Conditions" />
       <header className="index-text-container px-1.5">
         <h1 className="index-header text-black">Terms and Conditions</h1>
         <p className="index-paragraph">
-          Below stipulates Hunks terms & conditions for NFT and Fine Prints
+          Below stipulates Hunks terms & conditions for NFTs and Art Prints
           separately.
         </p>
       </header>
@@ -32,6 +32,12 @@ function terms() {
               and modify the User Owned NFT (“Derivative NFT”) for
               non-commercial, personal use; and (2) display and perform the User
               Owned NFT and/or Derivative NFT for non- commercial, personal use.
+              <span className="mt-3 block">
+                The User Owned NFT is created according to the CIP 25 - NFT
+                Metadata Standard as of May 12. 2022 and is sold as-is.
+                Hunks.art does not have any control over how The User Owned NFT
+                is displayed on any third-party website or service.
+              </span>
             </p>
 
             <p className="index-paragraph mb-4">
@@ -83,9 +89,9 @@ function terms() {
         </section>
         <section className="index-section mt-10 md:mt-20">
           <div className="index-text-container">
-            <h2 className=" index-header text-black">Hunks Fine Print </h2>
+            <h2 className=" index-header text-black">Hunks Art Print </h2>
             <p className="index-paragraph mb-4">
-              When sold online, Hunks fine prints are only sold by contacting
+              When sold online, Hunks Art prints are only sold by contacting
               Hunks directly at {contactAddress}.
             </p>
 
@@ -95,9 +101,9 @@ function terms() {
             </p>
 
             <p className="mb-4 index-paragraph">
-              The seller is Hunks, {contactAddress}, and is hereinafter referred
-              to as the seller. The buyer is the consumer who makes the order,
-              and is hereinafter referred to as the buyer / you.
+              The seller is Hunks.art and is hereinafter referred to as the
+              seller. The buyer is the consumer who makes the order, and is
+              hereinafter referred to as the buyer / you.
             </p>
             <p className="mb-4 index-paragraph">
               <span className="font-bold block"> RIGHT OF WITHDRAWAL</span> You
@@ -119,7 +125,7 @@ function terms() {
               sent free of charge worldwide. Local import fees not included.
               Internationally shipped packages may be subject to customs and
               import fees. The exact amount of such fees are determined by your
-              local customs laws. You will receive the products between 5 and 20
+              local customs laws. The product will be shipped between 5 and 20
               days after you have ordered. All prints are wrapped in protective
               tissue paper and rolled up for shipping in solid cardboard tubes.
               Uncollected parcels are sent back to us after approximately 14
@@ -129,19 +135,19 @@ function terms() {
               <span className="block font-bold"> PAYMENT</span>Online purchases
               are made in ADA, the native currency of the Cardano blockchain.
               After completing the purchase, you will receive an order
-              confirmation in the email you contacted Hunks from. You will also
-              receive an email with a tracking number when the package is
-              dispatched.
+              confirmation by way of email. You will also receive an email with
+              a tracking number when the package is dispatched.
             </p>
             <p className="mb-4 index-paragraph">
               <span className="font-bold block"> COMPLAINTS AND WARANTY</span>{" "}
               Hunks hope you enjoy your print(s). Should you discover an error,
-              you must inform of the error within a reasonable time. It must be
-              present when you receive the product and must be documented at the
-              same time, for example with a photo. If the product has faults or
-              defects, you can demand correction, get a new similar product or
-              cancel the purchase. If this is the case you must return the
-              defect product, shipping charges are covered by Hunks.
+              you must inform of the error within a week of receiving the print.
+              It must be present when you receive the product and must be
+              documented at the same time, for example with a photo. If the
+              product has faults or defects, you can demand correction, get a
+              new similar product or cancel the purchase. If this is the case
+              you must return the defect product, shipping charges are covered
+              by Hunks.
             </p>
             <ol>
               <li>

@@ -29,7 +29,7 @@ function print() {
               may choose between three sizes, but only one print will ever
               exist. If a collector chooses the Regular size, the Large and XL
               size will never be printed, vice versa. All prints are printed on
-              Canson ... paper.
+              Canson paper.
             </p>
           </div>
           {/* container */}
@@ -43,16 +43,12 @@ function print() {
                 <table className="w-full mb-6">
                   <tbody>
                     <tr className="border-t">
-                      <td className="py-3">Paper size</td>
-                      <td className="text-right">10x10cm</td>
+                      <td className="py-3">Coming soon.</td>
+                      {/* <td className="text-right">Coming soon.</td> */}
                     </tr>
                     <tr className="border-t">
-                      <td className="py-3">Paper size</td>
-                      <td className="text-right">10x10cm</td>
-                    </tr>
-                    <tr className="border-t">
-                      <td className="py-3">Paper size</td>
-                      <td className="text-right">10x10cm</td>
+                      {/* <td className="py-3">Image size:</td> */}
+                      {/* <td className="text-right">Coming soon.</td> */}
                     </tr>
                   </tbody>
                 </table>
@@ -65,16 +61,12 @@ function print() {
                 <table className="w-full mb-6">
                   <tbody>
                     <tr className="border-t">
-                      <td className="py-3">Paper size</td>
-                      <td className="text-right">10x10cm</td>
+                      <td className="py-3">Coming soon.</td>
+                      {/* <td className="text-right">Coming soon.</td> */}
                     </tr>
                     <tr className="border-t">
-                      <td className="py-3">Paper size</td>
-                      <td className="text-right">10x10cm</td>
-                    </tr>
-                    <tr className="border-t">
-                      <td className="py-3">Paper size</td>
-                      <td className="text-right">10x10cm</td>
+                      {/* <td className="py-3">Image size:</td> */}
+                      {/* <td className="text-right">Coming soon.</td> */}
                     </tr>
                   </tbody>
                 </table>
@@ -87,16 +79,12 @@ function print() {
                 <table className="w-full mb-6">
                   <tbody>
                     <tr className="border-t">
-                      <td className="py-3">Paper size</td>
-                      <td className="text-right">10x10cm</td>
+                      <td className="py-3">Coming soon.</td>
+                      {/* <td className="text-right">Coming soon.</td> */}
                     </tr>
                     <tr className="border-t">
-                      <td className="py-3">Paper size</td>
-                      <td className="text-right">10x10cm</td>
-                    </tr>
-                    <tr className="border-t">
-                      <td className="py-3">Paper size</td>
-                      <td className="text-right">10x10cm</td>
+                      {/* <td className="py-3">Image size:</td> */}
+                      {/* <td className="text-right">Coming soon.</td> */}
                     </tr>
                   </tbody>
                 </table>
@@ -113,10 +101,9 @@ function print() {
               Can I order a print?
             </h2>
             <p className="index-paragraph mb-8">
-              Prints will initially only be sold during live vernissages in
-              Norway, and in most cases, cannot be ordered online.
+              Prints will initially be sold during events in Norway, and in most
+              cases, cannot be ordered online.
               <span className="mt-3 block">
-                {" "}
                 Are you a Hunk NFT holder who wants to buy a print? Read below
                 for more information.
               </span>

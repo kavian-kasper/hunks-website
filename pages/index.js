@@ -67,7 +67,7 @@ export default function Home() {
             <h1 className="text-2xl mt-8 py-2 font-light md:text-3xl bg-gray-100 px-2">
               Available as 10.000 on-chain{" "}
               {/* <div className="whitespace-nowrap md:whitespace-normal w-full"> */}
-              <Link href="/print">
+              <Link href="/nft">
                 <a className="text-gray-700 border-b-4  border-purple-600 cursor-pointer hover:text-indigo-600 font-bold">
                   Cardano NFTs
                 </a>
@@ -548,7 +548,7 @@ export default function Home() {
             {/* sub container */}
             <div className="max-w-md mt-4">
               <h4 className="index-header-sub border-b border-black">
-                Trait design.
+                Trait Design.
               </h4>
               <p className="index-paragraph">
                 Traits are hand-drawn and then aggregated by the computer
@@ -577,10 +577,10 @@ export default function Home() {
           <div className="flex justify-evenly flex-wrap items-start">
             {/* sub container */}
             <div className="max-w-md mt-4 ">
-              <h4 className="index-header-sub border-b border-black">
+              <h4 className="index-header-sub border-b border-black mt-9">
                 Analytics.
               </h4>
-              <p className="index-paragraph mt-3">
+              <p className="index-paragraph">
                 Analytics is essential in order to tweak the output of the
                 entire collection. Some traits are more compatible than others,
                 and knowing when to boost or reduce the probability of a trait
