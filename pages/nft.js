@@ -1,6 +1,7 @@
 import React from "react";
 import HeadInfo from "../components/Head";
 import Link from "next/link";
+import { useEffect } from "react";
 
 const data = require("../data/all_hunks.json");
 
@@ -13,6 +14,13 @@ for (let hunk in data) {
 }
 
 const NFT = () => {
+  useEffect(() => {
+    try {
+      fetch("/api/nftVisit");
+    } catch (error) {
+      console.log(error);
+    }
+  }, []);
   return (
     <>
       <HeadInfo

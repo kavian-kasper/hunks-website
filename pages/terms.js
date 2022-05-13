@@ -1,8 +1,16 @@
 import React from "react";
 import Link from "next/link";
 import HeadInfo from "../components/Head";
+import { useEffect } from "react";
 
 function terms() {
+  useEffect(() => {
+    try {
+      fetch("/api/termsVisit");
+    } catch (error) {
+      console.log(error);
+    }
+  }, []);
   const contactAddress = "https://twitter.com/HunksArt";
   return (
     <div>

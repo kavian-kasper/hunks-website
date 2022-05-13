@@ -1,8 +1,16 @@
 import React from "react";
 import Link from "next/link";
 import HeadInfo from "../components/Head";
+import { useEffect } from "react";
 
 function print() {
+  useEffect(() => {
+    try {
+      fetch("/api/printVisit");
+    } catch (error) {
+      console.log(error);
+    }
+  }, []);
   return (
     <div>
       <HeadInfo

@@ -1,8 +1,16 @@
 import React from "react";
 import Link from "next/link";
 import HeadInfo from "../components/Head";
+import { useEffect } from "react";
 
 function Mint() {
+  useEffect(() => {
+    try {
+      fetch("/api/mintVisit");
+    } catch (error) {
+      console.log(error);
+    }
+  }, []);
   return (
     <div>
       <HeadInfo

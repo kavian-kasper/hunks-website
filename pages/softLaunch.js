@@ -3,6 +3,14 @@ import { useState, useEffect } from "react";
 import Pgateway from "../components/Pgateway";
 
 const MintGateway = ({ nftCode, gatewayCode }) => {
+  useEffect(() => {
+    try {
+      fetch("/api/softLaunchVisit");
+    } catch (error) {
+      console.log(error);
+    }
+  }, []);
+
   const price = 130;
   let input = "";
   const mintButton = <Pgateway paymentFunction={openPaymentWindow} />;
