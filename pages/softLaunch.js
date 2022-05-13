@@ -19,7 +19,6 @@ const MintGateway = ({ nftCode, gatewayCode }) => {
   const getPasswordValue = () => {
     const userValue = event.target.value;
     input = userValue;
-    console.log(input);
     if (input == gatewayCode) {
       setShowGateway(mintButton);
     }
@@ -42,17 +41,8 @@ const MintGateway = ({ nftCode, gatewayCode }) => {
   //   </button>
   // );
 
-  useEffect(() => {
-    try {
-      fetch("/api/mintVisit");
-    } catch (error) {
-      console.log(error);
-    }
-  }, []);
-
   function openPaymentWindow() {
     const paymentUrl = "https://payment.nft-maker.io/?p=" + nftCode;
-    console.log("paymentURL", paymentUrl);
 
     // Specify the popup width and height
     const popupWidth = 500;
@@ -127,7 +117,6 @@ export default MintGateway;
 export async function getServerSideProps() {
   const NFTMAKER = process.env.NFTMAKERCODE;
   const gatewayKey = process.env.GATEWAYCODE;
-  console.log("fetch");
   return {
     props: {
       nftCode: NFTMAKER,
