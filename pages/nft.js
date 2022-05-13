@@ -15,7 +15,7 @@ for (let hunk in data) {
 const NFT = () => {
   return (
     <>
-      <HeadInfo title="NFT" />
+      <HeadInfo title="NFT" twitterTitle="Say hello to Hunks, the new punks." />
       <header className="w-full relative">
         <div className="nft-banner w-full"></div>
         <h1 className="absolute nft-header p-1 text-6xl text-white font-bold">

@@ -300,7 +300,10 @@ const Statistics = () => {
 
   return (
     <>
-      <HeadInfo title="Traits" />
+      <HeadInfo
+        title="Traits"
+        twitterTitle="Say hello to Hunks, the new punks."
+      />
       <main className="flex flex-col items-center ">
         <section className="bg-primary w-full">
           <img

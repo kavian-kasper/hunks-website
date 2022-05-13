@@ -5,7 +5,10 @@ import HeadInfo from "../components/Head";
 function Mint() {
   return (
     <div>
-      <HeadInfo title="Mint" />
+      <HeadInfo
+        title="Mint Hunks"
+        twitterTitle="Say hello to Hunks, the new punks."
+      />
       <main className="max-w-screen-xl w-full flex flex-col px-1.5">
         <section className="index-section  mt-10 md:mt-16 lg:mt-26">
           <div className="index-text-container">

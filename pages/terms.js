@@ -6,7 +6,10 @@ function terms() {
   const contactAddress = "https://twitter.com/HunksArt";
   return (
     <div>
-      <HeadInfo title="Terms & Conditions" />
+      <HeadInfo
+        title="Terms & Conditions"
+        twitterTitle="Say hello to Hunks, the new punks."
+      />
       <header className="index-text-container px-1.5">
         <h1 className="index-header text-black">Terms and Conditions</h1>
         <p className="index-paragraph">

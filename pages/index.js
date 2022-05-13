@@ -16,7 +16,10 @@ export default function Home() {
 
   return (
     <div>
-      <HeadInfo title="Home" />
+      <HeadInfo
+        title="Home"
+        twitterTitle="Say hello to Hunks, the new punks."
+      />
 
       <header className="max-w-screen-xl w-full h-auto flex flex-col px-1.5">
         <div className="flex flex-col lg:flex-row  items-center justify-around w-full">

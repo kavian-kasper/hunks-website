@@ -3,6 +3,7 @@ import Script from "next/script";
 
 export const HeadInfo = (props) => {
   const title = props.title;
+  const twitterTitle = props.twitterTitle;
   return (
     <>
       <Head>
@@ -26,10 +27,7 @@ export const HeadInfo = (props) => {
         <meta name="twitter:domain" content="hunks.art" />
         <meta name="twitter:site" content="@HunksArt" />
         <meta name="twitter:url" content="https://hunks.art" />
-        <meta
-          name="twitter:title"
-          content="Say hello to Hunks, the new punks."
-        />
+        <meta name="twitter:title" content={twitterTitle} />
         <meta
           name="twitter:description"
           content="It began as a joke, but escalated into our most serious art project."

@@ -5,7 +5,10 @@ import HeadInfo from "../components/Head";
 function print() {
   return (
     <div>
-      <HeadInfo title="Print" />
+      <HeadInfo
+        title="Print"
+        twitterTitle="Say hello to Hunks, the new punks."
+      />
       <header className="index-text-container px-1.5">
         <div className="mb-10 mt-10 md:mt-20">
           <img

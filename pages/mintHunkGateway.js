@@ -79,7 +79,7 @@ const MintGateway = ({ nftCode, gatewayCode }) => {
   }
   return (
     <div className="mb-4">
-      <HeadInfo title="Mint Hunks" />
+      <HeadInfo title="Mint Hunks" twitterTitle="Hunks │ Soft-launch Mint" />
       <div>
         <main className="flex flex-col justify-center items-center mt-14 max-w-4xl mx-auto px-2">
           {/* PRICE 1  */}
