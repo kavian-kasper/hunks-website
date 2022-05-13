@@ -19,6 +19,7 @@ export default function Home() {
       <HeadInfo
         title="Home"
         twitterTitle="Say hello to Hunks, the new punks."
+        twitterDescription="It began as a joke, but escalated into our most serious art project."
       />
 
       <header className="max-w-screen-xl w-full h-auto flex flex-col px-1.5">

@@ -8,6 +8,7 @@ function print() {
       <HeadInfo
         title="Print"
         twitterTitle="Say hello to Hunks, the new punks."
+        twitterDescription="It began as a joke, but escalated into our most serious art project."
       />
       <header className="index-text-container px-1.5">
         <div className="mb-10 mt-10 md:mt-20">

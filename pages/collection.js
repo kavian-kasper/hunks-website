@@ -303,6 +303,7 @@ const Statistics = () => {
       <HeadInfo
         title="Traits"
         twitterTitle="Say hello to Hunks, the new punks."
+        twitterDescription="It began as a joke, but escalated into our most serious art project."
       />
       <main className="flex flex-col items-center ">
         <section className="bg-primary w-full">

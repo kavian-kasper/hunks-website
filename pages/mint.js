@@ -8,6 +8,7 @@ function Mint() {
       <HeadInfo
         title="Mint Hunks"
         twitterTitle="Say hello to Hunks, the new punks."
+        twitterDescription="It began as a joke, but escalated into our most serious art project."
       />
       <main className="max-w-screen-xl w-full flex flex-col px-1.5">
         <section className="index-section  mt-10 md:mt-16 lg:mt-26">

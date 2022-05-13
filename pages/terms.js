@@ -9,6 +9,7 @@ function terms() {
       <HeadInfo
         title="Terms & Conditions"
         twitterTitle="Say hello to Hunks, the new punks."
+        twitterDescription="It began as a joke, but escalated into our most serious art project."
       />
       <header className="index-text-container px-1.5">
         <h1 className="index-header text-black">Terms and Conditions</h1>
