@@ -76,15 +76,21 @@ const NFT = () => {
               How much will a Hunk NFT cost?
             </h2>
             <p className="index-paragraph mb-8">
-              The price of a Hunk is disclosed upon request only. Read more
-              link.
+              <span className="block primary font-bold">1. Pricing</span>{" "}
+              Disclosed upon request.
+              <Link href="https://twitter.com/HunksArt">
+                <a target="_blank" className="text-blue-600">
+                  {" "}
+                  DM us on Twitter.
+                </a>
+              </Link>
             </p>
             <h2 className="index-header-sub border-b border-black mb-1">
               Will the Policy be locked??
             </h2>
             <p className="index-paragraph mb-8">
-              The policy will lock on ... ensuring that the NFT collection can
-              never be changed.
+              The policy will lock on 01/02/2023, ensuring that the NFT
+              collection can never be altered.
             </p>
             <h2 className="index-header-sub mt-4 mb-1 border-b border-black">
               Where can I see the entire Hunks collection?
