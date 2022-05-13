@@ -3,7 +3,7 @@ import Link from "next/link";
 import HeadInfo from "../components/Head";
 import { useEffect } from "react";
 
-function print() {
+function Print() {
   useEffect(() => {
     try {
       fetch("/api/printVisit");
@@ -152,4 +152,4 @@ function print() {
   );
 }
 
-export default print;
+export default Print;

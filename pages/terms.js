@@ -3,7 +3,7 @@ import Link from "next/link";
 import HeadInfo from "../components/Head";
 import { useEffect } from "react";
 
-function terms() {
+function Terms() {
   useEffect(() => {
     try {
       fetch("/api/termsVisit");
@@ -195,4 +195,4 @@ function terms() {
   );
 }
 
-export default terms;
+export default Terms;
