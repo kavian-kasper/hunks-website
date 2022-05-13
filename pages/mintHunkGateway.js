@@ -1,8 +1,6 @@
 import HeadInfo from "../components/Head";
 import { useState, useEffect } from "react";
-import axios from "axios";
-import Link from "next/link";
-import Pgateway from "../components/minting/Pgateway";
+import Pgateway from "../components/Pgateway";
 
 const MintGateway = ({ nftCode, gatewayCode }) => {
   const price = 130;
@@ -103,8 +101,6 @@ const MintGateway = ({ nftCode, gatewayCode }) => {
                 </div>
 
                 {showGateway}
-
-                {/* <Pgateway paymentFunction={openPaymentWindow} /> */}
               </div>
             </div>
           </div>
