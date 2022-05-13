@@ -25,7 +25,7 @@ function Mint() {
             <div className="mb-4">
               <p className="">
                 <span className="block primary font-bold">2. Get a Hunk </span>
-                We will DM you back with a mint address.
+                We will DM you back with a mint link.
               </p>
             </div>
             <div>
