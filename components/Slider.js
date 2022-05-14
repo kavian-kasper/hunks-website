@@ -15,7 +15,7 @@ const slideImages = [
   "/slider-img/hacker.png",
   "/slider-img/silverFox.png",
   "/slider-img/sleazy.png",
-  "/slider-img/onfleek.png",
+  "/slider-img/cyber.png",
   "/slider-img/poet.png",
   "/slider-img/cultured.png",
   "/slider-img/jealous.png",
@@ -61,9 +61,9 @@ const Slideshow = () => {
         <div className="each-slide pixelated">
           <div
             className="mx-auto w-312 md:w-598"
-            style={{ backgroundImage: `url(${slideImages[18]})` }}
+            style={{ backgroundImage: `url(${slideImages[12]})` }}
           >
-            <span>Classic Hunk</span>
+            <span>Cyberhunk</span>
           </div>
         </div>
 
@@ -112,14 +112,6 @@ const Slideshow = () => {
           </div>
         </div>
 
-        <div className="each-slide pixelated">
-          <div
-            className="mx-auto w-312 md:w-598"
-            style={{ backgroundImage: `url(${slideImages[12]})` }}
-          >
-            <span>Tastemaker Hunk</span>
-          </div>
-        </div>
         <div className="each-slide pixelated">
           <div
             className="mx-auto w-312 md:w-598"
