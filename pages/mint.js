@@ -53,7 +53,7 @@ const Mint = ({ nftCode, gatewayCode }) => {
   const mintButton1 = <Pgateway paymentFunction={payment1} />;
 
   function payment1() {
-    const paymentUrl = "https://payment.nft-maker.io/?p=" + nftCode + "1";
+    const paymentUrl = "https://payment.nft-maker.io/?p=1" + nftCode;
 
     // Specify the popup width and height
     const popupWidth = 500;
