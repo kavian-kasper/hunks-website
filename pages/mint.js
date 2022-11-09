@@ -102,7 +102,7 @@ const Mint = ({ nftCode, gatewayCode }) => {
                 Price per Hunk: 9.49 ADA + transaction fees.
               </p>
               <p className="text-center mb-6">
-                Whitelisted OG wallets: 5.49 ADA + transaction fees.
+                Whitelisted OG wallets: 40% discount + transaction fees.
                 <span className="text-xs text-gray-500 block">
                   Discount won't show until you click Place order.
                 </span>
