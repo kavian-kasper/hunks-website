@@ -7,6 +7,7 @@ function Pgateway(props) {
     <div>
       <img
         src="https://pro.nft-maker.io/images/buttons/paybutton_1_1.svg"
+        alt="Payment gateway"
         onClick={paymentFunction}
       />
     </div>

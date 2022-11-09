@@ -131,7 +131,7 @@ const Mint = ({ nftCode, gatewayCode }) => {
                       </div>
                       <p className="text-center mt-3">{rarityResponse}</p>
                     </div>
-                    <Link href="/nft#rarity">
+                    <Link href="/nft#rarity" passHref>
                       <p className="link-text text-center font-sans font-bold cursor-pointer">
                         How is rarity calculated?
                       </p>
@@ -139,7 +139,10 @@ const Mint = ({ nftCode, gatewayCode }) => {
                   </div>
                 </div>
               </div>
-              <Link href="https://opencnft.io/684ffa75d83ccd4dfe179bd37fe679e74d33cce181a6f473337df098/asset">
+              <Link
+                href="https://opencnft.io/684ffa75d83ccd4dfe179bd37fe679e74d33cce181a6f473337df098/asset"
+                passHref
+              >
                 <a className="text-center font-sans" target="_blank">
                   View currently minted Hunks at{" "}
                   <span className="link-text font-sans font-bold">
