@@ -144,10 +144,7 @@ const Mint = ({ nftCode, gatewayCode }) => {
                   </div>
                 </div>
               </div>
-              <Link
-                href="https://opencnft.io/684ffa75d83ccd4dfe179bd37fe679e74d33cce181a6f473337df098/asset"
-                passHref
-              >
+              <Link href="https://opencnft.io/hunks/asset" passHref>
                 <a className="text-center font-sans" target="_blank">
                   View currently minted Hunks at{" "}
                   <span className="link-text font-sans font-bold">
