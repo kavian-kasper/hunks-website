@@ -103,7 +103,11 @@ const Mint = ({ nftCode, gatewayCode }) => {
               </p>
               <p className="text-center mb-6">
                 Whitelisted OG wallets: 5.49 ADA + transaction fees.
+                <span className="text-xs text-gray-500 block">
+                  Discount won't show until you click Place order.
+                </span>
               </p>
+
               {/* PRICE 1  */}
               <div className=" flex flex-col justify-center items-center mb-6 border p-6 border-gray-300 rounded-md">
                 <h3 className="ml-4 text-2xl font-nunito  text-gray-900 ">
