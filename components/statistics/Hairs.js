@@ -16,9 +16,9 @@ function Hairs(props) {
       onClick={() => handleClick(traitPath)}
     >
       <dd className="text-xs mt-1 break-all">{traitName}</dd>
-      {/* <dt className="text-xs" style={{ color: tickerColor }}>
+      <dt className="text-xs" style={{ color: tickerColor }}>
         {amount} ({percent}%)
-      </dt> */}
+      </dt>
       <div>
         <div className=" w-24">
           <img

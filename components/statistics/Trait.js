@@ -21,17 +21,21 @@ function Trait(props) {
       >
         <dd className="text-xs md:text-sm tracking-wide font-bold  text-gray-700 mt-1 break-words">
           {traitName}
+          {/* ({amount}) */}
         </dd>
-        {/* <dt className="text-xs text-gray-500 tracking-wide">
-          {amount} / 10000 ({percent}%)
-        </dt> */}
-        {/* <svg
-          className="w-full h-6 border-solid"
-          style={{ background: tickerColor }}
-        ></svg> */}
+        {
+          <dt className="text-xs text-gray-500 tracking-wide">
+            {amount} ({percent}%)
+          </dt>
+        }
+        {/* {
+          <svg
+            className="w-full h-6 border-solid"
+            style={{ background: tickerColor }}
+          ></svg>
+        } */}
         <img
-          // h-16
-          className="pixelated bg-primary mb-1 w-36 md:w-48 object-contain"
+          className="pixelated bg-primary mb-1 w-full object-contain"
           src={"/traits_" + traitPath + "/" + traitName + ".png"}
           alt={traitName}
         />

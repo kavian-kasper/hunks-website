@@ -57,7 +57,7 @@ export default function Home() {
             <button type="button" className="mx-auto w-full mt-4">
               <Link href="/mint">
                 <a className="animate-bounce mt-10 mb-10 mx-auto inline-block w-60 py-4 bg-indigo-500 text-white font-medium text-sm leading-tight uppercase rounded-full hover:bg-black hover:bg-opacity-80 cursor-pointer focus:outline-none focus:ring-0 transition duration-150 ease-in-out text-center">
-                  Limited NFT pre-sale
+                  Minting now
                 </a>
               </Link>
             </button>
@@ -98,7 +98,7 @@ export default function Home() {
         <button type="button" className="mx-auto w-full">
           <Link href="/collection">
             <a className="mt-10 mb-10 mx-auto inline-block w-60  py-4 bg-indigo-500 text-white font-medium text-sm leading-tight uppercase rounded-full hover:bg-black hover:bg-opacity-80 cursor-pointer focus:outline-none focus:ring-0 transition duration-150 ease-in-out text-center">
-              View traits in collection
+              View traits
             </a>
           </Link>
         </button>

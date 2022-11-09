@@ -16,6 +16,12 @@
     font-family: "Helvetica Neue", serif;
   }
 
+  .eth-text {
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+      1px 1px 0 #000;
+  }
+
   a,
   button {
     @apply transition duration-300;
@@ -41,7 +47,7 @@
     @apply font-bold font-serif;
   }
   .link-text {
-    @apply text-blue-600 font-serif;
+    @apply text-blue-600;
   }
 
   .index-cta {

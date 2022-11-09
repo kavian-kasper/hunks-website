@@ -20,6 +20,11 @@ function Footer() {
               Cardanoscan
             </a>
           </Link>
+          <Link href="https://opencnft.io/684ffa75d83ccd4dfe179bd37fe679e74d33cce181a6f473337df098/asset">
+            <a target="_blank" className="text-blue-600">
+              OpenCNFT
+            </a>
+          </Link>
         </div>
 
         <div className="mt-8 md:mt-0 md:order-1 mb-3.5 md:mb-0">

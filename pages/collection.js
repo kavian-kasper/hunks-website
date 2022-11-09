@@ -43,63 +43,62 @@ const Statistics = () => {
 
   // TRAIT DATA
   //Base
-  const nude = 60;
-  const tan = 30;
-  const daft = 10;
+  const nude = 5036;
+  const tan = 4960;
+  const daft = 4;
 
   // Top
-  const shirt = 3;
-  const tankTop = 6;
-  const turtleneckArmy = 3;
-  const turtleneckBlack = 6;
-  const turtleneckBlue = 3;
-  const turtleneckGray = 6;
-  const turtleneckPink = 3;
-  const turtleneckRust = 6;
-  const turtleneckViolet = 3;
-  const turtleneckWhite = 6;
-  const turtleneckYellow = 3;
-  const noneTop = 6;
+  const shirt = 639;
+  const tankTop = 612;
+  const turtleneckArmy = 1058;
+  const turtleneckBlack = 695;
+  const turtleneckBlue = 1001;
+  const turtleneckGray = 718;
+  const turtleneckPink = 611;
+  const turtleneckRust = 1077;
+  const turtleneckViolet = 864;
+  const turtleneckWhite = 846;
+  const turtleneckYellow = 1076;
+  const noneTop = 803;
 
   // Top Secondary
-  const chain = 3;
-  const leatherJacket = 3;
-  const looseTie = 3;
-  const suspenders = 3;
-  const noneTopSecondary = 3;
+  const chain = 886;
+  const leatherJacket = 999;
+  const suspenders = 2062;
+  const noneTopSecondary = 6053;
 
   // Eyes
-  const staringTan = 3;
-  const staringNude = 6;
-  const shadesDark = 3;
-  const shadesLargeDark = 6;
-  const shadesYellow = 3;
-  const raised = 6;
+  const staringTan = 1076;
+  const staringNude = 1156;
+  const shadesDark = 1851;
+  const shadesLargeDark = 1246;
+  const shadesYellow = 2384;
+  const raised = 2283;
 
   // Mouth
-  const lips = 3;
-  const moustacheBlack = 3;
-  const moustacheChestnut = 3;
-  const moustacheSilverFox = 3;
-  const poutNude = 3;
-  const poutTan = 3;
-  const teeth = 3;
+  const lips = 3414;
+  const moustacheBlack = 981;
+  const moustacheChestnut = 731;
+  const moustacheSilverFox = 143;
+  const poutNude = 1232;
+  const poutTan = 1327;
+  const teeth = 2168;
 
   // Facial Hair
-  const fullBeardBlack = 3;
-  const fullBeardChestnut = 3;
-  const goateeBlack = 3;
-  const goateeChestnut = 3;
-  const noneFacialHair = 3;
+  const fullBeardBlack = 398;
+  const fullBeardChestnut = 346;
+  const goateeBlack = 588;
+  const goateeChestnut = 528;
+  const noneFacialHair = 8140;
 
   // Headwear
-  const beanieArmy = 3;
-  const beanieYellow = 3;
-  const beretArmy = 3;
-  const beretRust = 3;
-  const snapBackBlack = 3;
-  const snapBackPink = 3;
-  const noneHeadwear = 3;
+  const beanieArmy = 226;
+  const beanieYellow = 350;
+  const beretArmy = 150;
+  const beretRust = 309;
+  const snapBackBlack = 360;
+  const snapBackPink = 280;
+  const noneHeadwear = 8325;
 
   // Cigarette
   const regular = 3;
@@ -162,7 +161,7 @@ const Statistics = () => {
   const [topSecondary, setTopSecondary] = useState({
     datasets: [
       {
-        data: [chain, leatherJacket, looseTie, suspenders, noneTopSecondary],
+        data: [chain, leatherJacket, suspenders, noneTopSecondary],
         backgroundColor: [yellow, brown, tanColor, black, none],
         borderWidth: 0,
       },
@@ -261,13 +260,13 @@ const Statistics = () => {
   // DATASET HAIR
   function calcHair(hairsArray) {
     hairsArray.forEach((hair) => {
-      if (hair.distribution < 1) {
+      if (hair.distribution / 100 < 1) {
         hair.color = "#d9534f";
       }
-      if (hair.distribution >= 1 && hair.distribution < 3) {
+      if (hair.distribution / 100 >= 1 && hair.distribution / 100 < 2) {
         hair.color = "#f0ad4e";
       }
-      if (hair.distribution >= 3) {
+      if (hair.distribution / 100 >= 2) {
         hair.color = "#5cb85c";
       }
     });
@@ -280,7 +279,7 @@ const Statistics = () => {
     let percentOfTotalArray = [];
     for (let i = 0; i < array.length; i++) {
       let percentOfTotal = (array[i] / sum) * 100;
-      percentOfTotal = percentOfTotal.toFixed(1);
+      percentOfTotal = percentOfTotal.toFixed(2);
       percentOfTotalArray.push(percentOfTotal);
     }
     return percentOfTotalArray;
@@ -288,17 +287,17 @@ const Statistics = () => {
   // Calculate percentages of single
   function addSumOfSingle(hair, amount) {
     let percentOfTotal = (hair / amount) * 100;
-    percentOfTotal = percentOfTotal.toFixed(3);
+    percentOfTotal = percentOfTotal.toFixed(2);
     return percentOfTotal;
   }
   // Percentages
-  const skinPercentage = addSum(skin.datasets[0].data, 100);
-  const topPercentage = addSum(top.datasets[0].data, 200);
-  const topSecondaryPercentage = addSum(topSecondary.datasets[0].data, 24);
-  const eyesPercentage = addSum(eyes.datasets[0].data, 18);
-  const mouthPercentage = addSum(mouth.datasets[0].data, 100);
-  const facialHairPercentage = addSum(facialHair.datasets[0].data, 100);
-  const headwearPercentage = addSum(headwear.datasets[0].data, 100);
+  const skinPercentage = addSum(skin.datasets[0].data, 10000);
+  const topPercentage = addSum(top.datasets[0].data, 10000);
+  const topSecondaryPercentage = addSum(topSecondary.datasets[0].data, 10000);
+  const eyesPercentage = addSum(eyes.datasets[0].data, 10000);
+  const mouthPercentage = addSum(mouth.datasets[0].data, 10000);
+  const facialHairPercentage = addSum(facialHair.datasets[0].data, 10000);
+  const headwearPercentage = addSum(headwear.datasets[0].data, 10000);
 
   // Toggle modal Image
   const handleClick = (modalImage) => {
@@ -314,16 +313,16 @@ const Statistics = () => {
         twitterDescription="It began as a joke, but escalated into our most serious art project."
       />
       <main className="flex flex-col items-center ">
-        <section className="bg-primary w-full">
+        {/* <section className="bg-primary w-full">
           <img
             className="pixelated mx-auto object-contain object-bottom"
             src="/hunk-with-traits-dotted.png"
             alt="Hunk trait description"
           />
-        </section>
+        </section> */}
         {/* trait nav */}
         {/* Spacer div */}
-        <div className="px-2">
+        <div className="px-2 mt-10">
           <section
             className="bg-white w-full pl-4 max-w-6xl pb-6 mb-12 md:mb-24 shadow-md rounded-md"
             id="base"
@@ -388,16 +387,22 @@ const Statistics = () => {
                   traitName={"Nude"}
                   traitPath={"skin"}
                   handleClick={handleClick}
+                  percent={skinPercentage[0]}
+                  amount={skin.datasets[0].data[0]}
                 />
                 <Trait
                   traitName={"Tan"}
                   traitPath={"skin"}
                   handleClick={handleClick}
+                  percent={skinPercentage[1]}
+                  amount={skin.datasets[0].data[1]}
                 />
                 <Trait
                   traitName={"Daft"}
                   traitPath={"skin"}
                   handleClick={handleClick}
+                  percent={0.0004}
+                  amount={4}
                 />
               </div>
             </div>
@@ -640,22 +645,13 @@ const Statistics = () => {
                   amount={topSecondary.datasets[0].data[1]}
                 />
 
-                {/* <Trait
-                  traitName={"Loose Tie"}
-                  traitPath={"top_secondary"}
-                  handleClick={handleClick}
-                  tickerColor={tanColor}
-                  percent={topSecondaryPercentage[2]}
-                  amount={topSecondary.datasets[0].data[2]}
-                /> */}
-
                 <Trait
                   traitName={"Suspenders"}
                   traitPath={"top_secondary"}
                   handleClick={handleClick}
                   tickerColor={black}
-                  percent={topSecondaryPercentage[3]}
-                  amount={topSecondary.datasets[0].data[3]}
+                  percent={topSecondaryPercentage[2]}
+                  amount={topSecondary.datasets[0].data[2]}
                 />
 
                 <Trait
@@ -664,8 +660,8 @@ const Statistics = () => {
                   textSizeOverride="text-xs"
                   handleClick={handleClick}
                   tickerColor={none}
-                  percent={topSecondaryPercentage[4]}
-                  amount={topSecondary.datasets[0].data[4]}
+                  percent={topSecondaryPercentage[3]}
+                  amount={topSecondary.datasets[0].data[3]}
                 />
               </div>
             </div>
@@ -1279,16 +1275,16 @@ const Statistics = () => {
                   traitPath={"cigarette"}
                   handleClick={handleClick}
                   tickerColor={peach}
-                  percent={50}
-                  amount={5000}
+                  percent={23.25}
+                  amount={23.25}
                 />
                 <Trait
                   traitName={"None (Cigarette)"}
                   traitPath={"cigarette"}
                   handleClick={handleClick}
                   tickerColor={none}
-                  percent={50}
-                  amount={5000}
+                  percent={76.75}
+                  amount={7675}
                 />
               </div>
               <div className="w-1/3">{/* spacer */}</div>
@@ -1360,16 +1356,16 @@ const Statistics = () => {
                   traitPath={"earring"}
                   handleClick={handleClick}
                   tickerColor={tanColor}
-                  percent={33}
-                  amount={3333}
+                  percent={22.24}
+                  amount={2224}
                 />
                 <Trait
                   traitName={"None (Earring)"}
                   traitPath={"earring"}
                   handleClick={handleClick}
                   tickerColor={none}
-                  percent={66}
-                  amount={6666}
+                  percent={77.75}
+                  amount={7776}
                 />
               </div>
               <div className="w-1/3">{/* spacer */}</div>

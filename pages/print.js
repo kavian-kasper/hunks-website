@@ -55,12 +55,12 @@ function Print() {
                 <table className="w-full mb-6">
                   <tbody>
                     <tr className="border-t">
-                      <td className="py-3">Coming soon.</td>
-                      {/* <td className="text-right">Coming soon.</td> */}
+                      <td className="py-3">TBA</td>
+                      {/* <td className="text-right">TBA</td> */}
                     </tr>
                     <tr className="border-t">
                       {/* <td className="py-3">Image size:</td> */}
-                      {/* <td className="text-right">Coming soon.</td> */}
+                      {/* <td className="text-right">TBA</td> */}
                     </tr>
                   </tbody>
                 </table>
@@ -73,12 +73,12 @@ function Print() {
                 <table className="w-full mb-6">
                   <tbody>
                     <tr className="border-t">
-                      <td className="py-3">Coming soon.</td>
-                      {/* <td className="text-right">Coming soon.</td> */}
+                      <td className="py-3">TBA</td>
+                      {/* <td className="text-right">TBA</td> */}
                     </tr>
                     <tr className="border-t">
                       {/* <td className="py-3">Image size:</td> */}
-                      {/* <td className="text-right">Coming soon.</td> */}
+                      {/* <td className="text-right">TBA</td> */}
                     </tr>
                   </tbody>
                 </table>
@@ -91,12 +91,12 @@ function Print() {
                 <table className="w-full mb-6">
                   <tbody>
                     <tr className="border-t">
-                      <td className="py-3">Coming soon.</td>
-                      {/* <td className="text-right">Coming soon.</td> */}
+                      <td className="py-3">TBA</td>
+                      {/* <td className="text-right">TBA</td> */}
                     </tr>
                     <tr className="border-t">
                       {/* <td className="py-3">Image size:</td> */}
-                      {/* <td className="text-right">Coming soon.</td> */}
+                      {/* <td className="text-right">TBA</td> */}
                     </tr>
                   </tbody>
                 </table>

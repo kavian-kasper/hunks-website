@@ -1,309 +1,309 @@
 export const hairsData = [
   {
-    distribution: 1.5,
+    distribution: 238,
     color: " ",
     name: "Buzz Cut (black)",
   },
   {
-    distribution: 1,
+    distribution: 191,
     color: " ",
     name: "Buzz Cut (chestnut)",
   },
   {
-    distribution: 0.5,
+    distribution: 246,
     color: " ",
     name: "Buzz Cut (golden)",
   },
   {
-    distribution: 1.4,
+    distribution: 161,
     color: " ",
     name: "Buzz Cut (peach)",
   },
   {
-    distribution: 1.15,
+    distribution: 96,
     color: " ",
     name: "Buzz Cut (silver fox)",
   },
 
   {
-    distribution: 1,
+    distribution: 88,
     color: " ",
     name: "Dreads (black)",
   },
   {
-    distribution: 1.3,
+    distribution: 76,
     color: " ",
     name: "Dreads (chestnut)",
   },
   {
-    distribution: 1,
+    distribution: 142,
     color: " ",
     name: "Dreads (golden)",
   },
 
   {
-    distribution: 2,
+    distribution: 163,
     color: " ",
     name: "Elvish (black)",
   },
   {
-    distribution: 1.7,
+    distribution: 78,
     color: " ",
     name: "Elvish (chestnut)",
   },
   {
-    distribution: 2.7,
+    distribution: 193,
     color: " ",
     name: "Elvish (golden)",
   },
 
   {
-    distribution: 2.3,
+    distribution: 105,
     color: " ",
     name: "Fringe (golden)",
   },
   {
-    distribution: 3,
+    distribution: 105,
     color: " ",
     name: "Fringe (peach)",
   },
 
   {
-    distribution: 0.5,
+    distribution: 107,
     color: " ",
     name: "Man Bun (black)",
   },
   {
-    distribution: 0.8,
+    distribution: 166,
     color: " ",
     name: "Man Bun (golden)",
   },
 
   {
-    distribution: 1,
+    distribution: 188,
     color: " ",
     name: "Mid Parting (black)",
   },
   {
-    distribution: 1.2,
+    distribution: 157,
     color: " ",
     name: "Mid Parting (chestnut)",
   },
   {
-    distribution: 0.8,
+    distribution: 248,
     color: " ",
     name: "Mid Parting (golden)",
   },
   {
-    distribution: 1.2,
+    distribution: 127,
     color: " ",
     name: "Mid Parting (peach)",
   },
 
   {
-    distribution: 1,
+    distribution: 190,
     color: " ",
     name: "Mohawk (black)",
   },
   {
-    distribution: 1,
+    distribution: 193,
     color: " ",
     name: "Mohawk (chestnut)",
   },
   {
-    distribution: 0.7,
+    distribution: 219,
     color: " ",
     name: "Mohawk (golden)",
   },
   {
-    distribution: 1,
+    distribution: 172,
     color: " ",
     name: "Mohawk (peach)",
   },
 
   {
-    distribution: 0.7,
+    distribution: 165,
     color: " ",
     name: "Pig Tails (golden)",
   },
   {
-    distribution: 0.7,
+    distribution: 160,
     color: " ",
     name: "Pig Tails (peach)",
   },
 
   {
-    distribution: 0.9,
+    distribution: 108,
     color: " ",
     name: "Pony Tail (black)",
   },
   {
-    distribution: 1,
+    distribution: 170,
     color: " ",
     name: "Pony Tail (golden)",
   },
   {
-    distribution: 1.5,
+    distribution: 84,
     color: " ",
     name: "Pony Tail (silver fox)",
   },
 
   {
-    distribution: 1,
+    distribution: 105,
     color: " ",
     name: "Pulled Back (black)",
   },
   {
-    distribution: 0.7,
+    distribution: 127,
     color: " ",
     name: "Pulled Back (golden)",
   },
   {
-    distribution: 1.3,
+    distribution: 99,
     color: " ",
     name: "Pulled Back (silver fox)",
   },
 
   {
-    distribution: 1.3,
+    distribution: 196,
     color: " ",
     name: "Pulled Forward (black)",
   },
   {
-    distribution: 1.3,
+    distribution: 100,
     color: " ",
     name: "Pulled Forward (chestnut)",
   },
   {
-    distribution: 0.9,
+    distribution: 254,
     color: " ",
     name: "Pulled Forward (golden)",
   },
   {
-    distribution: 1.3,
+    distribution: 226,
     color: " ",
     name: "Pulled Forward (peach)",
   },
 
   {
-    distribution: 0.7,
+    distribution: 241,
     color: " ",
     name: "Rat Tail (black)",
   },
   {
-    distribution: 1,
+    distribution: 176,
     color: " ",
     name: "Rat Tail (chestnut)",
   },
   {
-    distribution: 0.5,
+    distribution: 225,
     color: " ",
     name: "Rat Tail (golden)",
   },
 
   {
-    distribution: 1.5,
+    distribution: 142,
     color: " ",
     name: "Side Parting (black)",
   },
   {
-    distribution: 3,
+    distribution: 149,
     color: " ",
     name: "Side Parting (chestnut)",
   },
   {
-    distribution: 3,
+    distribution: 270,
     color: " ",
     name: "Side Parting (golden)",
   },
 
   {
-    distribution: 0.5,
+    distribution: 243,
     color: " ",
     name: "Slick Back (black)",
   },
   {
-    distribution: 0.7,
+    distribution: 147,
     color: " ",
     name: "Slick Back (chestnut)",
   },
   {
-    distribution: 0.5,
+    distribution: 96,
     color: " ",
     name: "Slick Back (golden)",
   },
 
   {
-    distribution: 1,
+    distribution: 245,
     color: " ",
     name: "Strand (black)",
   },
   {
-    distribution: 1,
+    distribution: 169,
     color: " ",
     name: "Strand (chestnut)",
   },
   {
-    distribution: 0.5,
+    distribution: 216,
     color: " ",
     name: "Strand (golden)",
   },
   {
-    distribution: 1,
+    distribution: 171,
     color: " ",
     name: "Strand (peach)",
   },
 
   {
-    distribution: 1.2,
+    distribution: 154,
     color: " ",
     name: "Swirl (black)",
   },
   {
-    distribution: 0.8,
+    distribution: 214,
     color: " ",
     name: "Swirl (golden)",
   },
   {
-    distribution: 1.3,
+    distribution: 127,
     color: " ",
     name: "Swirl (peach)",
   },
 
   {
-    distribution: 2,
+    distribution: 146,
     color: " ",
     name: "Top Knot (chestnut)",
   },
   {
-    distribution: 2,
+    distribution: 170,
     color: " ",
     name: "Top Knot (golden)",
   },
   {
-    distribution: 2,
+    distribution: 129,
     color: " ",
     name: "Top Knot (peach)",
   },
 
   {
-    distribution: 1,
+    distribution: 220,
     color: " ",
     name: "Under Cut (black)",
   },
   {
-    distribution: 1,
+    distribution: 170,
     color: " ",
     name: "Under Cut (golden)",
   },
   {
-    distribution: 1,
+    distribution: 164,
     color: " ",
     name: "Under Cut (peach)",
   },
 
   {
-    distribution: 1.3,
+    distribution: 573,
     color: " ",
     name: "None (Hair)",
   },

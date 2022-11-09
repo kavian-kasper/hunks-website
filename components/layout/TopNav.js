@@ -32,21 +32,21 @@ const TopNav = () => {
             {/* nav items */}
             <div className="p-2 hidden md:inline-block my-auto">
               <Link href="/collection">
-                <a className="text-blue-500 mx-2 py-1">Traits in Collection</a>
+                <a className="text-blue-500 mx-2 py-1">Traits</a>
               </Link>
               <Link href="/nft">
                 <a className="text-blue-500 mx-2 py-1">On-chain NFT</a>
               </Link>
-              <Link href="/print">
+              {/* <Link href="/print">
                 <a className="text-blue-500 mx-2 py-1">Art Prints</a>
-              </Link>
+              </Link> */}
 
               <Link href="/mint">
                 <a className="text-blue-500 mx-2 py-1">Mint</a>
               </Link>
               <Link href="https://twitter.com/HunksArt">
                 <svg
-                  className="primary inline ml-2 cursor-pointer"
+                  className="primary inline ml-2 text-blue-500 cursor-pointer"
                   xmlns="http://www.w3.org/2000/svg"
                   width="1.5em"
                   height="1.5em"
@@ -55,6 +55,50 @@ const TopNav = () => {
                   <path
                     fill="currentColor"
                     d="M23.643 4.937c-.835.37-1.732.62-2.675.733a4.67 4.67 0 0 0 2.048-2.578a9.3 9.3 0 0 1-2.958 1.13a4.66 4.66 0 0 0-7.938 4.25a13.229 13.229 0 0 1-9.602-4.868c-.4.69-.63 1.49-.63 2.342A4.66 4.66 0 0 0 3.96 9.824a4.647 4.647 0 0 1-2.11-.583v.06a4.66 4.66 0 0 0 3.737 4.568a4.692 4.692 0 0 1-2.104.08a4.661 4.661 0 0 0 4.352 3.234a9.348 9.348 0 0 1-5.786 1.995a9.5 9.5 0 0 1-1.112-.065a13.175 13.175 0 0 0 7.14 2.093c8.57 0 13.255-7.098 13.255-13.254c0-.2-.005-.402-.014-.602a9.47 9.47 0 0 0 2.323-2.41l.002-.003Z"
+                  />
+                </svg>
+              </Link>
+              <Link href="https://www.jpg.store/collection/684ffa75d83ccd4dfe179bd37fe679e74d33cce181a6f473337df098">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="28"
+                  viewBox="0 0 32 40"
+                  fill="none"
+                  className="inline mx-4 my-1 cursor-pointer"
+                >
+                  <rect
+                    x="2.67773"
+                    y="13.4102"
+                    width="27.3825"
+                    height="18.5077"
+                    fill="white"
+                  />
+                  <rect
+                    x="2.67773"
+                    y="1.69531"
+                    width="14.8626"
+                    height="28.773"
+                    fill="white"
+                  />
+                  <rect
+                    x="1"
+                    y="30.4688"
+                    width="30.6416"
+                    height="7.95466"
+                    rx="3.97733"
+                    fill="#FFC900"
+                  />
+                  <path
+                    d="M4.44139 1.29102H17.4743C18.0711 1.29102 18.6448 1.52154 19.0757 1.93446L29.8992 12.307C30.3547 12.7435 30.6123 13.3471 30.6123 13.978V36.1093C30.6123 37.3875 29.5761 38.4237 28.2979 38.4237H4.44139C3.16316 38.4237 2.12695 37.3875 2.12695 36.1093V3.60545C2.12695 2.32722 3.16316 1.29102 4.44139 1.29102Z"
+                    stroke="black"
+                    strokeWidth="2.31444"
+                  />
+                  <path
+                    d="M23.281 7.68906L23.2878 7.69545L23.2947 7.70173L29.0675 12.9547L17.9461 12.9547L17.9461 2.67481L23.281 7.68906Z"
+                    fill="black"
+                    stroke="black"
+                    strokeWidth="2.31328"
                   />
                 </svg>
               </Link>
@@ -133,7 +177,7 @@ const TopNav = () => {
                         className="text-blue-500 mt-3 mb-6"
                         onClick={() => closeModal()}
                       >
-                        Traits in Collection
+                        Traits
                       </a>
                     </Link>
                     <Link href="/nft">
@@ -144,14 +188,14 @@ const TopNav = () => {
                         On-chain NFT
                       </a>
                     </Link>
-                    <Link href="/print">
+                    {/* <Link href="/print">
                       <a
                         className="text-blue-500 mb-6"
                         onClick={() => closeModal()}
                       >
                         Art Prints
                       </a>
-                    </Link>
+                    </Link> */}
 
                     <Link href="/mint">
                       <a
@@ -163,7 +207,7 @@ const TopNav = () => {
                     </Link>
                     <Link href="https://twitter.com/HunksArt">
                       <svg
-                        className="primary inline ml-2 cursor-pointer"
+                        className="primary inline ml-2 mt-4 text-blue-500 cursor-pointer"
                         xmlns="http://www.w3.org/2000/svg"
                         width="1.5em"
                         height="1.5em"
@@ -172,6 +216,51 @@ const TopNav = () => {
                         <path
                           fill="currentColor"
                           d="M23.643 4.937c-.835.37-1.732.62-2.675.733a4.67 4.67 0 0 0 2.048-2.578a9.3 9.3 0 0 1-2.958 1.13a4.66 4.66 0 0 0-7.938 4.25a13.229 13.229 0 0 1-9.602-4.868c-.4.69-.63 1.49-.63 2.342A4.66 4.66 0 0 0 3.96 9.824a4.647 4.647 0 0 1-2.11-.583v.06a4.66 4.66 0 0 0 3.737 4.568a4.692 4.692 0 0 1-2.104.08a4.661 4.661 0 0 0 4.352 3.234a9.348 9.348 0 0 1-5.786 1.995a9.5 9.5 0 0 1-1.112-.065a13.175 13.175 0 0 0 7.14 2.093c8.57 0 13.255-7.098 13.255-13.254c0-.2-.005-.402-.014-.602a9.47 9.47 0 0 0 2.323-2.41l.002-.003Z"
+                        />
+                      </svg>
+                    </Link>
+                    <Link href="https://www.jpg.store/collection/684ffa75d83ccd4dfe179bd37fe679e74d33cce181a6f473337df098">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20"
+                        height="28"
+                        viewBox="0 0 32 40"
+                        fill="none"
+                        className="inline mx-4 mt-8"
+                        target="_blank"
+                      >
+                        <rect
+                          x="2.67773"
+                          y="13.4102"
+                          width="27.3825"
+                          height="18.5077"
+                          fill="white"
+                        />
+                        <rect
+                          x="2.67773"
+                          y="1.69531"
+                          width="14.8626"
+                          height="28.773"
+                          fill="white"
+                        />
+                        <rect
+                          x="1"
+                          y="30.4688"
+                          width="30.6416"
+                          height="7.95466"
+                          rx="3.97733"
+                          fill="#FFC900"
+                        />
+                        <path
+                          d="M4.44139 1.29102H17.4743C18.0711 1.29102 18.6448 1.52154 19.0757 1.93446L29.8992 12.307C30.3547 12.7435 30.6123 13.3471 30.6123 13.978V36.1093C30.6123 37.3875 29.5761 38.4237 28.2979 38.4237H4.44139C3.16316 38.4237 2.12695 37.3875 2.12695 36.1093V3.60545C2.12695 2.32722 3.16316 1.29102 4.44139 1.29102Z"
+                          stroke="black"
+                          strokeWidth="2.31444"
+                        />
+                        <path
+                          d="M23.281 7.68906L23.2878 7.69545L23.2947 7.70173L29.0675 12.9547L17.9461 12.9547L17.9461 2.67481L23.281 7.68906Z"
+                          fill="black"
+                          stroke="black"
+                          strokeWidth="2.31328"
                         />
                       </svg>
                     </Link>
