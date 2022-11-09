@@ -4,14 +4,6 @@ import Link from "next/link";
 import Slideshow from "../components/Slider";
 
 export default function Home() {
-  useEffect(() => {
-    try {
-      fetch("/api/indexVisit");
-    } catch (error) {
-      console.log(error);
-    }
-  }, []);
-
   return (
     <div>
       <HeadInfo

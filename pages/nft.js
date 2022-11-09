@@ -14,13 +14,6 @@ for (let hunk in data) {
 }
 
 const NFT = () => {
-  useEffect(() => {
-    try {
-      fetch("/api/nftVisit");
-    } catch (error) {
-      console.log(error);
-    }
-  }, []);
   return (
     <>
       <HeadInfo
@@ -122,7 +115,7 @@ const NFT = () => {
                 </a>
               </Link>{" "}
               <span className="block mt-4">
-                Protip: a Hunk's trait count (very few traits or very many
+                Protip: a Hunk&apos;s trait count (very few traits or very many
                 traits), as opposed to trait rarity (% earrings vs % no
                 earring), can become a cherished rarity among collectors even
                 though it is not included in rarity calculations.
@@ -136,10 +129,10 @@ const NFT = () => {
               JPG.store to automatically render.{" "}
               <span className="block mt-4">
                 Until all 10.000 Hunks are minted, JPG.store needs to manually
-                add render support for every newly minted Hunk. We've talked to
-                JPG.store and agreed that they will add render support in 3-4
-                batches for newly minted Hunks. When all Hunks have been minted,
-                they will all be displayed.
+                add render support for every newly minted Hunk. We&apos;ve
+                talked to JPG.store and agreed that they will add render support
+                in 3-4 batches for newly minted Hunks. When all Hunks have been
+                minted, they will all be displayed.
               </span>
             </p>
             <h2 className="index-header-sub mt-4 mb-1 border-b border-black">

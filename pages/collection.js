@@ -12,13 +12,6 @@ import TraitNavInactive from "../components/UIcomponents/TraitNavInactive";
 import HeadInfo from "../components/Head";
 
 const Statistics = () => {
-  useEffect(() => {
-    try {
-      fetch("/api/collectionVisit");
-    } catch (error) {
-      console.log(error);
-    }
-  }, []);
   // MODAL STATE
   const [open, setOpen] = useState(false);
   const [traitImg, setTraitImg] = useState("");
