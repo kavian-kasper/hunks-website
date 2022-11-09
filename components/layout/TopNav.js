@@ -24,27 +24,29 @@ const TopNav = () => {
         <div className="w-full">
           {/* logo */}
           <div className="w-full justify-between flex">
-            <Link href="/">
+            <Link href="/" passHref>
               <a className="font-bold text-[#ffd1ab] text-2xl p-2 bg-primary">
                 Hunks
               </a>
             </Link>
             {/* nav items */}
             <div className="p-2 hidden md:inline-block my-auto">
-              <Link href="/collection">
+              <Link href="/collection" passHref>
                 <a className="text-blue-500 mx-2 py-1">Traits</a>
               </Link>
               <Link href="/nft">
-                <a className="text-blue-500 mx-2 py-1">On-chain NFT</a>
+                <a className="text-blue-500 mx-2 py-1" passHref>
+                  On-chain NFT
+                </a>
               </Link>
               {/* <Link href="/print">
                 <a className="text-blue-500 mx-2 py-1">Art Prints</a>
               </Link> */}
 
-              <Link href="/mint">
+              <Link href="/mint" passHref>
                 <a className="text-blue-500 mx-2 py-1">Mint</a>
               </Link>
-              <Link href="https://twitter.com/HunksArt">
+              <Link href="https://twitter.com/HunksArt" passHref>
                 <svg
                   className="primary inline ml-2 text-blue-500 cursor-pointer"
                   xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +60,10 @@ const TopNav = () => {
                   />
                 </svg>
               </Link>
-              <Link href="https://www.jpg.store/collection/684ffa75d83ccd4dfe179bd37fe679e74d33cce181a6f473337df098">
+              <Link
+                href="https://www.jpg.store/collection/684ffa75d83ccd4dfe179bd37fe679e74d33cce181a6f473337df098"
+                passHref
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="20"
@@ -164,7 +169,7 @@ const TopNav = () => {
               <div className="inline-block bg-white text-left overflow-hidden shadow-xl transform transition-all s my-8 align-middle max-w-sm w-full">
                 <div className="flex items-center px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
                   <div className="flex flex-col mx-auto  justify-center items-center">
-                    <Link href="/">
+                    <Link href="/" passHref>
                       <a
                         className="text-center bg-primary text-[#ffd1ab] font-bold text-2xl px-2 py-1 mb-2 cursor-pointer"
                         onClick={() => closeModal()}
@@ -172,7 +177,7 @@ const TopNav = () => {
                         Hunks
                       </a>
                     </Link>
-                    <Link href="/collection">
+                    <Link href="/collection" passHref>
                       <a
                         className="text-blue-500 mt-3 mb-6"
                         onClick={() => closeModal()}
@@ -180,7 +185,7 @@ const TopNav = () => {
                         Traits
                       </a>
                     </Link>
-                    <Link href="/nft">
+                    <Link href="/nft" passHref>
                       <a
                         className="text-blue-500 mb-6"
                         onClick={() => closeModal()}
@@ -197,7 +202,7 @@ const TopNav = () => {
                       </a>
                     </Link> */}
 
-                    <Link href="/mint">
+                    <Link href="/mint" passHref>
                       <a
                         className="text-blue-500 mb-6"
                         onClick={() => closeModal()}
@@ -205,7 +210,7 @@ const TopNav = () => {
                         Mint
                       </a>
                     </Link>
-                    <Link href="https://twitter.com/HunksArt">
+                    <Link href="https://twitter.com/HunksArt" passHref>
                       <svg
                         className="primary inline ml-2 mt-4 text-blue-500 cursor-pointer"
                         xmlns="http://www.w3.org/2000/svg"
@@ -219,7 +224,10 @@ const TopNav = () => {
                         />
                       </svg>
                     </Link>
-                    <Link href="https://www.jpg.store/collection/684ffa75d83ccd4dfe179bd37fe679e74d33cce181a6f473337df098">
+                    <Link
+                      href="https://www.jpg.store/collection/684ffa75d83ccd4dfe179bd37fe679e74d33cce181a6f473337df098"
+                      passHref
+                    >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="20"
