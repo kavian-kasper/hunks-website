@@ -117,33 +117,6 @@ const Mint = ({ nftCode, gatewayCode }) => {
                 {mintButton1}
               </div>
 
-              <div className="flex flex-col md:flex-row justify-evenly mb-4 w-full mt-6">
-                <div className="flex flex-col ">
-                  <div className="flex flex-col">
-                    <div className="mb-3 xl:w-96">
-                      <p className="w-full mb-2 text-gray-400">
-                        Enter your hunk&apos;s number to check it&apos;s rarity.
-                      </p>
-                      <div className="flex justify-between items-baseline">
-                        <input
-                          onChange={getPasswordValue}
-                          type="text"
-                          className="form-contro max-h-10 basis-1/2 px-3 py-1.5 text-base font-normal text-gray-700 bg-white  border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-                          id="clientInput"
-                          placeholder="0123"
-                        />
-                        {showRarityBtn ? <RarityBtn /> : <RarityBtnFalse />}
-                      </div>
-                      <p className="text-center mt-3">{rarityResponse}</p>
-                    </div>
-                    <Link href="/nft#rarity" passHref>
-                      <p className="link-text text-center font-sans font-bold cursor-pointer">
-                        How is rarity calculated?
-                      </p>
-                    </Link>
-                  </div>
-                </div>
-              </div>
               <Link href="https://opencnft.io/hunks/asset" passHref>
                 <a className="text-center font-sans" target="_blank">
                   View currently minted Hunks at{" "}
