@@ -17,7 +17,7 @@ function Hairs(props) {
     >
       <dd className="text-xs mt-1 break-all">{traitName}</dd>
       <dt className="text-xs" style={{ color: tickerColor }}>
-        {amount} ({percent}%)
+        {/* {amount} ({percent}%) */}
       </dt>
       <div>
         <div className=" w-24">

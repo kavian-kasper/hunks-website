@@ -34,72 +34,71 @@ const Statistics = () => {
   const white = "#f4e4b8";
   const yellow = "#d78b23";
 
-  // TRAIT DATA
   //Base
-  const nude = 5036;
-  const tan = 4960;
-  const daft = 4;
+  const nude = 0;
+  const tan = 0;
+  const daft = 0;
 
   // Top
-  const shirt = 639;
-  const tankTop = 612;
-  const turtleneckArmy = 1058;
-  const turtleneckBlack = 695;
-  const turtleneckBlue = 1001;
-  const turtleneckGray = 718;
-  const turtleneckPink = 611;
-  const turtleneckRust = 1077;
-  const turtleneckViolet = 864;
-  const turtleneckWhite = 846;
-  const turtleneckYellow = 1076;
-  const noneTop = 803;
+  const shirt = 0;
+  const tankTop = 0;
+  const turtleneckArmy = 0;
+  const turtleneckBlack = 0;
+  const turtleneckBlue = 0;
+  const turtleneckGray = 0;
+  const turtleneckPink = 0;
+  const turtleneckRust = 0;
+  const turtleneckViolet = 0;
+  const turtleneckWhite = 0;
+  const turtleneckYellow = 0;
+  const noneTop = 0;
 
   // Top Secondary
-  const chain = 886;
-  const leatherJacket = 999;
-  const suspenders = 2062;
-  const noneTopSecondary = 6053;
+  const chain = 0;
+  const leatherJacket = 0;
+  const suspenders = 0;
+  const noneTopSecondary = 0;
 
   // Eyes
-  const staringTan = 1076;
-  const staringNude = 1156;
-  const shadesDark = 1851;
-  const shadesLargeDark = 1246;
-  const shadesYellow = 2384;
-  const raised = 2283;
+  const staringTan = 0;
+  const staringNude = 0;
+  const shadesDark = 0;
+  const shadesLargeDark = 0;
+  const shadesYellow = 0;
+  const raised = 0;
 
   // Mouth
-  const lips = 3414;
-  const moustacheBlack = 981;
-  const moustacheChestnut = 731;
-  const moustacheSilverFox = 143;
-  const poutNude = 1232;
-  const poutTan = 1327;
-  const teeth = 2168;
+  const lips = 0;
+  const moustacheBlack = 0;
+  const moustacheChestnut = 0;
+  const moustacheSilverFox = 0;
+  const poutNude = 0;
+  const poutTan = 0;
+  const teeth = 0;
 
   // Facial Hair
-  const fullBeardBlack = 398;
-  const fullBeardChestnut = 346;
-  const goateeBlack = 588;
-  const goateeChestnut = 528;
-  const noneFacialHair = 8140;
+  const fullBeardBlack = 0;
+  const fullBeardChestnut = 0;
+  const goateeBlack = 0;
+  const goateeChestnut = 0;
+  const noneFacialHair = 0;
 
   // Headwear
-  const beanieArmy = 226;
-  const beanieYellow = 350;
-  const beretArmy = 150;
-  const beretRust = 309;
-  const snapBackBlack = 360;
-  const snapBackPink = 280;
-  const noneHeadwear = 8325;
+  const beanieArmy = 0;
+  const beanieYellow = 0;
+  const beretArmy = 0;
+  const beretRust = 0;
+  const snapBackBlack = 0;
+  const snapBackPink = 0;
+  const noneHeadwear = 0;
 
   // Cigarette
-  const regular = 3;
-  const noneCigarette = 3;
+  const regular = 0;
+  const noneCigarette = 0;
 
   // Earring
-  const golden = 3;
-  const noneEarring = 3;
+  const golden = 0;
+  const noneEarring = 0;
 
   // DATASETS
   // DATASET SKIN
@@ -380,22 +379,22 @@ const Statistics = () => {
                   traitName={"Nude"}
                   traitPath={"skin"}
                   handleClick={handleClick}
-                  percent={skinPercentage[0]}
-                  amount={skin.datasets[0].data[0]}
+                  // percent={skinPercentage[0]}
+                  // amount={skin.datasets[0].data[0]}
                 />
                 <Trait
                   traitName={"Tan"}
                   traitPath={"skin"}
                   handleClick={handleClick}
-                  percent={skinPercentage[1]}
-                  amount={skin.datasets[0].data[1]}
+                  // percent={skinPercentage[1]}
+                  // amount={skin.datasets[0].data[1]}
                 />
                 <Trait
                   traitName={"Daft"}
                   traitPath={"skin"}
                   handleClick={handleClick}
-                  percent={0.0004}
-                  amount={4}
+                  // percent={}
+                  // amount={}
                 />
               </div>
             </div>
@@ -465,96 +464,96 @@ const Statistics = () => {
                   traitPath={"top"}
                   handleClick={handleClick}
                   tickerColor={lightGray}
-                  percent={topPercentage[0]}
-                  amount={top.datasets[0].data[0]}
+                  // percent={topPercentage[0]}
+                  // amount={top.datasets[0].data[0]}
                 />
                 <Trait
                   traitName={"Tank Top"}
                   traitPath={"top"}
                   handleClick={handleClick}
                   tickerColor={brown}
-                  percent={topPercentage[1]}
-                  amount={top.datasets[0].data[1]}
+                  // percent={topPercentage[1]}
+                  // amount={top.datasets[0].data[1]}
                 />
                 <Trait
                   traitName={"Turtleneck (army)"}
                   traitPath={"top"}
                   handleClick={handleClick}
                   tickerColor={armyGreen}
-                  percent={topPercentage[2]}
-                  amount={top.datasets[0].data[2]}
+                  // percent={topPercentage[2]}
+                  // amount={top.datasets[0].data[2]}
                 />
                 <Trait
                   traitName={"Turtleneck (black)"}
                   traitPath={"top"}
                   handleClick={handleClick}
                   tickerColor={black}
-                  percent={topPercentage[3]}
-                  amount={top.datasets[0].data[3]}
+                  // percent={topPercentage[3]}
+                  // amount={top.datasets[0].data[3]}
                 />
                 <Trait
                   traitName={"Turtleneck (blue)"}
                   traitPath={"top"}
                   handleClick={handleClick}
                   tickerColor={blue}
-                  percent={topPercentage[4]}
-                  amount={top.datasets[0].data[4]}
+                  // percent={topPercentage[4]}
+                  // amount={top.datasets[0].data[4]}
                 />
                 <Trait
                   traitName={"Turtleneck (gray)"}
                   traitPath={"top"}
                   handleClick={handleClick}
                   tickerColor={gray}
-                  percent={topPercentage[5]}
-                  amount={top.datasets[0].data[5]}
+                  // percent={topPercentage[5]}
+                  // amount={top.datasets[0].data[5]}
                 />
                 <Trait
                   traitName={"Turtleneck (pink)"}
                   traitPath={"top"}
                   handleClick={handleClick}
                   tickerColor={pink}
-                  percent={topPercentage[6]}
-                  amount={top.datasets[0].data[6]}
+                  // percent={topPercentage[6]}
+                  // amount={top.datasets[0].data[6]}
                 />
                 <Trait
                   traitName={"Turtleneck (rust)"}
                   traitPath={"top"}
                   handleClick={handleClick}
                   tickerColor={rust}
-                  percent={topPercentage[7]}
-                  amount={top.datasets[0].data[7]}
+                  // percent={topPercentage[7]}
+                  // amount={top.datasets[0].data[7]}
                 />
                 <Trait
                   traitName={"Turtleneck (violet)"}
                   traitPath={"top"}
                   handleClick={handleClick}
                   tickerColor={violet}
-                  percent={topPercentage[8]}
-                  amount={top.datasets[0].data[8]}
+                  // percent={topPercentage[8]}
+                  // amount={top.datasets[0].data[8]}
                 />
                 <Trait
                   traitName={"Turtleneck (white)"}
                   traitPath={"top"}
                   handleClick={handleClick}
                   tickerColor={white}
-                  percent={topPercentage[9]}
-                  amount={top.datasets[0].data[9]}
+                  // percent={topPercentage[9]}
+                  // amount={top.datasets[0].data[9]}
                 />
                 <Trait
                   traitName={"Turtleneck (yellow)"}
                   traitPath={"top"}
                   handleClick={handleClick}
                   tickerColor={yellow}
-                  percent={topPercentage[10]}
-                  amount={top.datasets[0].data[10]}
+                  // percent={topPercentage[10]}
+                  // amount={top.datasets[0].data[10]}
                 />
                 <Trait
                   traitName={"None (Top)"}
                   traitPath={"top"}
                   handleClick={handleClick}
                   tickerColor={none}
-                  percent={topPercentage[11]}
-                  amount={top.datasets[0].data[11]}
+                  // percent={topPercentage[11]}
+                  // amount={top.datasets[0].data[11]}
                 />
               </div>
             </div>
@@ -625,8 +624,8 @@ const Statistics = () => {
                   traitPath={"top_secondary"}
                   handleClick={handleClick}
                   tickerColor={yellow}
-                  percent={topSecondaryPercentage[0]}
-                  amount={topSecondary.datasets[0].data[0]}
+                  // percent={topSecondaryPercentage[0]}
+                  // amount={topSecondary.datasets[0].data[0]}
                 />
 
                 <Trait
@@ -634,8 +633,8 @@ const Statistics = () => {
                   traitPath={"top_secondary"}
                   handleClick={handleClick}
                   tickerColor={violet}
-                  percent={topSecondaryPercentage[1]}
-                  amount={topSecondary.datasets[0].data[1]}
+                  // percent={topSecondaryPercentage[1]}
+                  // amount={topSecondary.datasets[0].data[1]}
                 />
 
                 <Trait
@@ -643,8 +642,8 @@ const Statistics = () => {
                   traitPath={"top_secondary"}
                   handleClick={handleClick}
                   tickerColor={black}
-                  percent={topSecondaryPercentage[2]}
-                  amount={topSecondary.datasets[0].data[2]}
+                  // percent={topSecondaryPercentage[2]}
+                  // amount={topSecondary.datasets[0].data[2]}
                 />
 
                 <Trait
@@ -653,8 +652,8 @@ const Statistics = () => {
                   textSizeOverride="text-xs"
                   handleClick={handleClick}
                   tickerColor={none}
-                  percent={topSecondaryPercentage[3]}
-                  amount={topSecondary.datasets[0].data[3]}
+                  // percent={topSecondaryPercentage[3]}
+                  // amount={topSecondary.datasets[0].data[3]}
                 />
               </div>
             </div>
@@ -724,8 +723,8 @@ const Statistics = () => {
                   traitPath={"eyes"}
                   handleClick={handleClick}
                   tickerColor={brown}
-                  percent={eyesPercentage[0]}
-                  amount={eyes.datasets[0].data[0]}
+                  // percent={eyesPercentage[0]}
+                  // amount={eyes.datasets[0].data[0]}
                 />
 
                 <Trait
@@ -733,8 +732,8 @@ const Statistics = () => {
                   traitPath={"eyes"}
                   handleClick={handleClick}
                   tickerColor={black}
-                  percent={eyesPercentage[1]}
-                  amount={eyes.datasets[0].data[1]}
+                  // percent={eyesPercentage[1]}
+                  // amount={eyes.datasets[0].data[1]}
                 />
 
                 <Trait
@@ -742,16 +741,16 @@ const Statistics = () => {
                   traitPath={"eyes"}
                   handleClick={handleClick}
                   tickerColor={yellow}
-                  percent={eyesPercentage[2]}
-                  amount={eyes.datasets[0].data[2]}
+                  // percent={eyesPercentage[2]}
+                  // amount={eyes.datasets[0].data[2]}
                 />
                 <Trait
                   traitName={"Staring (tan)"}
                   traitPath={"eyes"}
                   handleClick={handleClick}
                   tickerColor={tanColor}
-                  percent={eyesPercentage[3]}
-                  amount={eyes.datasets[0].data[3]}
+                  // percent={eyesPercentage[3]}
+                  // amount={eyes.datasets[0].data[3]}
                 />
 
                 <Trait
@@ -759,8 +758,8 @@ const Statistics = () => {
                   traitPath={"eyes"}
                   handleClick={handleClick}
                   tickerColor={peach}
-                  percent={eyesPercentage[4]}
-                  amount={eyes.datasets[0].data[4]}
+                  // percent={eyesPercentage[4]}
+                  // amount={eyes.datasets[0].data[4]}
                 />
 
                 <Trait
@@ -768,8 +767,8 @@ const Statistics = () => {
                   traitPath={"eyes"}
                   handleClick={handleClick}
                   tickerColor={violet}
-                  percent={eyesPercentage[5]}
-                  amount={eyes.datasets[0].data[5]}
+                  // percent={eyesPercentage[5]}
+                  // amount={eyes.datasets[0].data[5]}
                 />
               </div>
             </div>
@@ -841,8 +840,8 @@ const Statistics = () => {
                     traitPath={"/traits_hair/" + hair.name + ".png"}
                     handleClick={handleClick}
                     tickerColor={hair.color}
-                    percent={addSumOfSingle(hair.distribution, 10000)}
-                    amount={hair.distribution}
+                    // percent={addSumOfSingle(hair.distribution, 10000)}
+                    // amount={hair.distribution}
                   />
                 </div>
               ))}
@@ -913,8 +912,8 @@ const Statistics = () => {
                   traitPath={"mouth"}
                   handleClick={handleClick}
                   tickerColor={rust}
-                  percent={mouthPercentage[0]}
-                  amount={mouth.datasets[0].data[0]}
+                  // percent={mouthPercentage[0]}
+                  // amount={mouth.datasets[0].data[0]}
                 />
 
                 <Trait
@@ -922,8 +921,8 @@ const Statistics = () => {
                   traitPath={"mouth"}
                   handleClick={handleClick}
                   tickerColor={black}
-                  percent={mouthPercentage[1]}
-                  amount={mouth.datasets[0].data[1]}
+                  // percent={mouthPercentage[1]}
+                  // amount={mouth.datasets[0].data[1]}
                 />
 
                 <Trait
@@ -931,8 +930,8 @@ const Statistics = () => {
                   traitPath={"mouth"}
                   handleClick={handleClick}
                   tickerColor={brown}
-                  percent={mouthPercentage[2]}
-                  amount={mouth.datasets[0].data[2]}
+                  // percent={mouthPercentage[2]}
+                  // amount={mouth.datasets[0].data[2]}
                 />
 
                 <Trait
@@ -940,24 +939,24 @@ const Statistics = () => {
                   traitPath={"mouth"}
                   handleClick={handleClick}
                   tickerColor={lightGray}
-                  percent={mouthPercentage[3]}
-                  amount={mouth.datasets[0].data[3]}
+                  // percent={mouthPercentage[3]}
+                  // amount={mouth.datasets[0].data[3]}
                 />
                 <Trait
                   traitName={"Pout (nude)"}
                   traitPath={"mouth"}
                   handleClick={handleClick}
                   tickerColor={peach}
-                  percent={mouthPercentage[4]}
-                  amount={mouth.datasets[0].data[4]}
+                  // percent={mouthPercentage[4]}
+                  // amount={mouth.datasets[0].data[4]}
                 />
                 <Trait
                   traitName={"Pout (tan)"}
                   traitPath={"mouth"}
                   handleClick={handleClick}
                   tickerColor={tanColor}
-                  percent={mouthPercentage[5]}
-                  amount={mouth.datasets[0].data[5]}
+                  // percent={mouthPercentage[5]}
+                  // amount={mouth.datasets[0].data[5]}
                 />
 
                 <Trait
@@ -965,8 +964,8 @@ const Statistics = () => {
                   traitPath={"mouth"}
                   handleClick={handleClick}
                   tickerColor={white}
-                  percent={mouthPercentage[6]}
-                  amount={mouth.datasets[0].data[6]}
+                  // percent={mouthPercentage[6]}
+                  // amount={mouth.datasets[0].data[6]}
                 />
               </div>
             </div>
@@ -1036,8 +1035,8 @@ const Statistics = () => {
                   traitPath={"facial_hair"}
                   handleClick={handleClick}
                   tickerColor={black}
-                  percent={facialHairPercentage[0]}
-                  amount={facialHair.datasets[0].data[0]}
+                  // percent={facialHairPercentage[0]}
+                  // amount={facialHair.datasets[0].data[0]}
                 />
 
                 <Trait
@@ -1045,8 +1044,8 @@ const Statistics = () => {
                   traitPath={"facial_hair"}
                   handleClick={handleClick}
                   tickerColor={brown}
-                  percent={facialHairPercentage[1]}
-                  amount={facialHair.datasets[0].data[1]}
+                  // percent={facialHairPercentage[1]}
+                  // amount={facialHair.datasets[0].data[1]}
                 />
 
                 <Trait
@@ -1054,8 +1053,8 @@ const Statistics = () => {
                   traitPath={"facial_hair"}
                   handleClick={handleClick}
                   tickerColor={rust}
-                  percent={facialHairPercentage[2]}
-                  amount={facialHair.datasets[0].data[2]}
+                  // percent={facialHairPercentage[2]}
+                  // amount={facialHair.datasets[0].data[2]}
                 />
 
                 <Trait
@@ -1063,8 +1062,8 @@ const Statistics = () => {
                   traitPath={"facial_hair"}
                   handleClick={handleClick}
                   tickerColor={blue}
-                  percent={facialHairPercentage[3]}
-                  amount={facialHair.datasets[0].data[3]}
+                  // percent={facialHairPercentage[3]}
+                  // amount={facialHair.datasets[0].data[3]}
                 />
 
                 <Trait
@@ -1072,8 +1071,8 @@ const Statistics = () => {
                   traitPath={"facial_hair"}
                   handleClick={handleClick}
                   tickerColor={none}
-                  percent={facialHairPercentage[4]}
-                  amount={facialHair.datasets[0].data[4]}
+                  // percent={facialHairPercentage[4]}
+                  // amount={facialHair.datasets[0].data[4]}
                 />
               </div>
             </div>
@@ -1143,8 +1142,8 @@ const Statistics = () => {
                   traitPath={"headwear"}
                   handleClick={handleClick}
                   tickerColor={armyGreen}
-                  percent={headwearPercentage[0]}
-                  amount={headwear.datasets[0].data[0]}
+                  // percent={headwearPercentage[0]}
+                  // amount={headwear.datasets[0].data[0]}
                 />
 
                 <Trait
@@ -1152,8 +1151,8 @@ const Statistics = () => {
                   traitPath={"headwear"}
                   handleClick={handleClick}
                   tickerColor={yellow}
-                  percent={headwearPercentage[1]}
-                  amount={headwear.datasets[0].data[1]}
+                  // percent={headwearPercentage[1]}
+                  // amount={headwear.datasets[0].data[1]}
                 />
 
                 <Trait
@@ -1161,8 +1160,8 @@ const Statistics = () => {
                   traitPath={"headwear"}
                   handleClick={handleClick}
                   tickerColor={armyGreenDark}
-                  percent={headwearPercentage[2]}
-                  amount={headwear.datasets[0].data[2]}
+                  // percent={headwearPercentage[2]}
+                  // amount={headwear.datasets[0].data[2]}
                 />
 
                 <Trait
@@ -1170,8 +1169,8 @@ const Statistics = () => {
                   traitPath={"headwear"}
                   handleClick={handleClick}
                   tickerColor={rust}
-                  percent={headwearPercentage[3]}
-                  amount={headwear.datasets[0].data[3]}
+                  // percent={headwearPercentage[3]}
+                  // amount={headwear.datasets[0].data[3]}
                 />
 
                 <Trait
@@ -1179,8 +1178,8 @@ const Statistics = () => {
                   traitPath={"headwear"}
                   handleClick={handleClick}
                   tickerColor={black}
-                  percent={headwearPercentage[4]}
-                  amount={headwear.datasets[0].data[4]}
+                  // percent={headwearPercentage[4]}
+                  // amount={headwear.datasets[0].data[4]}
                 />
 
                 <Trait
@@ -1188,8 +1187,8 @@ const Statistics = () => {
                   traitPath={"headwear"}
                   handleClick={handleClick}
                   tickerColor={pink}
-                  percent={headwearPercentage[5]}
-                  amount={headwear.datasets[0].data[5]}
+                  // percent={headwearPercentage[5]}
+                  // amount={headwear.datasets[0].data[5]}
                 />
 
                 <Trait
@@ -1197,8 +1196,8 @@ const Statistics = () => {
                   traitPath={"headwear"}
                   handleClick={handleClick}
                   tickerColor={none}
-                  percent={headwearPercentage[6]}
-                  amount={headwear.datasets[0].data[6]}
+                  // percent={headwearPercentage[6]}
+                  // amount={headwear.datasets[0].data[6]}
                 />
               </div>
             </div>
@@ -1268,16 +1267,16 @@ const Statistics = () => {
                   traitPath={"cigarette"}
                   handleClick={handleClick}
                   tickerColor={peach}
-                  percent={23.25}
-                  amount={23.25}
+                  // percent={23.25}
+                  // amount={23.25}
                 />
                 <Trait
                   traitName={"None (Cigarette)"}
                   traitPath={"cigarette"}
                   handleClick={handleClick}
                   tickerColor={none}
-                  percent={76.75}
-                  amount={7675}
+                  // percent={76.75}
+                  // amount={7675}
                 />
               </div>
               <div className="w-1/3">{/* spacer */}</div>
@@ -1349,16 +1348,16 @@ const Statistics = () => {
                   traitPath={"earring"}
                   handleClick={handleClick}
                   tickerColor={tanColor}
-                  percent={22.24}
-                  amount={2224}
+                  // percent={22.24}
+                  // amount={2224}
                 />
                 <Trait
                   traitName={"None (Earring)"}
                   traitPath={"earring"}
                   handleClick={handleClick}
                   tickerColor={none}
-                  percent={77.75}
-                  amount={7776}
+                  // percent={77.75}
+                  // amount={7776}
                 />
               </div>
               <div className="w-1/3">{/* spacer */}</div>

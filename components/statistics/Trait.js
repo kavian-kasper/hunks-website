@@ -25,7 +25,7 @@ function Trait(props) {
         </dd>
         {
           <dt className="text-xs text-gray-500 tracking-wide">
-            {amount} ({percent}%)
+            {/* {amount} ({percent}%) */}
           </dt>
         }
         {/* {
