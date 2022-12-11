@@ -161,9 +161,6 @@ const NFT = () => {
               </span>
               However, we do value the commitment of our NFT collectors who also
               wish to own a print and want to accomodate them.{" "}
-              <Link href="/print">
-                <a className="text-blue-600 font-sans"> More information.</a>
-              </Link>{" "}
             </p>
             <div className="flex w-full justify-center">
               <button type="button">

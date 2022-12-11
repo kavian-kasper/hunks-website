@@ -46,13 +46,6 @@ export default function Home() {
               combined classical art with programmatically generated art. The
               result is 10.000 unique and iconic Hunks.
             </p>
-            <button type="button" className="mx-auto w-full mt-4">
-              <Link href="/mint">
-                <a className="animate-bounce mt-10 mb-10 mx-auto inline-block w-60 py-4 bg-indigo-500 text-white font-medium text-sm leading-tight uppercase rounded-full hover:bg-black hover:bg-opacity-80 cursor-pointer focus:outline-none focus:ring-0 transition duration-150 ease-in-out text-center">
-                  Minting now
-                </a>
-              </Link>
-            </button>
           </div>
         </section>
 
@@ -66,12 +59,6 @@ export default function Home() {
                   Cardano NFTs
                 </a>
               </Link>{" "}
-              {/* </div> */}& 10.000 signed{" "}
-              <Link href="/print">
-                <a className="text-gray-700 border-b-4 border-purple-600 cursor-pointer hover:text-indigo-600 font-bold">
-                  art prints.
-                </a>
-              </Link>
             </h1>
           </div>
           <div className="flex flex-col w-full items-center">
@@ -177,34 +164,6 @@ export default function Home() {
               with a new creative process. We are proud to release signed art
               prints and NFTs of Hunks.
             </p>
-          </div>
-        </section>
-        <section className="index-section mt-10 mb-10 px-2">
-          <div className="index-text-container">
-            <h3 className="index-header">Get yourself a Hunk.</h3>
-            <p className="index-paragraph">
-              <span className="block mb-2">
-                We will be releasing signed art prints of Hunks during live
-                vernissages in Norway, and dropping NFTs on the Cardano
-                blockchain. The art print and NFT are sold separately.
-              </span>
-            </p>
-            <div className="flex justify-between">
-              <div className="mt-10  text-center">
-                <Link href="/mint">
-                  <a className="inline-block  border-2 border-blue-600 text-white bg-indigo-500 font-medium text-xs leading-tight uppercase rounded-full hover:bg-black hover:bg-opacity-80 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-40 py-2">
-                    buy Hunk NFT
-                  </a>
-                </Link>
-              </div>
-              <div className="mt-10  text-center">
-                <Link href="/print" className>
-                  <a className="inline-block  border-2 border-blue-600 text-white bg-indigo-500 font-medium text-xs leading-tight uppercase rounded-full hover:bg-black hover:bg-opacity-80 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-40 py-2">
-                    Hunk PRINT
-                  </a>
-                </Link>
-              </div>
-            </div>
           </div>
         </section>
 
